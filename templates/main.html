@@ -40,7 +40,8 @@
         border-radius: 4px;
       }
 
-      #preview {
+      #preview,
+      #result {
         max-width: 400px;
         max-height: 400px;
       }
@@ -50,15 +51,44 @@
         height: 100px;
         line-height: 64px;
         border: 2px black dashed;
-        margin: 8px auto;
+        margin: 16px auto;
       }
 
       .hovered {
         border-color: grey !important;
       }
 
+      .hide {
+        display: none;
+      }
+
       #drop-upload > p {
         font-size: 16px;
+        opacity: 0.7;
+      }
+
+      #result-wrapper {
+        position: relative;
+      }
+
+      #loader {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        animation: loader-spin 1s linear infinite;
+        transform: translate(-50%, -50%);
+      }
+
+      @keyframes loader-spin {
+        0% {
+          transform: translate(-50%, -50%) rotateZ(0deg) scale(1);
+        }
+        50% {
+          transform: translate(-50%, -50%) rotateZ(180deg) scale(0.3);
+        }
+        100% {
+          transform: translate(-50%, -50%) rotateZ(360deg) scale(1);
+        }
       }
 
       #kanye-suit {
@@ -77,18 +107,43 @@
       }
     </style>
     <script>
+      "use strict";
       document.addEventListener("DOMContentLoaded", () => {
         const image_upload_element = document.getElementById("file-upload");
         const preview_element = document.getElementById("preview");
+        const result_element = document.getElementById("result");
+        const loader_element = document.getElementById("loader");
         const drop_upload_element = document.getElementById("drop-upload");
+        const upload_wrapper_element = document.getElementById(
+          "upload-wrapper"
+        );
         image_upload_element.addEventListener("change", event => {
           handleFile(image_upload_element.files[0]);
         });
 
         drop_upload_element.addEventListener("drop", event => {
           let dt = event.dataTransfer;
-          let files = dt.files;
-          handleFile(files[0]);
+          const html_data = dt.getData("text/html");
+          if (html_data) {
+            const url = /src="?([^"\s]+)"?\s*/.exec(html_data)[1];
+            var xhr = new XMLHttpRequest();
+            xhr.responseType = "blob";
+            xhr.open("GET", url, true);
+
+            xhr.onload = function() {
+              console.log(url);
+              var img = new Image();
+              var response = xhr.response;
+              if (xhr.status === 200) {
+                handleFile(response);
+              }
+            };
+
+            xhr.send();
+          } else if (dt.files && dt.files.length > 0) {
+            let files = dt.files;
+            handleFile(files[0]);
+          }
         });
 
         ["dragenter", "dragover"].forEach(eventName => {
@@ -112,16 +167,39 @@
         });
 
         function handleFile(file) {
+          loading();
           var reader = new FileReader();
 
           reader.onload = function(e) {
-            console.log(e.target.result);
-            // get loaded data and render thumbnail.
             preview_element.src = e.target.result;
+
+            setTimeout(() => {
+              const xhr = new XMLHttpRequest();
+              xhr.open("POST", "/faceify", true);
+              xhr.setRequestHeader("Content-Type", "application/json");
+              xhr.send(JSON.stringify(e.target.result));
+              xhr.onreadystatechange = function() {
+                if (xhr.readyState == XMLHttpRequest.DONE) {
+                  result_element.src = xhr.responseText;
+                  done();
+                }
+              };
+            }, 500);
           };
 
-          // read the image file as a data URL.
           reader.readAsDataURL(file);
+        }
+
+        function loading() {
+          upload_wrapper_element.classList.add("hide");
+          result_element.classList.add("hide");
+          loader_element.classList.remove("hide");
+        }
+
+        function done() {
+          upload_wrapper_element.classList.remove("hide");
+          result_element.classList.remove("hide");
+          loader_element.classList.add("hide");
         }
       });
     </script>
@@ -141,12 +219,15 @@
       </figure>
       <figure id="result-wrapper">
         <img id="result" />
+        <img src="/static/kanye.png" id="loader" class="hide" />
       </figure>
     </section>
-    <p>Upload an image of your face and we'll make you into Kanye!</p>
-    <input id="file-upload" type="file" />
-    <div id="drop-upload">
-      <p>Drag your image here</p>
+    <div id="upload-wrapper">
+      <p>Upload an image of your face and we'll make you into Kanye!</p>
+      <input id="file-upload" type="file" />
+      <div id="drop-upload">
+        <p>Drag your image here</p>
+      </div>
     </div>
     <footer>
       <img id="kanye-suit" src="/static/kanye_suit.png" />
