@@ -1,15 +1,18 @@
 import base64
 import sys
-from io import BytesIO
+import io
 from google.cloud import vision
 from google.cloud.vision import types
 
 
-def detect_face(string):
+def detect_face(path):
     client = vision.ImageAnnotatorClient()
 
-    content = BytesIO(base64.b64decode(string)).getvalue()
-    image = types.Image(content=content)
+    with io.open(path, 'rb') as image_file:
+        content = image_file.read()
+
+    image = vision.types.Image(content=content)
+
     response = client.face_detection(image=image)
     faces = response.face_annotations
 
