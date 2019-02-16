@@ -1,0 +1,792 @@
+{
+  "labelAnnotations": [
+    {
+      "mid": "/m/0d8lm",
+      "description": "String instrument",
+      "score": 0.99217427,
+      "topicality": 0.99217427
+    },
+    {
+      "mid": "/m/0342h",
+      "description": "Guitar",
+      "score": 0.98979175,
+      "topicality": 0.98979175
+    },
+    {
+      "mid": "/m/011_f4",
+      "description": "String instrument",
+      "score": 0.98420507,
+      "topicality": 0.98420507
+    },
+    {
+      "mid": "/m/04szw",
+      "description": "Musical instrument",
+      "score": 0.9829628,
+      "topicality": 0.9829628
+    },
+    {
+      "mid": "/m/0fx80y",
+      "description": "Plucked string instruments",
+      "score": 0.9733905,
+      "topicality": 0.9733905
+    },
+    {
+      "mid": "/m/04rlf",
+      "description": "Music",
+      "score": 0.9403941,
+      "topicality": 0.9403941
+    },
+    {
+      "mid": "/m/02sgy",
+      "description": "Electric guitar",
+      "score": 0.92316633,
+      "topicality": 0.92316633
+    },
+    {
+      "mid": "/m/039v1",
+      "description": "Guitarist",
+      "score": 0.919957,
+      "topicality": 0.919957
+    },
+    {
+      "mid": "/m/018vs",
+      "description": "Bass guitar",
+      "score": 0.9153375,
+      "topicality": 0.9153375
+    },
+    {
+      "mid": "/m/09cx8",
+      "description": "Finger",
+      "score": 0.88461393,
+      "topicality": 0.88461393
+    },
+    {
+      "mid": "/m/09jwl",
+      "description": "Musician",
+      "score": 0.8793092,
+      "topicality": 0.8793092
+    },
+    {
+      "mid": "/m/0h8ntcl",
+      "description": "String instrument accessory",
+      "score": 0.85593194,
+      "topicality": 0.85593194
+    },
+    {
+      "mid": "/m/0k65p",
+      "description": "Hand",
+      "score": 0.84679455,
+      "topicality": 0.84679455
+    },
+    {
+      "mid": "/m/02rxbck",
+      "description": "Jazz guitarist",
+      "score": 0.78792644,
+      "topicality": 0.78792644
+    },
+    {
+      "mid": "/m/01g6gs",
+      "description": "Black-and-white",
+      "score": 0.74367446,
+      "topicality": 0.74367446
+    },
+    {
+      "mid": "/m/0gbbt",
+      "description": "Bassist",
+      "score": 0.74189395,
+      "topicality": 0.74189395
+    },
+    {
+      "mid": "/m/042v_gx",
+      "description": "Acoustic guitar",
+      "score": 0.73828036,
+      "topicality": 0.73828036
+    },
+    {
+      "mid": "/m/05wkw",
+      "description": "Photography",
+      "score": 0.62422496,
+      "topicality": 0.62422496
+    },
+    {
+      "mid": "/m/0121tl",
+      "description": "Electronic instrument",
+      "score": 0.6152104,
+      "topicality": 0.6152104
+    },
+    {
+      "mid": "/m/03d49p1",
+      "description": "Monochrome photography",
+      "score": 0.5780445,
+      "topicality": 0.5780445
+    },
+    {
+      "mid": "/m/01mwkf",
+      "description": "Monochrome",
+      "score": 0.5442906,
+      "topicality": 0.5442906
+    },
+    {
+      "mid": "/m/012yh1",
+      "description": "Style",
+      "score": 0.5245553,
+      "topicality": 0.5245553
+    },
+    {
+      "mid": "/m/0h8mfmt",
+      "description": "Guitar accessory",
+      "score": 0.51982814,
+      "topicality": 0.51982814
+    },
+    {
+      "mid": "/m/01bmhj",
+      "description": "Thumb",
+      "score": 0.5193838,
+      "topicality": 0.5193838
+    },
+    {
+      "mid": "/m/02qjv",
+      "description": "Electronic musical instrument",
+      "score": 0.5116168,
+      "topicality": 0.5116168
+    }
+  ],
+  "safeSearchAnnotation": {
+    "adult": "VERY_UNLIKELY",
+    "spoof": "VERY_UNLIKELY",
+    "medical": "VERY_UNLIKELY",
+    "violence": "VERY_UNLIKELY",
+    "racy": "UNLIKELY"
+  },
+  "imagePropertiesAnnotation": {
+    "dominantColors": {
+      "colors": [
+        {
+          "color": {
+            "red": 14,
+            "green": 14,
+            "blue": 14
+          },
+          "score": 0.23767734,
+          "pixelFraction": 0.12303231
+        },
+        {
+          "color": {
+            "red": 156,
+            "green": 156,
+            "blue": 156
+          },
+          "score": 0.20073184,
+          "pixelFraction": 0.049192213
+        },
+        {
+          "color": {
+            "red": 120,
+            "green": 120,
+            "blue": 120
+          },
+          "score": 0.1944219,
+          "pixelFraction": 0.04826015
+        },
+        {
+          "color": {
+            "red": 189,
+            "green": 189,
+            "blue": 189
+          },
+          "score": 0.16695878,
+          "pixelFraction": 0.05437034
+        },
+        {
+          "color": {
+            "red": 87,
+            "green": 87,
+            "blue": 87
+          },
+          "score": 0.12370404,
+          "pixelFraction": 0.04991715
+        },
+        {
+          "color": {
+            "red": 52,
+            "green": 52,
+            "blue": 52
+          },
+          "score": 0.070609085,
+          "pixelFraction": 0.053024027
+        },
+        {
+          "color": {
+            "red": 218,
+            "green": 218,
+            "blue": 218
+          },
+          "score": 0.005897026,
+          "pixelFraction": 0.6222038
+        }
+      ]
+    }
+  },
+  "cropHintsAnnotation": {
+    "cropHints": [
+      {
+        "boundingPoly": {
+          "vertices": [
+            {
+              "x": 116
+            },
+            {
+              "x": 377
+            },
+            {
+              "x": 377,
+              "y": 322
+            },
+            {
+              "x": 116,
+              "y": 322
+            }
+          ]
+        },
+        "confidence": 0.79999995,
+        "importanceFraction": 0.88
+      },
+      {
+        "boundingPoly": {
+          "vertices": [
+            {
+              "x": 79
+            },
+            {
+              "x": 414
+            },
+            {
+              "x": 414,
+              "y": 322
+            },
+            {
+              "x": 79,
+              "y": 322
+            }
+          ]
+        },
+        "confidence": 0.79999995,
+        "importanceFraction": 0.94
+      },
+      {
+        "boundingPoly": {
+          "vertices": [
+            {
+              "x": 48
+            },
+            {
+              "x": 439
+            },
+            {
+              "x": 439,
+              "y": 322
+            },
+            {
+              "x": 48,
+              "y": 322
+            }
+          ]
+        },
+        "confidence": 0.79999995,
+        "importanceFraction": 0.97999996
+      }
+    ]
+  },
+  "webDetection": {
+    "webEntities": [
+      {
+        "entityId": "/m/018vs",
+        "score": 0.7297,
+        "description": "Bass guitar"
+      },
+      {
+        "entityId": "/m/0342h",
+        "score": 0.7196,
+        "description": "Guitar"
+      },
+      {
+        "entityId": "/m/0gbbt",
+        "score": 0.7188,
+        "description": "Bassist"
+      },
+      {
+        "entityId": "/m/039v1",
+        "score": 0.6273,
+        "description": "Guitarist"
+      },
+      {
+        "entityId": "/m/01rhl",
+        "score": 0.5799,
+        "description": "Classical guitar"
+      },
+      {
+        "entityId": "/m/042v_gx",
+        "score": 0.5673,
+        "description": "Acoustic guitar"
+      },
+      {
+        "entityId": "/m/01cshj",
+        "score": 0.5359,
+        "description": "Slapping"
+      },
+      {
+        "entityId": "/m/02fsn",
+        "score": 0.5194,
+        "description": "Double bass"
+      },
+      {
+        "entityId": "/m/01gllb",
+        "score": 0.5113,
+        "description": "Pull-off"
+      },
+      {
+        "entityId": "/m/021wwz",
+        "score": 0.5089,
+        "description": "Bassline"
+      },
+      {
+        "entityId": "/m/01gp74",
+        "score": 0.4925,
+        "description": "Chord"
+      },
+      {
+        "entityId": "/m/01glkg",
+        "score": 0.4776,
+        "description": "Hammer-on"
+      },
+      {
+        "entityId": "/m/02rr_",
+        "score": 0.4424,
+        "description": "Effects Processors &amp; Pedals"
+      },
+      {
+        "entityId": "/m/01vj9c",
+        "score": 0.4395,
+        "description": "Bass"
+      },
+      {
+        "entityId": "/m/09jwl",
+        "score": 0.4395,
+        "description": "Musician"
+      }
+    ],
+    "fullMatchingImages": [
+      {
+        "url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1809804952446860"
+      },
+      {
+        "url": "http://cardiovoxmiami.com/images/bass870x423.jpg"
+      },
+      {
+        "url": "https://i0.wp.com/www.notreble.com/wp-content/uploads/2014/12/Bass-player-by-Adam-Browning.jpg?fit=1200%2C627&amp;ssl=1&amp;w=640"
+      },
+      {
+        "url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=625839080942546"
+      },
+      {
+        "url": "https://i0.wp.com/www.notreble.com/wp-content/uploads/2014/12/Bass-player-by-Adam-Browning-620x323.jpg"
+      }
+    ],
+    "partialMatchingImages": [
+      {
+        "url": "https://i0.wp.com/www.notreble.com/wp-content/uploads/2014/12/Bass-player-by-Adam-Browning.jpg?fit=1200%2C627&amp;ssl=1"
+      },
+      {
+        "url": "https://i0.wp.com/www.notreble.com/wp-content/uploads/2014/12/Bass-player-by-Adam-Browning.jpg?resize=1200%2C627"
+      },
+      {
+        "url": "https://pngimage.net/wp-content/uploads/2018/05/baixista-png-5.png"
+      },
+      {
+        "url": "https://negocialoya.us/oc-content/uploads/95/31531.jpg"
+      },
+      {
+        "url": "https://i0.wp.com/www.notreble.com/wp-content/uploads/2014/12/Bass-player-by-Adam-Browning-600x400.jpg"
+      },
+      {
+        "url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=962126277259146"
+      },
+      {
+        "url": "https://pngimage.net/wp-content/uploads/2018/05/baixista-png-5-300x200.png"
+      },
+      {
+        "url": "http://www.aye.net.au/wp-content/uploads/2018/11/images-9.jpg"
+      },
+      {
+        "url": "https://i.ebayimg.com/00/s/NTM1WDEwMjQ=/z/~6wAAOSwk1hcXFLI/$_118.JPG"
+      },
+      {
+        "url": "https://scontent-syd2-1.cdninstagram.com/vp/b58fcdb3909f63908c77b6982d2ee9e0/5CFCA1DF/t51.2885-19/s150x150/41438273_2118674185011433_2890088106273275904_n.jpg?_nc_ht=scontent-syd2-1.cdninstagram.com"
+      },
+      {
+        "url": "https://www.bcnfusio.cat/wp-content/uploads/2017/10/Bass-player-right_hand_by_adambrowning-d4c82yk-1200x400.jpg"
+      },
+      {
+        "url": "http://mlife.com.ua/wp-content/uploads/2017/12/1-1-520x245.jpg"
+      }
+    ],
+    "pagesWithMatchingImages": [
+      {
+        "url": "https://www.notreble.com/buzz/2016/10/26/playing-ahead-or-behind-the-beat/",
+        "pageTitle": "&lt;b&gt;Playing&lt;/b&gt; Ahead or Behind the Beat – No Treble",
+        "fullMatchingImages": [
+          {
+            "url": "https://i0.wp.com/www.notreble.com/wp-content/uploads/2014/12/Bass-player-by-Adam-Browning.jpg?fit=1200%2C627&amp;ssl=1&amp;w=640"
+          },
+          {
+            "url": "https://i0.wp.com/www.notreble.com/wp-content/uploads/2014/12/Bass-player-by-Adam-Browning.jpg?resize=1200%2C627"
+          },
+          {
+            "url": "https://i0.wp.com/www.notreble.com/wp-content/uploads/2014/12/Bass-player-by-Adam-Browning.jpg?fit=1200%2C627&amp;ssl=1"
+          }
+        ]
+      },
+      {
+        "url": "https://www.notreble.com/buzz/2018/12/12/tips-for-starting-to-teach-bass/",
+        "pageTitle": "Tips for Starting to Teach &lt;b&gt;Bass&lt;/b&gt; – No Treble",
+        "fullMatchingImages": [
+          {
+            "url": "https://i0.wp.com/www.notreble.com/wp-content/uploads/2014/12/Bass-player-by-Adam-Browning-600x400.jpg"
+          },
+          {
+            "url": "https://i0.wp.com/www.notreble.com/wp-content/uploads/2014/12/Bass-player-by-Adam-Browning.jpg?fit=1200%2C627&amp;ssl=1&amp;w=640"
+          },
+          {
+            "url": "https://i0.wp.com/www.notreble.com/wp-content/uploads/2014/12/Bass-player-by-Adam-Browning.jpg?resize=1200%2C627&amp;ssl=1"
+          },
+          {
+            "url": "https://i0.wp.com/www.notreble.com/wp-content/uploads/2014/12/Bass-player-by-Adam-Browning.jpg?fit=1200%2C627&amp;ssl=1"
+          }
+        ]
+      },
+      {
+        "url": "https://www.notreble.com/buzz/2014/12/17/whats-the-best-way-to-learn-electric-bass/",
+        "pageTitle": "What&amp;#39;s the Best Way To Learn Electric &lt;b&gt;Bass&lt;/b&gt;? – No Treble",
+        "fullMatchingImages": [
+          {
+            "url": "https://i0.wp.com/www.notreble.com/wp-content/uploads/2014/12/Bass-player-by-Adam-Browning.jpg?fit=1200%2C627&amp;ssl=1&amp;w=640"
+          },
+          {
+            "url": "https://i0.wp.com/www.notreble.com/wp-content/uploads/2014/12/Bass-player-by-Adam-Browning-620x323.jpg?resize=620%2C323"
+          },
+          {
+            "url": "https://i0.wp.com/www.notreble.com/wp-content/uploads/2014/12/Bass-player-by-Adam-Browning.jpg?fit=1200%2C627&amp;ssl=1"
+          }
+        ]
+      },
+      {
+        "url": "https://negocialoya.us/community/musicians-artists-bands/bass-player-wanted-for-hard-rockheavy-metal-band_i9511",
+        "pageTitle": "&lt;b&gt;BASS PLAYER&lt;/b&gt; WANTED FOR HARD ROCK/HEAVY METAL BAND ...",
+        "partialMatchingImages": [
+          {
+            "url": "https://negocialoya.us/oc-content/uploads/95/31531.jpg"
+          }
+        ]
+      },
+      {
+        "url": "https://www.notreble.com/buzz/2016/10/26/playing-ahead-or-behind-the-beat/?fb_comment_id=1009648339160986_1013487422110411",
+        "pageTitle": "&lt;b&gt;Playing&lt;/b&gt; Ahead or Behind the Beat - No Treble",
+        "fullMatchingImages": [
+          {
+            "url": "https://i0.wp.com/www.notreble.com/wp-content/uploads/2014/12/Bass-player-by-Adam-Browning.jpg?fit=1200%2C627&amp;ssl=1&amp;w=640"
+          },
+          {
+            "url": "https://i0.wp.com/www.notreble.com/wp-content/uploads/2014/12/Bass-player-by-Adam-Browning.jpg?resize=1200%2C627"
+          },
+          {
+            "url": "https://i0.wp.com/www.notreble.com/wp-content/uploads/2014/12/Bass-player-by-Adam-Browning.jpg?fit=1200%2C627&amp;ssl=1"
+          }
+        ]
+      },
+      {
+        "url": "https://www.picswe.com/pics/bass-player-e4.html",
+        "pageTitle": "&lt;b&gt;Bass Player&lt;/b&gt; | www.picswe.com",
+        "partialMatchingImages": [
+          {
+            "url": "https://i2.wp.com/www.notreble.com/buzz/wp-content/uploads/2014/12/Bass-player-by-Adam-Browning.jpg"
+          }
+        ]
+      },
+      {
+        "url": "https://www.facebook.com/RockOnDudes/",
+        "pageTitle": "The Other Ones - Home | Facebook",
+        "partialMatchingImages": [
+          {
+            "url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=962126277259146"
+          }
+        ]
+      },
+      {
+        "url": "https://www.gumtree.com/p/guitar-instrument/taylor-gs-mini-mahogany-with-pickup-semi-acoustic-/1318744438",
+        "pageTitle": "Taylor GS Mini Mahogany with Pickup (Semi-acoustic) | in Lancing ...",
+        "partialMatchingImages": [
+          {
+            "url": "https://i.ebayimg.com/00/s/NTM1WDEwMjQ=/z/~6wAAOSwk1hcXFLI/$_118.JPG"
+          }
+        ]
+      },
+      {
+        "url": "https://www.gumtree.com/p/guitar-instrument/jhs-encore-enc-36n-3-4-size-classical-guitar/1310706943",
+        "pageTitle": "JHS Encore ENC 36N 3/4 size classical &lt;b&gt;guitar&lt;/b&gt; | in Lancing, West ...",
+        "partialMatchingImages": [
+          {
+            "url": "https://i.ebayimg.com/00/s/NTM1WDEwMjQ=/z/~6wAAOSwk1hcXFLI/$_118.JPG"
+          }
+        ]
+      },
+      {
+        "url": "https://www.gumtree.com/p/guitar-instrument/boss-bd-2-blues-driver-pedal/1311464643",
+        "pageTitle": "Boss BD-2 Blues Driver Pedal | in Lancing, West Sussex | Gumtree",
+        "partialMatchingImages": [
+          {
+            "url": "https://i.ebayimg.com/00/s/NTM1WDEwMjQ=/z/~6wAAOSwk1hcXFLI/$_118.JPG"
+          }
+        ]
+      },
+      {
+        "url": "https://www.gumtree.com/p/guitar-instrument/balmeria-guitar-/1288887864",
+        "pageTitle": "Balmeria &lt;b&gt;Guitar&lt;/b&gt; | in Lancing, West Sussex | Gumtree",
+        "partialMatchingImages": [
+          {
+            "url": "https://i.ebayimg.com/00/s/NTM1WDEwMjQ=/z/~6wAAOSwk1hcXFLI/$_118.JPG"
+          }
+        ]
+      },
+      {
+        "url": "https://theendivechronicles.com/guitar-players-wanted.html",
+        "pageTitle": "&lt;b&gt;Guitar players&lt;/b&gt; wanted - theendivechronicles.com",
+        "partialMatchingImages": [
+          {
+            "url": "https://negocialoya.us/oc-content/uploads/95/31531.jpg"
+          }
+        ]
+      },
+      {
+        "url": "http://www.aye.net.au/",
+        "pageTitle": "Always Young Entertainment – All your greatest memories re-lived ...",
+        "partialMatchingImages": [
+          {
+            "url": "http://www.aye.net.au/wp-content/uploads/2018/11/images-9.jpg"
+          }
+        ]
+      },
+      {
+        "url": "http://zahimge.pw/Somebody-to-Love-Chords-Credit-to-UltimateGuitarcom-guitar.html",
+        "pageTitle": "Somebody to Love Chords Credit to UltimateGuitarcom &lt;b&gt;guitar&lt;/b&gt;",
+        "fullMatchingImages": [
+          {
+            "url": "https://i0.wp.com/www.notreble.com/wp-content/uploads/2014/12/Bass-player-by-Adam-Browning-620x323.jpg?resize=620%2C323"
+          }
+        ]
+      },
+      {
+        "url": "https://www.picswe.com/pics/bass-browning-symbol-e6.html",
+        "pageTitle": "&lt;b&gt;Bass&lt;/b&gt; Browning Symbol | www.picswe.com",
+        "fullMatchingImages": [
+          {
+            "url": "https://i0.wp.com/www.notreble.com/wp-content/uploads/2014/12/Bass-player-by-Adam-Browning-620x323.jpg"
+          }
+        ]
+      },
+      {
+        "url": "https://pngimage.net/baground-biru-png-2/",
+        "pageTitle": "Baground biru png 2 » PNG Image",
+        "partialMatchingImages": [
+          {
+            "url": "https://pngimage.net/wp-content/uploads/2018/05/baixista-png-5-300x200.png"
+          }
+        ]
+      },
+      {
+        "url": "https://pngimage.net/badge-shape-png-14/",
+        "pageTitle": "Badge shape png 14 » PNG Image",
+        "partialMatchingImages": [
+          {
+            "url": "https://pngimage.net/wp-content/uploads/2018/05/baixista-png-5-300x200.png"
+          }
+        ]
+      },
+      {
+        "url": "https://pngimage.net/baground-batik-png/",
+        "pageTitle": "Baground batik png » PNG Image",
+        "partialMatchingImages": [
+          {
+            "url": "https://pngimage.net/wp-content/uploads/2018/05/baixista-png-5-300x200.png"
+          }
+        ]
+      },
+      {
+        "url": "https://pngimage.net/baground-biru-png-1/",
+        "pageTitle": "Baground biru png 1 » PNG Image",
+        "partialMatchingImages": [
+          {
+            "url": "https://pngimage.net/wp-content/uploads/2018/05/baixista-png-5-300x200.png"
+          }
+        ]
+      },
+      {
+        "url": "http://picgrace.com/mishellmorales7",
+        "pageTitle": "Mishell Morales @mishellmorales7 Best Online Instagram Media ...",
+        "partialMatchingImages": [
+          {
+            "url": "https://scontent-lhr3-1.cdninstagram.com/vp/c69f25d9a76ce79dbade7d8ff292d127/5CFCA1DF/t51.2885-19/s150x150/41438273_2118674185011433_2890088106273275904_n.jpg?_nc_ht=scontent-lhr3-1.cdninstagram.com"
+          }
+        ]
+      },
+      {
+        "url": "http://picgrace.com/dr.isaac_",
+        "pageTitle": "Isaac Esai Dominguez @dr.isaac_ Best Online Instagram Media ...",
+        "partialMatchingImages": [
+          {
+            "url": "https://scontent-syd2-1.cdninstagram.com/vp/b58fcdb3909f63908c77b6982d2ee9e0/5CFCA1DF/t51.2885-19/s150x150/41438273_2118674185011433_2890088106273275904_n.jpg?_nc_ht=scontent-syd2-1.cdninstagram.com"
+          }
+        ]
+      },
+      {
+        "url": "https://www.imagenesmi.com/im%C3%A1genes/bass-player-8b.html",
+        "pageTitle": "&lt;b&gt;Bass Player&lt;/b&gt; | www.imagenesmi.com",
+        "partialMatchingImages": [
+          {
+            "url": "https://i0.wp.com/www.notreble.com/wp-content/uploads/2014/12/Bass-player-by-Adam-Browning.jpg"
+          }
+        ]
+      },
+      {
+        "url": "http://cardiovoxmiami.com/course-detailBASS.php",
+        "pageTitle": "&lt;b&gt;BASS&lt;/b&gt; - CARDIOVOX-COURSE",
+        "fullMatchingImages": [
+          {
+            "url": "http://cardiovoxmiami.com/images/bass870x423.jpg"
+          }
+        ]
+      },
+      {
+        "url": "https://de-de.facebook.com/RockOnDudes/",
+        "pageTitle": "The Other Ones - Startseite | Facebook",
+        "partialMatchingImages": [
+          {
+            "url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=962126277259146"
+          }
+        ]
+      },
+      {
+        "url": "https://sq-al.facebook.com/thephatboyz/posts/?ref=page_internal",
+        "pageTitle": "The Phat Boyz - Postimet | Facebook",
+        "partialMatchingImages": [
+          {
+            "url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=962126277259146"
+          }
+        ]
+      },
+      {
+        "url": "http://sogdia.blockablock.info/what-does-pull-off-mean-on-bass.shtml",
+        "pageTitle": "best What Does Pull Off Mean On &lt;b&gt;Bass&lt;/b&gt; image collection - blockablock",
+        "partialMatchingImages": [
+          {
+            "url": "https://i0.wp.com/www.notreble.com/wp-content/uploads/2014/12/Bass-player-by-Adam-Browning.jpg?resize=1200%2C627"
+          }
+        ]
+      },
+      {
+        "url": "https://www.facebook.com/testorofficial/",
+        "pageTitle": "Testor - Home | Facebook",
+        "fullMatchingImages": [
+          {
+            "url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1809804952446860"
+          }
+        ]
+      },
+      {
+        "url": "http://mlife.com.ua/ustrojstvo-muzyki-melodiya/",
+        "pageTitle": "Устройство музыки. Мелодия | MLife Studio",
+        "partialMatchingImages": [
+          {
+            "url": "http://mlife.com.ua/wp-content/uploads/2017/12/1-1-520x245.jpg"
+          }
+        ]
+      },
+      {
+        "url": "https://www.bcnfusio.cat/",
+        "pageTitle": "BCN Fusió",
+        "partialMatchingImages": [
+          {
+            "url": "https://www.bcnfusio.cat/wp-content/uploads/2017/10/Bass-player-right_hand_by_adambrowning-d4c82yk-1200x400.jpg"
+          }
+        ]
+      },
+      {
+        "url": "http://mlife.com.ua/",
+        "pageTitle": "Music Life Studio",
+        "partialMatchingImages": [
+          {
+            "url": "http://mlife.com.ua/wp-content/uploads/2017/12/1-1-520x245.jpg"
+          }
+        ]
+      },
+      {
+        "url": "http://mlife.com.ua/kak-ustroena-muzyka-bas/",
+        "pageTitle": "Как устроена музыка. Бас. | MLife Studio",
+        "partialMatchingImages": [
+          {
+            "url": "http://mlife.com.ua/wp-content/uploads/2017/12/1-1-520x245.jpg"
+          }
+        ]
+      },
+      {
+        "url": "http://mlife.com.ua/kak-ustroena-muzyka-garmoniya/",
+        "pageTitle": "Как устроена музыка. Гармония | MLife Studio",
+        "partialMatchingImages": [
+          {
+            "url": "http://mlife.com.ua/wp-content/uploads/2017/12/1-1-520x245.jpg"
+          }
+        ]
+      },
+      {
+        "url": "http://gopicta.com/garciaesdras_16",
+        "pageTitle": "Esdras Garcia 16 @garciaesdras_16 Top Instagram Images ...",
+        "partialMatchingImages": [
+          {
+            "url": "https://scontent-sjc3-1.cdninstagram.com/vp/36101b3e1aa48512698a7e8e046bb0d6/5CD514DF/t51.2885-19/s150x150/41438273_2118674185011433_2890088106273275904_n.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com"
+          }
+        ]
+      }
+    ],
+    "visuallySimilarImages": [
+      {
+        "url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=10159836482580109"
+      },
+      {
+        "url": "https://negocialoya.us/oc-content/uploads/95/31531.jpg"
+      },
+      {
+        "url": "https://image.shutterstock.com/image-photo/bass-player-bw-filter-isolated-260nw-426213478.jpg"
+      },
+      {
+        "url": "http://hadjiyvanov.com/wp-content/uploads/2016/05/DDH_1488.jpg"
+      },
+      {
+        "url": "https://image.shutterstock.com/image-photo/bass-player-on-white-vintage-450w-426311659.jpg"
+      },
+      {
+        "url": "https://scontent-amt2-1.cdninstagram.com/vp/83d127164591505150a6ce1fc0f9b487/5C68AB2D/t51.2885-15/sh0.08/e35/c0.135.1080.1080/s640x640/43769673_187869102150194_4417019870629172470_n.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/profile_images/761007684476768257/MGn2_Ypo.jpg"
+      },
+      {
+        "url": "http://www.brooklynvegan.com/files/img/cl/afropunkfestival/2013/day2/40.jpg"
+      }
+    ],
+    "bestGuessLabels": [
+      {
+        "label": "bass player",
+        "languageCode": "en"
+      }
+    ]
+  }
+}
