@@ -1,15 +1,158 @@
-s<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>title</title>
-    <meta name="author" content="name" />
-    <meta name="description" content="description here" />
-    <meta name="keywords" content="keywords,here" />
-    <style type="text/css"></style>
+    <title>Make Me Kanye</title>
+    <meta name="description" content="Turn yourself into Kanye!" />
+    <meta
+      name="keywords"
+      content="make,me,kanye,kanye west,yeezy, make me kanye"
+    />
+    <style type="text/css">
+      body {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        background: #f58b56;
+      }
+
+      header {
+        width: 360px;
+        font-size: 16px;
+        margin: 0 auto;
+        text-align: left;
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 24px;
+      }
+
+      section {
+        display: flex;
+        width: 840px;
+        margin: 0 auto;
+      }
+
+      section > figure {
+        min-height: 400px;
+        min-width: 400px;
+        margin: 20px;
+        background-color: #f39262;
+        border-radius: 4px;
+      }
+
+      #preview {
+        max-width: 400px;
+        max-height: 400px;
+      }
+
+      #drop-upload {
+        width: 300px;
+        height: 100px;
+        line-height: 64px;
+        border: 2px black dashed;
+        margin: 8px auto;
+      }
+
+      .hovered {
+        border-color: grey !important;
+      }
+
+      #drop-upload > p {
+        font-size: 16px;
+      }
+
+      #kanye-suit {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        height: 200px;
+      }
+
+      #creds {
+        position: absolute;
+        bottom: 0;
+        left: 8px;
+        font-size: 12px;
+        color: black;
+      }
+    </style>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const image_upload_element = document.getElementById("file-upload");
+        const preview_element = document.getElementById("preview");
+        const drop_upload_element = document.getElementById("drop-upload");
+        image_upload_element.addEventListener("change", event => {
+          handleFile(image_upload_element.files[0]);
+        });
+
+        drop_upload_element.addEventListener("drop", event => {
+          let dt = event.dataTransfer;
+          let files = dt.files;
+          handleFile(files[0]);
+        });
+
+        ["dragenter", "dragover"].forEach(eventName => {
+          drop_upload_element.addEventListener(eventName, () =>
+            drop_upload_element.classList.add("hovered")
+          );
+        });
+
+        ["dragleave", "drop"].forEach(eventName => {
+          drop_upload_element.addEventListener(eventName, () =>
+            drop_upload_element.classList.remove("hovered")
+          );
+        });
+
+        ["dragenter", "dragover", "dragleave", "drop"].forEach(eventName => {
+          drop_upload_element.addEventListener(
+            eventName,
+            event => event.preventDefault(),
+            false
+          );
+        });
+
+        function handleFile(file) {
+          var reader = new FileReader();
+
+          reader.onload = function(e) {
+            console.log(e.target.result);
+            // get loaded data and render thumbnail.
+            preview_element.src = e.target.result;
+          };
+
+          // read the image file as a data URL.
+          reader.readAsDataURL(file);
+        }
+      });
+    </script>
   </head>
   <body>
-    <h1>Make Me Kanye</h1>
+    <header>
+      <h1>Make Me &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kanye</h1>
+      <h1>Make Me &nbsp;&nbsp;&nbsp;Kanye</h1>
+      <h1>Make Me &nbsp;&nbsp;&nbsp;Kanye</h1>
+      <h1>Make Me &nbsp;&nbsp;&nbsp;Kanye</h1>
+      <!-- <h1>Make Me &nbsp;&nbsp;&nbsp;Kanye</h1> -->
+      <!-- <h1>Make Me &nbsp;&nbsp;&nbsp;Kanye</h1> -->
+    </header>
+    <section>
+      <figure id="preview-wrapper">
+        <img id="preview" />
+      </figure>
+      <figure id="result-wrapper">
+        <img id="result" />
+      </figure>
+    </section>
+    <p>Upload an image of your face and we'll make you into Kanye!</p>
+    <input id="file-upload" type="file" />
+    <div id="drop-upload">
+      <p>Drag your image here</p>
+    </div>
+    <footer>
+      <img id="kanye-suit" src="/static/kanye_suit.png" />
+      <p id="creds">
+        Made by Robert Ellegate and Eric Dudley for BrickHack 2019
+      </p>
+    </footer>
   </body>
 </html>
