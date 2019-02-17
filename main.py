@@ -83,7 +83,6 @@ def main(id=None):
         file = request.files["file"]
         if file:
             id = generate_slug(2)
-            temp_file_path = temp_path + id + file.filename
             orig_file_path = upload_path + "orig_" + id + ".png"
             done_file_path = upload_path + id + ".png"
 
@@ -97,16 +96,17 @@ def main(id=None):
             ratio = img.height / MAX_HEIGHT
             img = img.resize((int(img.width / ratio), int(img.height / ratio)))
 
-        img.save(temp_file_path)
+        img.save(orig_file_path)
 
-        faces = detect_face(temp_file_path)
-        os.remove(temp_file_path)
+        faces = detect_face(orig_file_path)
+
+        os.remove(orig_file_path)
 
         if len(faces) > 0:
             face = faces[0]
             pixels = Pixels(img, faces)
-            kanye = pixels.faceSwap()
-            emotions = pixels.getEmotions()
+            pixels.faceSwap()
+            emotions = pixels.getEmotions(faces[0])
             max_emotion_level = 0
             max_emotion = "neutral"
             for emotion, level in emotions.items():
@@ -120,6 +120,7 @@ def main(id=None):
             done_file_path = upload_path + id + ".png"
 
             img.save(orig_file_path)
+
             img.putdata(pixels.data)
             img.save(done_file_path)
         else:

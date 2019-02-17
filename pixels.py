@@ -49,7 +49,7 @@ class Pixels:
     def get(self, pixel):
         x, y = pixel
         color = self.data[int(self.width * y + x)]
-        return (color[0], color[1], color[2], color[3])
+        return color
 
     def set(self, pixel, color):
         x, y = pixel
@@ -78,14 +78,14 @@ class Pixels:
         for face in self.faces:
             for vertex in face.landmarks:
                 if vertex.type in landmark_types.values():
+                    color = self.get((int(vertex.position.x), int(vertex.position.y)))
                     self.setSquare(
                         (int(vertex.position.x), int(vertex.position.y)),
-                        45,
-                        (255, 0, 0),
+                        3,
+                        (color[0], 255, color[2]),
                     )
 
-    def getEmotions(self):
-        face = self.faces[0]
+    def getEmotions(self, face):
         return {
             "happy": likelihoods[likelihood_name[face.joy_likelihood]],
             "sad": likelihoods[likelihood_name[face.sorrow_likelihood]],
@@ -93,9 +93,7 @@ class Pixels:
             "surprised": likelihoods[likelihood_name[face.surprise_likelihood]],
         }
 
-    def getKanyeIndex(self):
-        face = self.faces[0]
-
+    def getKanyeIndex(self, face):
         deltas = []
 
         for i in range(len(kanyes)):
@@ -126,78 +124,73 @@ class Pixels:
         return choice(equal_deltas)[0]
 
     def faceSwap(self):
-        face = self.faces[0]
-        kanye = kanyes[self.getKanyeIndex()]
+        for face in self.faces:
+            kanye = kanyes[self.getKanyeIndex(face)]
 
-        kanye_left_pupil = next(
-            x for x in kanye["face"]["landmarks"] if x["type"] == "LEFT_EYE_PUPIL"
-        )
-        kanye_right_pupil = next(
-            x for x in kanye["face"]["landmarks"] if x["type"] == "RIGHT_EYE_PUPIL"
-        )
-        kanye_left_mouth = next(
-            x for x in kanye["face"]["landmarks"] if x["type"] == "MOUTH_LEFT"
-        )
+            kanye_left_pupil = next(
+                x for x in kanye["face"]["landmarks"] if x["type"] == "LEFT_EYE_PUPIL"
+            )
+            kanye_right_pupil = next(
+                x for x in kanye["face"]["landmarks"] if x["type"] == "RIGHT_EYE_PUPIL"
+            )
+            kanye_left_mouth = next(
+                x for x in kanye["face"]["landmarks"] if x["type"] == "MOUTH_LEFT"
+            )
 
-        kanye_face_center = (
-            int(
-                (kanye_right_pupil["position"]["x"] + kanye_left_pupil["position"]["x"])
-                / 2
-            ),
-            int(
-                (kanye_left_mouth["position"]["y"] + kanye_left_pupil["position"]["y"])
-                / 2
-            ),
-        )
+            kanye_face_center = (
+                int(
+                    (kanye_right_pupil["position"]["x"] + kanye_left_pupil["position"]["x"])
+                    / 2
+                ),
+                int(
+                    (kanye_left_mouth["position"]["y"] + kanye_left_pupil["position"]["y"])
+                    / 2
+                ),
+            )
 
-        kanye_eye_distance = int(
-            (kanye_right_pupil["position"]["x"] - kanye_left_pupil["position"]["x"])
-        )
+            kanye_eye_distance = int(
+                (kanye_right_pupil["position"]["x"] - kanye_left_pupil["position"]["x"])
+            )
 
-        left_pupil = next(
-            x for x in face.landmarks if x.type == landmark_types["LEFT_EYE_PUPIL"]
-        )
-        right_pupil = next(
-            x for x in face.landmarks if x.type == landmark_types["RIGHT_EYE_PUPIL"]
-        )
-        left_mouth = next(
-            x for x in face.landmarks if x.type == landmark_types["MOUTH_LEFT"]
-        )
+            left_pupil = next(
+                x for x in face.landmarks if x.type == landmark_types["LEFT_EYE_PUPIL"]
+            )
+            right_pupil = next(
+                x for x in face.landmarks if x.type == landmark_types["RIGHT_EYE_PUPIL"]
+            )
+            left_mouth = next(
+                x for x in face.landmarks if x.type == landmark_types["MOUTH_LEFT"]
+            )
 
-        face_center = (
-            int((right_pupil.position.x + left_pupil.position.x) / 2),
-            int((left_mouth.position.y + left_pupil.position.y) / 2),
-        )
+            face_center = (
+                int((right_pupil.position.x + left_pupil.position.x) / 2),
+                int((left_mouth.position.y + left_pupil.position.y) / 2),
+            )
 
-        eye_distance = int(right_pupil.position.x - left_pupil.position.x)
+            eye_distance = int(right_pupil.position.x - left_pupil.position.x)
 
-        ratio = kanye_eye_distance / eye_distance
-        ratio = ratio * 0.9 if ratio >= 1 else ratio * 1.1
-        new_size = (int(kanye["img"].width / ratio), int(kanye["img"].height / ratio))
-        new_img = kanye["img"].resize(new_size)
+            ratio = kanye_eye_distance / eye_distance
+            ratio = ratio * 0.9 if ratio >= 1 else ratio * 1.1
+            new_size = (int(kanye["img"].width / ratio), int(kanye["img"].height / ratio))
+            new_img = kanye["img"].resize(new_size)
 
-        kanye_face_center = (
-            int(kanye_face_center[0] / ratio),
-            int(kanye_face_center[1] / ratio),
-        )
+            kanye_face_center = (
+                int(kanye_face_center[0] / ratio),
+                int(kanye_face_center[1] / ratio),
+            )
 
-        kanye_left_pupil_y = int(kanye_left_pupil["position"]["y"] / ratio)
-        left_pupil_y = int(left_pupil.position.y)
-        y_diff = left_pupil_y - kanye_left_pupil_y
+            kanye_left_pupil_y = int(kanye_left_pupil["position"]["y"] / ratio)
+            left_pupil_y = int(left_pupil.position.y)
+            y_diff = left_pupil_y - kanye_left_pupil_y
 
-        kanye_pixels = Pixels(new_img, None)
-        for pixel in kanye_pixels.pixels():
-            x, y = pixel
-            color = kanye_pixels.get(pixel)
-            if color[3] > 0:
-                relative_pixel = (x - kanye_face_center[0], y - kanye_left_pupil_y)
-                set_pixel = (
-                    relative_pixel[0] + face_center[0],
-                    relative_pixel[1] + left_pupil_y,
-                )
-                self.set(set_pixel, kanye_pixels.get(pixel))
-
-        # self.setSquare(kanye_face_center, 55, (255, 0, 0))
-
-        return kanye
-
+            kanye_pixels = Pixels(new_img, None)
+            for pixel in kanye_pixels.pixels():
+                x, y = pixel
+                color = kanye_pixels.get(pixel)
+                if color[3] > 0:
+                    relative_pixel = (x - kanye_face_center[0], y - kanye_left_pupil_y)
+                    set_pixel = (
+                        relative_pixel[0] + face_center[0],
+                        relative_pixel[1] + left_pupil_y,
+                    )
+                    self.set(set_pixel, kanye_pixels.get(pixel))
