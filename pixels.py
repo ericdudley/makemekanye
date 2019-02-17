@@ -48,12 +48,13 @@ class Pixels:
     def get(self, pixel):
         x, y = pixel
         color = self.data[int(self.width * y + x)]
-        return (color[0], color[1], color[2])
+        return (color[0], color[1], color[2], color[3])
 
     def set(self, pixel, color):
         x, y = pixel
-        color = color if len(color) == 4 else (color[0], color[1], color[2], 255)
-        self.data[int(self.width * y + x)] = color
+        if x >= 0 and x < self.width and y >= 0 and y < self.height:
+            color = color if len(color) == 4 else (color[0], color[1], color[2], 255)
+            self.data[int(self.width * y + x)] = color
 
     def setSquare(self, pixel, width, color):
         """
@@ -124,9 +125,6 @@ class Pixels:
         kanye_left_mouth = next(
             x for x in kanye["face"]["landmarks"] if x["type"] == "MOUTH_LEFT"
         )
-        print(kanye_left_pupil)
-        print(kanye_right_pupil)
-        print(kanye_left_mouth)
 
         kanye_face_center = (
             int(
@@ -139,6 +137,10 @@ class Pixels:
             ),
         )
 
+        kanye_eye_distance = int(
+            (kanye_right_pupil["position"]["x"] - kanye_left_pupil["position"]["x"])
+        )
+
         left_pupil = next(
             x for x in face.landmarks if x.type == landmark_types["LEFT_EYE_PUPIL"]
         )
@@ -149,15 +151,26 @@ class Pixels:
             x for x in face.landmarks if x.type == landmark_types["MOUTH_LEFT"]
         )
 
-        print(left_pupil)
-        print(right_pupil)
-        print(left_mouth)
-
         face_center = (
             int((right_pupil.position.x + left_pupil.position.x) / 2),
             int((left_mouth.position.y + left_pupil.position.y) / 2),
         )
 
+        eye_distance = int(right_pupil.position.x + left_pupil.position.x)
+
+        ratio = kanye_eye_distance / eye_distance
+        print(ratio)
+        new_size = (int(kanye["img"].width / ratio), int(kanye["img"].height / ratio))
+        print(new_size)
+        new_img = kanye["img"].resize(new_size)
+
         self.setSquare(face_center, 95, (0, 0, 255))
+
+        kanye_pixels = Pixels(new_img, None)
+        for pixel in kanye_pixels.pixels():
+            color = kanye_pixels.get(pixel)
+            if color[3] > 0:
+                self.set(pixel, kanye_pixels.get(pixel))
+
         return kanye
 
