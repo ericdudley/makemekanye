@@ -9,7 +9,6 @@ from PIL import Image
 from coolname import generate_slug, RandomGenerator
 import os
 from PIL import Image, ExifTags
-from rotate import rotate_image
 
 from dotenv import load_dotenv
 
@@ -67,25 +66,24 @@ def main(id=None):
             ratio = img.height / MAX_HEIGHT
             img = img.resize((int(img.width / ratio), int(img.height / ratio)))
 
+        try:
+            for orientation in ExifTags.TAGS.keys():
+                if ExifTags.TAGS[orientation] == "Orientation":
+                    break
+            exif = dict(img._getexif().items())
+
+            if exif[orientation] == 3:
+                img = img.rotate(180, expand=True)
+            elif exif[orientation] == 6:
+                img = img.rotate(270, expand=True)
+            elif exif[orientation] == 8:
+                img = img.rotate(90, expand=True)
+
+        except (AttributeError, KeyError, IndexError):
+            # cases: image don't have getexif
+            pass
+
         img.save(temp_file_path)
-
-        rotate_image(temp_file_path)
-        # try:
-        #     for orientation in ExifTags.TAGS.keys():
-        #         if ExifTags.TAGS[orientation] == "Orientation":
-        #             break
-        #     exif = dict(img._getexif().items())
-
-        #     if exif[orientation] == 3:
-        #         img = img.rotate(180, expand=True)
-        #     elif exif[orientation] == 6:
-        #         img = img.rotate(270, expand=True)
-        #     elif exif[orientation] == 8:
-        #         img = img.rotate(90, expand=True)
-
-        # except (AttributeError, KeyError, IndexError):
-        #     # cases: image don't have getexif
-        #     pass
 
         faces = detect_face(temp_file_path)
         os.remove(temp_file_path)
