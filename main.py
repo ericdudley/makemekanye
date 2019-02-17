@@ -4,6 +4,7 @@ from uuid import uuid1
 from pixels import Pixels
 from PIL import Image
 from os import remove
+from coolname import generate_slug, RandomGenerator
 
 from dotenv import load_dotenv
 
@@ -15,6 +16,12 @@ MAX_WIDTH = 400
 MAX_HEIGHT = 400
 
 
+
+# kanyeGenerator = RandomGenerator(
+
+# )
+
+
 @app.route("/", methods=["GET", "POST"])
 @app.route("/<id>", methods=["GET", "POST"])
 def main(id=None):
@@ -22,6 +29,7 @@ def main(id=None):
         file = request.files["file"]
         if file:
             id = str(uuid1())
+            id = generate_slug(2)
             upload_path = "static/done/"
             temp_path = "img/"
             temp_file_path = temp_path + id + file.filename
