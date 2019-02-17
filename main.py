@@ -11,6 +11,9 @@ load_dotenv()
 
 app = Flask(__name__)
 
+MAX_WIDTH = 400
+MAX_HEIGHT = 400
+
 
 @app.route("/", methods=["GET", "POST"])
 @app.route("/<id>", methods=["GET", "POST"])
@@ -27,13 +30,20 @@ def main(id=None):
 
             file.save(temp_file_path)
 
-            faces = detect_face(temp_file_path)
-
             img = Image.open(temp_file_path)
+
+            if img.width > MAX_WIDTH:
+                ratio = img.width / MAX_WIDTH
+                img = img.resize((int(img.width / ratio), int(img.height / ratio)))
+            elif img.height > MAX_HEIGHT:
+                ratio = img.height / MAX_HEIGHT
+                img = img.resize((int(img.width / ratio), int(img.height / ratio)))
 
             img.save(orig_file_path)
 
             remove(temp_file_path)
+
+            faces = detect_face(orig_file_path)
 
             pixels = Pixels(img, faces)
             # pixels.markFacesLandmarks()
