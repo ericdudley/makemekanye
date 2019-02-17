@@ -167,15 +167,19 @@ class Pixels:
             int(kanye_face_center[1] / ratio),
         )
 
+        kanye_left_pupil_y = int(kanye_left_pupil["position"]["y"] / ratio)
+        left_pupil_y = int(left_pupil.position.y)
+        y_diff = left_pupil_y - kanye_left_pupil_y
+
         kanye_pixels = Pixels(new_img, None)
         for pixel in kanye_pixels.pixels():
             x, y = pixel
             color = kanye_pixels.get(pixel)
             if color[3] > 0:
-                relative_pixel = (x - kanye_face_center[0], y - kanye_face_center[1])
+                relative_pixel = (x - kanye_face_center[0], y - kanye_left_pupil_y)
                 set_pixel = (
                     relative_pixel[0] + face_center[0],
-                    relative_pixel[1] + face_center[1],
+                    relative_pixel[1] + left_pupil_y,
                 )
                 self.set(set_pixel, kanye_pixels.get(pixel))
 

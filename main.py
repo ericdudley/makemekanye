@@ -3,6 +3,7 @@ from detect_face import detect_face
 from stat import S_ISREG, ST_CTIME, ST_MODE
 from uuid import uuid1
 from pixels import Pixels
+from random import randint
 import time
 from PIL import Image
 import os
@@ -43,8 +44,8 @@ def main(id=None):
         if len(sorted_entries) > MAX_FILES:
             for i in range(0, len(sorted_entries) - MAX_FILES):
                 path = sorted_entries[i][1]
-                print(path)
-                os.remove(path)
+                if "example" not in path:
+                    os.remove(path)
 
         file.save(temp_file_path)
 
@@ -73,6 +74,8 @@ def main(id=None):
 
         return redirect("/" + id)
     else:
+        if not id:
+            id = "example" + str(randint(1, 2))
         return render_template("main.html", id=id)
 
 
