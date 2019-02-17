@@ -1,4 +1,5 @@
 from PIL import Image
+from random import choice
 from math import inf
 import json
 
@@ -83,10 +84,20 @@ class Pixels:
                         (255, 0, 0),
                     )
 
-    def getKanyeIndex(self):
-        best_kanye = 0
-        best_delta = inf
+    def getEmotions(self):
         face = self.faces[0]
+        return {
+            "happy": likelihoods[likelihood_name[face.joy_likelihood]],
+            "sad": likelihoods[likelihood_name[face.sorrow_likelihood]],
+            "angry": likelihoods[likelihood_name[face.anger_likelihood]],
+            "surprised": likelihoods[likelihood_name[face.surprise_likelihood]],
+        }
+
+    def getKanyeIndex(self):
+        face = self.faces[0]
+
+        deltas = []
+
         for i in range(len(kanyes)):
             kanye = kanyes[i]["face"]
             delta = 0
@@ -106,10 +117,13 @@ class Pixels:
                 likelihoods[kanye["surpriseLikelihood"]]
                 - likelihoods[likelihood_name[face.surprise_likelihood]]
             )
-            if delta < best_delta:
-                best_delta = delta
-                best_kanye = i
-        return best_kanye
+
+            deltas.append([i, delta])
+
+        deltas.sort(key=lambda d: d[1])
+
+        equal_deltas = [d for d in deltas if d[1] == deltas[0][1]]
+        return choice(equal_deltas)[0]
 
     def faceSwap(self):
         face = self.faces[0]

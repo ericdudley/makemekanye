@@ -3,7 +3,7 @@ from detect_face import detect_face
 from stat import S_ISREG, ST_CTIME, ST_MODE
 from uuid import uuid1
 from pixels import Pixels
-from random import randint
+from random import randint, choice
 import time
 from PIL import Image
 from coolname import generate_slug, RandomGenerator
@@ -19,33 +19,40 @@ MAX_WIDTH = 400
 MAX_HEIGHT = 400
 MAX_FILES = 512
 
+
 @app.route("/", methods=["GET", "POST"])
 @app.route("/<id>", methods=["GET", "POST"])
 def main(id=None):
+    if not id:
+        id = "example" + str(randint(1, 2))
+    upload_path = "static/done/"
+    temp_path = "img/"
+
+    entries = (os.path.join(upload_path, fn) for fn in os.listdir(upload_path))
+    entries = ((os.stat(path), path) for path in entries)
+    entries = (
+        (stat[ST_CTIME], path) for stat, path in entries if S_ISREG(stat[ST_MODE])
+    )
+    sorted_entries = sorted(entries)
+    sorted_ids = [
+        cpath.split("/")[-1][:-4]
+        for ctime, cpath in sorted_entries
+        if "orig_" not in cpath
+    ]
+
+    if len(sorted_entries) > MAX_FILES:
+        for i in range(0, len(sorted_entries) - MAX_FILES):
+            path = sorted_entries[i][1]
+            if "example" not in path:
+                os.remove(path)
+
     if request.method == "POST":
         file = request.files["file"]
         if file:
             id = generate_slug(2)
-            upload_path = "static/done/"
-            temp_path = "img/"
             temp_file_path = temp_path + id + file.filename
             orig_file_path = upload_path + "orig_" + id + ".png"
             done_file_path = upload_path + id + ".png"
-
-        entries = (os.path.join(upload_path, fn) for fn in os.listdir(upload_path))
-        entries = ((os.stat(path), path) for path in entries)
-        entries = (
-            (stat[ST_CTIME], path) for stat, path in entries if S_ISREG(stat[ST_MODE])
-        )
-        sorted_entries = sorted(entries)
-        print(MAX_FILES)
-        print(len(sorted_entries))
-
-        if len(sorted_entries) > MAX_FILES:
-            for i in range(0, len(sorted_entries) - MAX_FILES):
-                path = sorted_entries[i][1]
-                if "example" not in path:
-                    os.remove(path)
 
         file.save(temp_file_path)
 
@@ -58,25 +65,56 @@ def main(id=None):
             ratio = img.height / MAX_HEIGHT
             img = img.resize((int(img.width / ratio), int(img.height / ratio)))
 
-        img.save(orig_file_path)
-
+        img.save(temp_file_path)
+        faces = detect_face(temp_file_path)
         os.remove(temp_file_path)
 
-        faces = detect_face(orig_file_path)
-
         if len(faces) > 0:
+            face = faces[0]
             pixels = Pixels(img, faces)
-            # pixels.markFacesLandmarks()
-            kanye = pixels.faceSwap(), faces
-            img.putdata(pixels.data)
+            kanye = pixels.faceSwap()
+            emotions = pixels.getEmotions()
+            max_emotion_level = 0
+            max_emotion = "neutral"
+            print(emotions)
+            for emotion, level in emotions.items():
+                if level > max_emotion_level:
+                    max_emotion_level = level
+                    max_emotion = emotion
 
-        img.save(done_file_path)
+            id = max_emotion + "-" + id
+
+            orig_file_path = upload_path + "orig_" + id + ".png"
+            done_file_path = upload_path + id + ".png"
+
+            img.save(orig_file_path)
+            img.putdata(pixels.data)
+            img.save(done_file_path)
+        else:
+            img.save(orig_file_path)
+            img.save(done_file_path)
 
         return redirect("/" + id)
     else:
-        if not id:
-            id = "example" + str(randint(1, 2))
-        return render_template("main.html", id=id)
+        if len(sorted_ids) > 0:
+            try:
+                curr_idx = sorted_ids.index(id)
+                prev_id = sorted_ids[
+                    len(sorted_ids) - 1 if curr_idx - 1 < 0 else curr_idx - 1
+                ]
+                next_id = sorted_ids[
+                    0 if curr_idx + 1 >= len(sorted_ids) else curr_idx + 1
+                ]
+            except:
+                rand_id = choice(sorted_ids)
+                return redirect("/" + rand_id)
+        if "-" in id:
+            emotion = id.split("-")[0]
+        else:
+            emotion = "example"
+        return render_template(
+            "main.html", emotion=emotion, id=id, prev_id=prev_id, next_id=next_id
+        )
 
 
 if __name__ == "__main__":

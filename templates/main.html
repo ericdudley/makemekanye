@@ -29,6 +29,7 @@
 
       section {
         display: flex;
+        align-items: center;
         width: 840px;
         margin: 0 auto;
       }
@@ -73,8 +74,18 @@
         opacity: 0.7;
       }
 
+      #share-wrapper {
+        margin-bottom: 12px;
+      }
+
       #result-wrapper {
         position: relative;
+      }
+
+      #result-emotion {
+        position: relative;
+        top: -48px;
+        font-size: 16px;
       }
 
       #loader {
@@ -111,6 +122,7 @@
         font-size: 12px;
         color: black;
       }
+
     </style>
     <script>
       "use strict";
@@ -187,23 +199,28 @@
   </head>
   <body>
     <header>
-      <h1>Make Me &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kanye</h1>
+      <h1>Make Me &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kanye</h1>
       <h1>Make Me &nbsp;&nbsp;&nbsp;Kanye</h1>
       <h1>Make Me &nbsp;&nbsp;&nbsp;Kanye</h1>
       <h1>Make Me &nbsp;&nbsp;&nbsp;Kanye</h1>
       <!-- <h1>Make Me &nbsp;&nbsp;&nbsp;Kanye</h1> -->
       <!-- <h1>Make Me &nbsp;&nbsp;&nbsp;Kanye</h1> -->
     </header>
-    <p>Share your Kanye!</p>
-    <a href="/{{id}}" target="_blank">http://makemekanye.com/{{id}}</a>
+    <div id="share-wrapper">
+      <p>Share your Kanye!</p>
+      <a href="/{{id}}" target="_blank">http://makemekanye.com/{{id}}</a>
+    </div>
     <section>
+      <a className="navigation" href="/{{prev_id}}">prev</a>
       <figure id="preview-wrapper">
         <img id="preview" src="/static/done/orig_{{ id }}.png" />
       </figure>
       <figure id="result-wrapper">
         <img id="result" src="/static/done/{{ id }}.png" />
         <img src="/static/kanye.png" id="loader" class="hide" />
+        <p id="result-emotion">{{emotion}} kanye</p>
       </figure>
+      <a className="navigation" href="/{{next_id}}">next</a>
     </section>
     <div id="upload-wrapper">
       <p>Upload an image of your face and we'll make you into Kanye!</p>
