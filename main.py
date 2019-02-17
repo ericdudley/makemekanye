@@ -35,14 +35,9 @@ def main(id=None):
 
             remove(temp_file_path)
 
-            pixels = Pixels(img)
-            for face in faces:
-                for vertex in face.landmarks:
-                    print(vertex)
-                    pixels.setSquare(
-                        (vertex.position.y, vertex.position.x), 45, (255, 0, 0)
-                    )
-
+            pixels = Pixels(img, faces)
+            # pixels.markFacesLandmarks()
+            pixels.faceSwap()
             img.putdata(pixels.data)
             img.save(done_file_path)
 
