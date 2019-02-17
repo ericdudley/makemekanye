@@ -1,5 +1,6 @@
+coolname
 flask
-requests
 google-cloud-vision
 pillow
 python-dotenv
+requests
