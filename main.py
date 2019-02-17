@@ -56,8 +56,6 @@ def fix_orientation(img):
 @app.route("/", methods=["GET", "POST"])
 @app.route("/<id>", methods=["GET", "POST"])
 def main(id=None):
-    if not id:
-        id = "example" + str(randint(1, 2))
     upload_path = "static/done/"
     temp_path = "img/"
 
@@ -130,6 +128,8 @@ def main(id=None):
         return redirect("/" + id)
     else:
         if len(sorted_ids) > 0:
+            if not id:
+                return redirect("/" + choice(sorted_ids))
             try:
                 curr_idx = sorted_ids.index(id)
                 prev_id = sorted_ids[
@@ -141,13 +141,15 @@ def main(id=None):
             except:
                 rand_id = choice(sorted_ids)
                 return redirect("/" + rand_id)
-        if "-" in id:
-            emotion = id.split("-")[0]
-        else:
-            emotion = "example"
-        return render_template(
-            "main.html", emotion=emotion, id=id, prev_id=prev_id, next_id=next_id
-        )
+
+            if "-" in id:
+                emotion = id.split("-")[0]
+            else:
+                emotion = "example"
+            return render_template(
+                "main.html", emotion=emotion, id=id, prev_id=prev_id, next_id=next_id
+            )
+        return render_template("main.html")
 
 
 if __name__ == "__main__":
