@@ -8,7 +8,7 @@ from google.cloud.vision import types
 def detect_face(path):
     client = vision.ImageAnnotatorClient()
 
-    with io.open(path, 'rb') as image_file:
+    with io.open(path, "rb") as image_file:
         content = image_file.read()
 
     image = vision.types.Image(content=content)
@@ -20,7 +20,7 @@ def detect_face(path):
 
 
 if __name__ == "__main__":
-    b64_str = (open(sys.argv[1], 'r').read().replace('\n', '').strip()).split(',')[1]
+    b64_str = (open(sys.argv[1], "r").read().replace("\n", "").strip()).split(",")[1]
 
     faces = detect_face(b64_str)
 
