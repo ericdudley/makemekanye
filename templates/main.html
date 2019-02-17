@@ -30,14 +30,19 @@
       section {
         display: flex;
         align-items: center;
-        width: 840px;
+        justify-content: center;
+        /* max-width: 800px; */
+        flex-wrap: wrap;
         margin: 0 auto;
+        text-align: center;
       }
+
 
       section > figure {
         min-height: 400px;
         min-width: 400px;
-        margin: 20px;
+        margin: 8px;
+        margin-top: 32px;
         background-color: #f39262;
         border-radius: 4px;
         position: relative;
@@ -53,25 +58,12 @@
         transform: translate(-50%, -50%);
       }
 
-      #drop-upload {
-        width: 300px;
-        height: 100px;
-        line-height: 64px;
-        border: 2px black dashed;
-        margin: 16px auto;
-      }
-
       .hovered {
         border-color: grey !important;
       }
 
       .hide {
         display: none;
-      }
-
-      #drop-upload > p {
-        font-size: 16px;
-        opacity: 0.7;
       }
 
       #share-wrapper {
@@ -86,6 +78,10 @@
         position: relative;
         top: -48px;
         font-size: 16px;
+      }
+
+      #file-upload {
+        height: 48px;
       }
 
       #loader {
@@ -123,6 +119,12 @@
         color: black;
       }
 
+      @media only screen and (max-width: 1024px) {
+        #creds, #kanye-suit{
+          display: none;
+        }
+      }
+
     </style>
     <script>
       "use strict";
@@ -131,45 +133,15 @@
         const preview_element = document.getElementById("preview");
         const result_element = document.getElementById("result");
         const loader_element = document.getElementById("loader");
-        const drop_upload_element = document.getElementById("drop-upload");
         const upload_form_element = document.getElementById("upload-form");
         const upload_wrapper_element = document.getElementById(
           "upload-wrapper"
         );
+
         image_upload_element.addEventListener("change", event => {
-          handleFile(image_upload_element.files[0]);
-        });
-
-        drop_upload_element.addEventListener("drop", event => {
-          let dt = event.dataTransfer;
-          if (dt.files && dt.files.length > 0) {
-            let files = dt.files;
-            handleFile(files[0]);
-          }
-        });
-
-        ["dragenter", "dragover"].forEach(eventName => {
-          drop_upload_element.addEventListener(eventName, () =>
-            drop_upload_element.classList.add("hovered")
-          );
-        });
-
-        ["dragleave", "drop"].forEach(eventName => {
-          drop_upload_element.addEventListener(eventName, () =>
-            drop_upload_element.classList.remove("hovered")
-          );
-        });
-
-        ["dragenter", "dragover", "dragleave", "drop"].forEach(eventName => {
-          drop_upload_element.addEventListener(
-            eventName,
-            event => event.preventDefault(),
-            false
-          );
-        });
-
-        function handleFile(file) {
-          loading();
+          upload_wrapper_element.classList.add("hide");
+          result_element.classList.add("hide");
+          loader_element.classList.remove("hide");
           var reader = new FileReader();
 
           reader.onload = function(e) {
@@ -180,20 +152,8 @@
             }, 500);
           };
 
-          reader.readAsDataURL(file);
-        }
-
-        function loading() {
-          upload_wrapper_element.classList.add("hide");
-          result_element.classList.add("hide");
-          loader_element.classList.remove("hide");
-        }
-
-        function done() {
-          upload_wrapper_element.classList.remove("hide");
-          result_element.classList.remove("hide");
-          loader_element.classList.add("hide");
-        }
+          reader.readAsDataURL(image_upload_element.files[0]);
+        });
       });
     </script>
   </head>
@@ -203,8 +163,6 @@
       <h1>Make Me &nbsp;&nbsp;&nbsp;Kanye</h1>
       <h1>Make Me &nbsp;&nbsp;&nbsp;Kanye</h1>
       <h1>Make Me &nbsp;&nbsp;&nbsp;Kanye</h1>
-      <!-- <h1>Make Me &nbsp;&nbsp;&nbsp;Kanye</h1> -->
-      <!-- <h1>Make Me &nbsp;&nbsp;&nbsp;Kanye</h1> -->
     </header>
     <div id="share-wrapper">
       <p>Share your Kanye!</p>
@@ -225,12 +183,8 @@
     <div id="upload-wrapper">
       <p>Upload an image of your face and we'll make you into Kanye!</p>
       <form id="upload-form" method="POST" enctype=multipart/form-data>
-        <input id="file-upload" name="file" type="file" />
+        <input id="file-upload" name="file" type="file" accept="image/*" capture />
       </form>
-      <div id="drop-upload">
-
-        <p>Drag your image here</p>
-      </div>
     </div>
     <footer>
       <img id="kanye-suit" src="/static/kanye_suit.png" />
