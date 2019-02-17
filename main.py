@@ -21,7 +21,7 @@ def main(id=None):
             id = str(uuid1())
             upload_path = "static/done/"
             temp_path = "img/"
-            temp_file_path = temp_path + "id" + file.filename
+            temp_file_path = temp_path + id + file.filename
             orig_file_path = upload_path + "orig_" + id + ".png"
             done_file_path = upload_path + id + ".png"
 
