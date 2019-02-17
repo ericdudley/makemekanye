@@ -18,11 +18,10 @@ app = Flask(__name__)
 
 MAX_WIDTH = 400
 MAX_HEIGHT = 400
-MAX_FILES = 512
+MAX_FILES = 1024
 
 
 def fix_orientation(img):
-    print(img)
     if hasattr(img, "_getexif"):
         exifdata = img._getexif()
         print(exifdata)
