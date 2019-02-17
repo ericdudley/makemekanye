@@ -21,6 +21,38 @@ MAX_HEIGHT = 400
 MAX_FILES = 512
 
 
+def fix_orientation(img):
+    if hasattr(img, "_getexif"):
+        exifdata = img._getexif()
+        try:
+            orientation = exifdata.get(274)
+        except:
+            # There was no EXIF Orientation Data
+            orientation = 1
+    else:
+        orientation = 1
+
+    if orientation is 1:  # Horizontal (normal)
+        pass
+    elif orientation is 2:  # Mirrored horizontal
+        img = img.transpose(Image.FLIP_LEFT_RIGHT)
+    elif orientation is 3:  # Rotated 180
+        img = img.rotate(180)
+    elif orientation is 4:  # Mirrored vertical
+        img = img.rotate(180).transpose(Image.FLIP_LEFT_RIGHT)
+    elif orientation is 5:  # Mirrored horizontal then rotated 90 CCW
+        img = img.rotate(-90).transpose(Image.FLIP_LEFT_RIGHT)
+    elif orientation is 6:  # Rotated 90 CCW
+        img = img.rotate(-90)
+    elif orientation is 7:  # Mirrored horizontal then rotated 90 CW
+        img = img.rotate(90).transpose(Image.FLIP_LEFT_RIGHT)
+    elif orientation is 8:  # Rotated 90 CW
+        img = img.rotate(90)
+
+    # save the result and overwrite the originally uploaded image
+    return img
+
+
 @app.route("/", methods=["GET", "POST"])
 @app.route("/<id>", methods=["GET", "POST"])
 def main(id=None):
@@ -65,6 +97,8 @@ def main(id=None):
         elif img.height > MAX_HEIGHT:
             ratio = img.height / MAX_HEIGHT
             img = img.resize((int(img.width / ratio), int(img.height / ratio)))
+
+        img = fix_orientation(img)
 
         # try:
         #     for orientation in ExifTags.TAGS.keys():
