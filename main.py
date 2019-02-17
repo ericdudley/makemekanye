@@ -36,11 +36,12 @@ def main(id=None):
             remove(temp_file_path)
 
             pixels = Pixels(img)
-
-            for pixel in pixels.pixels():
-                x, y = pixel
-                if x % 8 < 4:
-                    pixels.set(pixel, (0, 0, 0))
+            for face in faces:
+                for vertex in face.landmarks:
+                    print(vertex)
+                    pixels.setSquare(
+                        (vertex.position.y, vertex.position.x), 45, (255, 0, 0)
+                    )
 
             img.putdata(pixels.data)
             img.save(done_file_path)
@@ -51,4 +52,4 @@ def main(id=None):
 
 
 if __name__ == "__main__":
-    app.run(host="127.0.0.1", port=8080, debug=True)
+    app.run(host="0.0.0.0", port=8080, debug=True)
