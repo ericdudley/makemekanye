@@ -14,8 +14,8 @@ likelihoods = {
     "VERY_UNLIKELY": 0,
     "UNLIKELY": 0.25,
     "POSSIBLE": 0.5,
-    "LIKELY": 0.75
-    "VERY_LIKELY": 1,
+    "LIKELY": 0.75,
+    "VERY_LIKELY": 1
 }
 
 kanyes = []
@@ -80,10 +80,10 @@ class Pixels:
         for i in range(len(kanyes)):
             kanye = kanyes[i]
             delta = 0
-            delta += abs(kanye["joy_likelihood"] - face["joy_likelihood"])
-            delta += abs(kanye["sorrow_likelihood"] - face["sorrow_likelihood"])
-            delta += abs(kanye["anger_likelihood"] - face["anger_likelihood"])
-            delta += abs(kanye["surprise_likelihood"] - face["surprise_likelihood"])
+            delta += abs(likelihoods[kanye["joyLikelihood"]] - likelihoods[face["joyLikelihood"]])
+            delta += abs(likelihoods[kanye["sorrowLikelihood"]] - likelihoods[face["sorrowLikelihood"]])
+            delta += abs(likelihoods[kanye["angerLikelihood"]] - likelihoods[face["angerLikelihood"]])
+            delta += abs(likelihoods[kanye["surpriseLikelihood"]] - likelihoods[face["surpriseLikelihood"]])
             if delta < best_delta:
                 best_delta = delta
                 best_kanye = i
