@@ -66,22 +66,22 @@ def main(id=None):
             ratio = img.height / MAX_HEIGHT
             img = img.resize((int(img.width / ratio), int(img.height / ratio)))
 
-        try:
-            for orientation in ExifTags.TAGS.keys():
-                if ExifTags.TAGS[orientation] == "Orientation":
-                    break
-            exif = dict(img._getexif().items())
+        # try:
+        #     for orientation in ExifTags.TAGS.keys():
+        #         if ExifTags.TAGS[orientation] == "Orientation":
+        #             break
+        #     exif = dict(img._getexif().items())
 
-            if exif[orientation] == 3:
-                img = img.rotate(180, expand=True)
-            elif exif[orientation] == 6:
-                img = img.rotate(270, expand=True)
-            elif exif[orientation] == 8:
-                img = img.rotate(90, expand=True)
+        #     if exif[orientation] == 3:
+        #         img = img.rotate(180, expand=True)
+        #     elif exif[orientation] == 6:
+        #         img = img.rotate(270, expand=True)
+        #     elif exif[orientation] == 8:
+        #         img = img.rotate(90, expand=True)
 
-        except (AttributeError, KeyError, IndexError):
-            # cases: image don't have getexif
-            pass
+        # except (AttributeError, KeyError, IndexError):
+        #     # cases: image don't have getexif
+        #     pass
 
         img.save(temp_file_path)
 
