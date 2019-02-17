@@ -114,6 +114,7 @@
         const result_element = document.getElementById("result");
         const loader_element = document.getElementById("loader");
         const drop_upload_element = document.getElementById("drop-upload");
+        const upload_form_element = document.getElementById("upload-form");
         const upload_wrapper_element = document.getElementById(
           "upload-wrapper"
         );
@@ -174,24 +175,7 @@
             preview_element.src = e.target.result;
 
             setTimeout(() => {
-              const xhr = new XMLHttpRequest();
-              xhr.open("POST", "/", true);
-              // xhr.setRequestHeader("Content-Type", "application/json");
-              const formData = new FormData();
-              formData.append("file", file);
-              xhr.send(formData);
-              xhr.onreadystatechange = function() {
-                if (xhr.readyState == XMLHttpRequest.DONE) {
-                  if (xhr.status == 200) {
-                    preview_element.src = xhr.responseText.replace(
-                      "static/done/",
-                      "static/done/orig_"
-                    );
-                    result_element.src = xhr.responseText;
-                  }
-                  done();
-                }
-              };
+              upload_form_element.submit();
             }, 500);
           };
 
@@ -221,6 +205,8 @@
       <!-- <h1>Make Me &nbsp;&nbsp;&nbsp;Kanye</h1> -->
       <!-- <h1>Make Me &nbsp;&nbsp;&nbsp;Kanye</h1> -->
     </header>
+    <p>Share your Kanye!</p>
+    <a href="/{{id}}">/{{id}}</a>
     <section>
       <figure id="preview-wrapper">
         <img id="preview" src="/static/done/orig_{{ id }}.png" />
@@ -232,8 +218,11 @@
     </section>
     <div id="upload-wrapper">
       <p>Upload an image of your face and we'll make you into Kanye!</p>
-      <input id="file-upload" type="file" />
+      <form id="upload-form" method="POST" enctype=multipart/form-data>
+        <input id="file-upload" name="file" type="file" />
+      </form>
       <div id="drop-upload">
+
         <p>Drag your image here</p>
       </div>
     </div>

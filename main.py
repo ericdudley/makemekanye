@@ -45,7 +45,7 @@ def main(id=None):
             img.putdata(pixels.data)
             img.save(done_file_path)
 
-            return redirect(url_for("/", id))
+            return redirect("/" + id)
     else:
         return render_template("main.html", id=id)
 
