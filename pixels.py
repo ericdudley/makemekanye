@@ -156,7 +156,10 @@ class Pixels:
             int((left_mouth.position.y + left_pupil.position.y) / 2),
         )
 
-        eye_distance = int(right_pupil.position.x + left_pupil.position.x)
+        eye_distance = int(right_pupil.position.x - left_pupil.position.x)
+
+        print(eye_distance)
+        print(kanye_eye_distance)
 
         ratio = kanye_eye_distance / eye_distance
         print(ratio)

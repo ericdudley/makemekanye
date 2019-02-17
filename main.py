@@ -36,10 +36,10 @@ def main(id=None):
 
             if img.width > MAX_WIDTH:
                 ratio = img.width / MAX_WIDTH
-                img = img.resize((img.width / ratio, img.height / ratio))
+                img = img.resize((int(img.width / ratio), int(img.height / ratio)))
             elif img.height > MAX_HEIGHT:
                 ratio = img.height / MAX_HEIGHT
-                img = img.resize((img.width / ratio, img.height / ratio))
+                img = img.resize((int(img.width / ratio), int(img.height / ratio)))
 
             img.save(orig_file_path)
 
