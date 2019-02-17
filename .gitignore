@@ -109,3 +109,4 @@ venv.bak/
 # GCP Service Account keyfile
 makemekanye.json
 img
+static/done

@@ -183,6 +183,10 @@
               xhr.onreadystatechange = function() {
                 if (xhr.readyState == XMLHttpRequest.DONE) {
                   if (xhr.status == 200) {
+                    preview_element.src = xhr.responseText.replace(
+                      "static/done/",
+                      "static/done/orig_"
+                    );
                     result_element.src = xhr.responseText;
                   }
                   done();
@@ -219,10 +223,10 @@
     </header>
     <section>
       <figure id="preview-wrapper">
-        <img id="preview" />
+        <img id="preview" src="/static/done/orig_{{ id }}.png" />
       </figure>
       <figure id="result-wrapper">
-        <img id="result" />
+        <img id="result" src="/static/done/{{ id }}.png" />
         <img src="/static/kanye.png" id="loader" class="hide" />
       </figure>
     </section>
