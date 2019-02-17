@@ -22,8 +22,10 @@ MAX_FILES = 512
 
 
 def fix_orientation(img):
+    print(img)
     if hasattr(img, "_getexif"):
         exifdata = img._getexif()
+        print(exifdata)
         try:
             orientation = exifdata.get(274)
         except:
@@ -88,8 +90,7 @@ def main(id=None):
             done_file_path = upload_path + id + ".png"
 
         img = Image.open(file)
-
-        # file.save(temp_file_path)
+        img = fix_orientation(img)
 
         if img.width > MAX_WIDTH:
             ratio = img.width / MAX_WIDTH
@@ -97,25 +98,6 @@ def main(id=None):
         elif img.height > MAX_HEIGHT:
             ratio = img.height / MAX_HEIGHT
             img = img.resize((int(img.width / ratio), int(img.height / ratio)))
-
-        img = fix_orientation(img)
-
-        # try:
-        #     for orientation in ExifTags.TAGS.keys():
-        #         if ExifTags.TAGS[orientation] == "Orientation":
-        #             break
-        #     exif = dict(img._getexif().items())
-
-        #     if exif[orientation] == 3:
-        #         img = img.rotate(180, expand=True)
-        #     elif exif[orientation] == 6:
-        #         img = img.rotate(270, expand=True)
-        #     elif exif[orientation] == 8:
-        #         img = img.rotate(90, expand=True)
-
-        # except (AttributeError, KeyError, IndexError):
-        #     # cases: image don't have getexif
-        #     pass
 
         img.save(temp_file_path)
 
