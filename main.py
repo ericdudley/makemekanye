@@ -24,7 +24,6 @@ MAX_FILES = 1024
 def fix_orientation(img):
     if hasattr(img, "_getexif"):
         exifdata = img._getexif()
-        print(exifdata)
         try:
             orientation = exifdata.get(274)
         except:
