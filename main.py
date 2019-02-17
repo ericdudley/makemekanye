@@ -87,9 +87,9 @@ def main(id=None):
             orig_file_path = upload_path + "orig_" + id + ".png"
             done_file_path = upload_path + id + ".png"
 
-        file.save(temp_file_path)
+        img = Image.open(file)
 
-        img = Image.open(temp_file_path)
+        # file.save(temp_file_path)
 
         if img.width > MAX_WIDTH:
             ratio = img.width / MAX_WIDTH
