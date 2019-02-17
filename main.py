@@ -6,12 +6,8 @@ from pixels import Pixels
 from random import randint
 import time
 from PIL import Image
-<<<<<<< HEAD
-from os import remove
 from coolname import generate_slug, RandomGenerator
-=======
 import os
->>>>>>> 1434f47ba110c6b7d3c4f3028f0b8ed3a4209119
 
 from dotenv import load_dotenv
 
@@ -21,14 +17,7 @@ app = Flask(__name__)
 
 MAX_WIDTH = 400
 MAX_HEIGHT = 400
-MAX_FILES = 256
-
-
-
-# kanyeGenerator = RandomGenerator(
-
-# )
-
+MAX_FILES = 512
 
 @app.route("/", methods=["GET", "POST"])
 @app.route("/<id>", methods=["GET", "POST"])
@@ -36,7 +25,6 @@ def main(id=None):
     if request.method == "POST":
         file = request.files["file"]
         if file:
-            id = str(uuid1())
             id = generate_slug(2)
             upload_path = "static/done/"
             temp_path = "img/"
