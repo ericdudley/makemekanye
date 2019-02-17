@@ -63,11 +63,12 @@ def main(id=None):
 
         faces = detect_face(orig_file_path)
 
-        pixels = Pixels(img, faces)
-        # pixels.markFacesLandmarks()
-        kanye = pixels.faceSwap(), faces
+        if len(faces) > 0:
+            pixels = Pixels(img, faces)
+            # pixels.markFacesLandmarks()
+            kanye = pixels.faceSwap(), faces
+            img.putdata(pixels.data)
 
-        img.putdata(pixels.data)
         img.save(done_file_path)
 
         return redirect("/" + id)
