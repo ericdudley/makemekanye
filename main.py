@@ -97,7 +97,6 @@ def main(id=None):
             emotions = pixels.getEmotions()
             max_emotion_level = 0
             max_emotion = "neutral"
-            print(emotions)
             for emotion, level in emotions.items():
                 if level > max_emotion_level:
                     max_emotion_level = level
