@@ -15,8 +15,17 @@ likelihoods = {
     "UNLIKELY": 0.25,
     "POSSIBLE": 0.5,
     "LIKELY": 0.75,
-    "VERY_LIKELY": 1
+    "VERY_LIKELY": 1,
 }
+
+likelihood_name = (
+    "UNKNOWN",
+    "VERY_UNLIKELY",
+    "UNLIKELY",
+    "POSSIBLE",
+    "LIKELY",
+    "VERY_LIKELY",
+)
 
 kanyes = []
 
@@ -77,18 +86,78 @@ class Pixels:
         best_kanye = 0
         best_delta = inf
         face = self.faces[0]
+        print(face)
         for i in range(len(kanyes)):
-            kanye = kanyes[i]
+            kanye = kanyes[i]["face"]
             delta = 0
-            delta += abs(likelihoods[kanye["joyLikelihood"]] - likelihoods[face["joyLikelihood"]])
-            delta += abs(likelihoods[kanye["sorrowLikelihood"]] - likelihoods[face["sorrowLikelihood"]])
-            delta += abs(likelihoods[kanye["angerLikelihood"]] - likelihoods[face["angerLikelihood"]])
-            delta += abs(likelihoods[kanye["surpriseLikelihood"]] - likelihoods[face["surpriseLikelihood"]])
+            delta += abs(
+                likelihoods[kanye["joyLikelihood"]]
+                - likelihoods[likelihood_name[face.joy_likelihood]]
+            )
+            delta += abs(
+                likelihoods[kanye["sorrowLikelihood"]]
+                - likelihoods[likelihood_name[face.sorrow_likelihood]]
+            )
+            delta += abs(
+                likelihoods[kanye["angerLikelihood"]]
+                - likelihoods[likelihood_name[face.anger_likelihood]]
+            )
+            delta += abs(
+                likelihoods[kanye["surpriseLikelihood"]]
+                - likelihoods[likelihood_name[face.surprise_likelihood]]
+            )
             if delta < best_delta:
                 best_delta = delta
                 best_kanye = i
         return best_kanye
 
     def faceSwap(self):
-        print(self.getKanyeIndex())
+        face = self.faces[0]
+        kanye = kanyes[self.getKanyeIndex()]
+
+        kanye_left_pupil = next(
+            x for x in kanye["face"]["landmarks"] if x["type"] == "LEFT_EYE_PUPIL"
+        )
+        kanye_right_pupil = next(
+            x for x in kanye["face"]["landmarks"] if x["type"] == "RIGHT_EYE_PUPIL"
+        )
+        kanye_left_mouth = next(
+            x for x in kanye["face"]["landmarks"] if x["type"] == "MOUTH_LEFT"
+        )
+        print(kanye_left_pupil)
+        print(kanye_right_pupil)
+        print(kanye_left_mouth)
+
+        kanye_face_center = (
+            int(
+                (kanye_right_pupil["position"]["x"] + kanye_left_pupil["position"]["x"])
+                / 2
+            ),
+            int(
+                (kanye_left_mouth["position"]["y"] + kanye_left_pupil["position"]["y"])
+                / 2
+            ),
+        )
+
+        left_pupil = next(
+            x for x in face.landmarks if x.type == landmark_types["LEFT_EYE_PUPIL"]
+        )
+        right_pupil = next(
+            x for x in face.landmarks if x.type == landmark_types["RIGHT_EYE_PUPIL"]
+        )
+        left_mouth = next(
+            x for x in face.landmarks if x.type == landmark_types["MOUTH_LEFT"]
+        )
+
+        print(left_pupil)
+        print(right_pupil)
+        print(left_mouth)
+
+        face_center = (
+            int((right_pupil.position.x + left_pupil.position.x) / 2),
+            int((left_mouth.position.y + left_pupil.position.y) / 2),
+        )
+
+        self.setSquare(face_center, 95, (0, 0, 255))
+        return kanye
 

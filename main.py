@@ -37,7 +37,8 @@ def main(id=None):
 
             pixels = Pixels(img, faces)
             # pixels.markFacesLandmarks()
-            pixels.faceSwap()
+            kanye = pixels.faceSwap(), faces
+
             img.putdata(pixels.data)
             img.save(done_file_path)
 
