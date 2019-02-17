@@ -130,24 +130,7 @@
 
         drop_upload_element.addEventListener("drop", event => {
           let dt = event.dataTransfer;
-          const html_data = dt.getData("text/html");
-          if (html_data) {
-            const url = /src="?([^"\s]+)"?\s*/.exec(html_data)[1];
-            var xhr = new XMLHttpRequest();
-            xhr.responseType = "blob";
-            xhr.open("GET", url, true);
-
-            xhr.onload = function() {
-              console.log(url);
-              var img = new Image();
-              var response = xhr.response;
-              if (xhr.status === 200) {
-                handleFile(response);
-              }
-            };
-
-            xhr.send();
-          } else if (dt.files && dt.files.length > 0) {
+          if (dt.files && dt.files.length > 0) {
             let files = dt.files;
             handleFile(files[0]);
           }
