@@ -175,12 +175,16 @@
 
             setTimeout(() => {
               const xhr = new XMLHttpRequest();
-              xhr.open("POST", "/faceify", true);
-              xhr.setRequestHeader("Content-Type", "application/json");
-              xhr.send(JSON.stringify(e.target.result));
+              xhr.open("POST", "/", true);
+              // xhr.setRequestHeader("Content-Type", "application/json");
+              const formData = new FormData();
+              formData.append("file", file);
+              xhr.send(formData);
               xhr.onreadystatechange = function() {
                 if (xhr.readyState == XMLHttpRequest.DONE) {
-                  result_element.src = xhr.responseText;
+                  if (xhr.status == 200) {
+                    result_element.src = xhr.responseText;
+                  }
                   done();
                 }
               };
