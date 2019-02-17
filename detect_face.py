@@ -15,7 +15,7 @@ def _select_fields(faces):
             "sorrow_likelihood": face.sorrow_likelihood,
             "anger_likelihood": face.anger_likelihood,
             "surprise_likelihood": face.surprise_likelihood,
-            "landmarks": face.landmarks,
+            "landmarks": face.landmarks
         }
     return faces
 
