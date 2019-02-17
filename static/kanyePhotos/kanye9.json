@@ -1,0 +1,982 @@
+{
+    "faceAnnotations": [
+      {
+        "boundingPoly": {
+          "vertices": [
+            {
+              "x": 58,
+              "y": 62
+            },
+            {
+              "x": 306,
+              "y": 62
+            },
+            {
+              "x": 306,
+              "y": 351
+            },
+            {
+              "x": 58,
+              "y": 351
+            }
+          ]
+        },
+        "fdBoundingPoly": {
+          "vertices": [
+            {
+              "x": 86,
+              "y": 151
+            },
+            {
+              "x": 258,
+              "y": 151
+            },
+            {
+              "x": 258,
+              "y": 322
+            },
+            {
+              "x": 86,
+              "y": 322
+            }
+          ]
+        },
+        "landmarks": [
+          {
+            "type": "LEFT_EYE",
+            "position": {
+              "x": 136.92973,
+              "y": 206.0131,
+              "z": 0.00042948287
+            }
+          },
+          {
+            "type": "RIGHT_EYE",
+            "position": {
+              "x": 203.05405,
+              "y": 200.35318,
+              "z": -13.338646
+            }
+          },
+          {
+            "type": "LEFT_OF_LEFT_EYEBROW",
+            "position": {
+              "x": 106.94037,
+              "y": 187.27145,
+              "z": 9.58911
+            }
+          },
+          {
+            "type": "RIGHT_OF_LEFT_EYEBROW",
+            "position": {
+              "x": 146.94269,
+              "y": 189.13202,
+              "z": -19.866322
+            }
+          },
+          {
+            "type": "LEFT_OF_RIGHT_EYEBROW",
+            "position": {
+              "x": 182.89397,
+              "y": 188.14966,
+              "z": -26.712986
+            }
+          },
+          {
+            "type": "RIGHT_OF_RIGHT_EYEBROW",
+            "position": {
+              "x": 230.64561,
+              "y": 183.91241,
+              "z": -13.95908
+            }
+          },
+          {
+            "type": "MIDPOINT_BETWEEN_EYES",
+            "position": {
+              "x": 165.29448,
+              "y": 204.00656,
+              "z": -22.041687
+            }
+          },
+          {
+            "type": "NOSE_TIP",
+            "position": {
+              "x": 164.4815,
+              "y": 250.08383,
+              "z": -37.065548
+            }
+          },
+          {
+            "type": "UPPER_LIP",
+            "position": {
+              "x": 168.78162,
+              "y": 275.02963,
+              "z": -15.865625
+            }
+          },
+          {
+            "type": "LOWER_LIP",
+            "position": {
+              "x": 171.18617,
+              "y": 300.0204,
+              "z": -6.568299
+            }
+          },
+          {
+            "type": "MOUTH_LEFT",
+            "position": {
+              "x": 144.89784,
+              "y": 283.93118,
+              "z": 10.746887
+            }
+          },
+          {
+            "type": "MOUTH_RIGHT",
+            "position": {
+              "x": 202.512,
+              "y": 281.38623,
+              "z": 0.018612318
+            }
+          },
+          {
+            "type": "MOUTH_CENTER",
+            "position": {
+              "x": 170.47482,
+              "y": 286.2248,
+              "z": -8.507646
+            }
+          },
+          {
+            "type": "NOSE_BOTTOM_RIGHT",
+            "position": {
+              "x": 190.26686,
+              "y": 251.44983,
+              "z": -11.841658
+            }
+          },
+          {
+            "type": "NOSE_BOTTOM_LEFT",
+            "position": {
+              "x": 148.97076,
+              "y": 253.15009,
+              "z": -4.0606613
+            }
+          },
+          {
+            "type": "NOSE_BOTTOM_CENTER",
+            "position": {
+              "x": 167.79234,
+              "y": 259.77066,
+              "z": -18.43866
+            }
+          },
+          {
+            "type": "LEFT_EYE_TOP_BOUNDARY",
+            "position": {
+              "x": 130.4697,
+              "y": 200.98564,
+              "z": -4.9012733
+            }
+          },
+          {
+            "type": "LEFT_EYE_RIGHT_CORNER",
+            "position": {
+              "x": 149.04979,
+              "y": 207.75508,
+              "z": -1.8160949
+            }
+          },
+          {
+            "type": "LEFT_EYE_BOTTOM_BOUNDARY",
+            "position": {
+              "x": 134.77846,
+              "y": 212.18332,
+              "z": 0.82466924
+            }
+          },
+          {
+            "type": "LEFT_EYE_LEFT_CORNER",
+            "position": {
+              "x": 118.234055,
+              "y": 205.0217,
+              "z": 10.307525
+            }
+          },
+          {
+            "type": "LEFT_EYE_PUPIL",
+            "position": {
+              "x": 130.12923,
+              "y": 205.8209,
+              "z": -0.7628661
+            }
+          },
+          {
+            "type": "RIGHT_EYE_TOP_BOUNDARY",
+            "position": {
+              "x": 204.38147,
+              "y": 198.87073,
+              "z": -18.987915
+            }
+          },
+          {
+            "type": "RIGHT_EYE_RIGHT_CORNER",
+            "position": {
+              "x": 221.53212,
+              "y": 202.02753,
+              "z": -9.393533
+            }
+          },
+          {
+            "type": "RIGHT_EYE_BOTTOM_BOUNDARY",
+            "position": {
+              "x": 204.35571,
+              "y": 207.35019,
+              "z": -13.256871
+            }
+          },
+          {
+            "type": "RIGHT_EYE_LEFT_CORNER",
+            "position": {
+              "x": 187.82861,
+              "y": 204.01318,
+              "z": -10.103176
+            }
+          },
+          {
+            "type": "RIGHT_EYE_PUPIL",
+            "position": {
+              "x": 206.01991,
+              "y": 203.60843,
+              "z": -15.336842
+            }
+          },
+          {
+            "type": "LEFT_EYEBROW_UPPER_MIDPOINT",
+            "position": {
+              "x": 125.28235,
+              "y": 179.98096,
+              "z": -11.254465
+            }
+          },
+          {
+            "type": "RIGHT_EYEBROW_UPPER_MIDPOINT",
+            "position": {
+              "x": 205.63597,
+              "y": 177.76875,
+              "z": -26.558273
+            }
+          },
+          {
+            "type": "LEFT_EAR_TRAGION",
+            "position": {
+              "x": 103.34521,
+              "y": 228.77759,
+              "z": 105.55059
+            }
+          },
+          {
+            "type": "RIGHT_EAR_TRAGION",
+            "position": {
+              "x": 270.93097,
+              "y": 222.8439,
+              "z": 72.976456
+            }
+          },
+          {
+            "type": "FOREHEAD_GLABELLA",
+            "position": {
+              "x": 164.32678,
+              "y": 188.24353,
+              "z": -26.134506
+            }
+          },
+          {
+            "type": "CHIN_GNATHION",
+            "position": {
+              "x": 171.30322,
+              "y": 331.9922,
+              "z": 8.2363205
+            }
+          },
+          {
+            "type": "CHIN_LEFT_GONION",
+            "position": {
+              "x": 108.51891,
+              "y": 281.14606,
+              "z": 81.27776
+            }
+          },
+          {
+            "type": "CHIN_RIGHT_GONION",
+            "position": {
+              "x": 260.6041,
+              "y": 276.9562,
+              "z": 52.2788
+            }
+          }
+        ],
+        "rollAngle": -3.2133007,
+        "panAngle": -10.9077835,
+        "tiltAngle": -8.471403,
+        "detectionConfidence": 0.79776263,
+        "landmarkingConfidence": 0.3928866,
+        "joyLikelihood": "VERY_UNLIKELY",
+        "sorrowLikelihood": "VERY_UNLIKELY",
+        "angerLikelihood": "VERY_UNLIKELY",
+        "surpriseLikelihood": "VERY_UNLIKELY",
+        "underExposedLikelihood": "VERY_UNLIKELY",
+        "blurredLikelihood": "VERY_UNLIKELY",
+        "headwearLikelihood": "VERY_UNLIKELY"
+      }
+    ],
+    "labelAnnotations": [
+      {
+        "mid": "/m/0dzct",
+        "description": "Face",
+        "score": 0.976806,
+        "topicality": 0.976806
+      },
+      {
+        "mid": "/m/0ds5b",
+        "description": "Facial hair",
+        "score": 0.9530219,
+        "topicality": 0.9530219
+      },
+      {
+        "mid": "/m/04hgtk",
+        "description": "Head",
+        "score": 0.92677724,
+        "topicality": 0.92677724
+      },
+      {
+        "mid": "/m/025kyy",
+        "description": "Forehead",
+        "score": 0.9102201,
+        "topicality": 0.9102201
+      },
+      {
+        "mid": "/m/0f9swq",
+        "description": "Chin",
+        "score": 0.87524176,
+        "topicality": 0.87524176
+      },
+      {
+        "mid": "/m/02d46y",
+        "description": "Cap",
+        "score": 0.85845757,
+        "topicality": 0.85845757
+      },
+      {
+        "mid": "/m/015h_t",
+        "description": "Beard",
+        "score": 0.8161421,
+        "topicality": 0.8161421
+      },
+      {
+        "mid": "/m/01443y",
+        "description": "Headgear",
+        "score": 0.78303677,
+        "topicality": 0.78303677
+      },
+      {
+        "mid": "/m/03hzcs",
+        "description": "Beige",
+        "score": 0.66557527,
+        "topicality": 0.66557527
+      },
+      {
+        "mid": "/m/027xyl",
+        "description": "Baseball cap",
+        "score": 0.6493217,
+        "topicality": 0.6493217
+      },
+      {
+        "mid": "/m/0bby24z",
+        "description": "Moustache",
+        "score": 0.6132085,
+        "topicality": 0.6132085
+      },
+      {
+        "mid": "/m/0zvk5",
+        "description": "Helmet",
+        "score": 0.59627837,
+        "topicality": 0.59627837
+      },
+      {
+        "mid": "/m/0hgs526",
+        "description": "Costume accessory",
+        "score": 0.5937707,
+        "topicality": 0.5937707
+      },
+      {
+        "mid": "/m/0463sg",
+        "description": "Fashion accessory",
+        "score": 0.577368,
+        "topicality": 0.577368
+      },
+      {
+        "mid": "/m/0cphhk",
+        "description": "Headgear",
+        "score": 0.57123715,
+        "topicality": 0.57123715
+      },
+      {
+        "mid": "/m/02dl1y",
+        "description": "Hat",
+        "score": 0.5703836,
+        "topicality": 0.5703836
+      }
+    ],
+    "safeSearchAnnotation": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imagePropertiesAnnotation": {
+      "dominantColors": {
+        "colors": [
+          {
+            "color": {
+              "red": 253,
+              "green": 252,
+              "blue": 252
+            },
+            "score": 0.5226177,
+            "pixelFraction": 0.74743867
+          },
+          {
+            "color": {
+              "red": 202,
+              "green": 189,
+              "blue": 170
+            },
+            "score": 0.10270717,
+            "pixelFraction": 0.051953204
+          },
+          {
+            "color": {
+              "red": 79,
+              "green": 42,
+              "blue": 28
+            },
+            "score": 0.065161064,
+            "pixelFraction": 0.026505386
+          },
+          {
+            "color": {
+              "red": 27,
+              "green": 16,
+              "blue": 13
+            },
+            "score": 0.01529286,
+            "pixelFraction": 0.011236697
+          },
+          {
+            "color": {
+              "red": 176,
+              "green": 158,
+              "blue": 132
+            },
+            "score": 0.05051752,
+            "pixelFraction": 0.021812413
+          },
+          {
+            "color": {
+              "red": 210,
+              "green": 199,
+              "blue": 191
+            },
+            "score": 0.044347025,
+            "pixelFraction": 0.028554432
+          },
+          {
+            "color": {
+              "red": 109,
+              "green": 74,
+              "blue": 62
+            },
+            "score": 0.028626671,
+            "pixelFraction": 0.01744993
+          },
+          {
+            "color": {
+              "red": 52,
+              "green": 19,
+              "blue": 9
+            },
+            "score": 0.018203283,
+            "pixelFraction": 0.006213233
+          },
+          {
+            "color": {
+              "red": 107,
+              "green": 77,
+              "blue": 76
+            },
+            "score": 0.017435623,
+            "pixelFraction": 0.008063983
+          },
+          {
+            "color": {
+              "red": 74,
+              "green": 46,
+              "blue": 45
+            },
+            "score": 0.015600791,
+            "pixelFraction": 0.0064776256
+          }
+        ]
+      }
+    },
+    "cropHintsAnnotation": {
+      "cropHints": [
+        {
+          "boundingPoly": {
+            "vertices": [
+              {
+                "x": 22
+              },
+              {
+                "x": 333
+              },
+              {
+                "x": 333,
+                "y": 383
+              },
+              {
+                "x": 22,
+                "y": 383
+              }
+            ]
+          },
+          "confidence": 0.29999998,
+          "importanceFraction": 1.43
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              {},
+              {
+                "x": 384
+              },
+              {
+                "x": 384,
+                "y": 383
+              },
+              {
+                "y": 383
+              }
+            ]
+          },
+          "confidence": 0.29999998,
+          "importanceFraction": 1.43
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              {
+                "y": 29
+              },
+              {
+                "x": 384,
+                "y": 29
+              },
+              {
+                "x": 384,
+                "y": 352
+              },
+              {
+                "y": 352
+              }
+            ]
+          },
+          "confidence": 0.29999998,
+          "importanceFraction": 1.4
+        }
+      ]
+    },
+    "webDetection": {
+      "webEntities": [
+        {
+          "entityId": "/m/02l840",
+          "score": 11.181001,
+          "description": "Kanye West"
+        },
+        {
+          "entityId": "/m/09c7w0",
+          "score": 0.71070004,
+          "description": "United States of America"
+        },
+        {
+          "entityId": "/t/22cpcpgy6kmkc",
+          "score": 0.529
+        },
+        {
+          "entityId": "/m/01rfz",
+          "score": 0.5231,
+          "description": "Celebrity"
+        },
+        {
+          "entityId": "/t/26tx7xy9_tgvr",
+          "score": 0.5056
+        },
+        {
+          "entityId": "/t/24qvwlpxg7yk0",
+          "score": 0.4955
+        },
+        {
+          "entityId": "/m/0d1pc",
+          "score": 0.4829,
+          "description": "Model"
+        },
+        {
+          "entityId": "/m/02hrh1q",
+          "score": 0.4582,
+          "description": "Actor"
+        },
+        {
+          "entityId": "/m/016z4k",
+          "score": 0.4453,
+          "description": "Singer-songwriter"
+        },
+        {
+          "entityId": "/m/07c52",
+          "score": 0.42,
+          "description": "Television"
+        },
+        {
+          "entityId": "/t/2fh9bw3bd2ymf",
+          "score": 0.4139
+        },
+        {
+          "entityId": "/m/09lmb",
+          "score": 0.4114,
+          "description": "Reality television"
+        },
+        {
+          "entityId": "/t/2fv448dxczbr3",
+          "score": 0.3953
+        },
+        {
+          "entityId": "/m/0261x8t",
+          "score": 0.10959001,
+          "description": "Kim Kardashian"
+        },
+        {
+          "entityId": "/m/0127s7",
+          "score": 0.08028,
+          "description": "Christina Aguilera"
+        }
+      ],
+      "partialMatchingImages": [
+        {
+          "url": "https://media.architecturaldigest.com/photos/5bce29752487b9519e04e43b/3:4/w_2168,h_2891,c_limit/GettyImages-980333546.jpg"
+        },
+        {
+          "url": "https://cdn-3.expansion.mx/dims4/default/f63f1f9/2147483647/strip/true/crop/4415x2892+0+0/resize/1200x786!/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2Fed%2Fb6%2F23fb9da84406b2b03ab163279552%2Fgettyimages-980333546.jpg"
+        },
+        {
+          "url": "https://www.klatsch-tratsch.de/wp-content/uploads/video_thumb.php?url=https%3A%2F%2Fcdn.freshclip.tv%2Ffiles%2Fartwork%2Fcustom_image%2F3497%2Fkim_kardashian_und_kanye_west_3497_xl_0.png"
+        },
+        {
+          "url": "https://www.bet.com/celebrities/news/2018/07/02/kim-kardashian-bracing-herself-for-worst-marriage-kanye/_jcr_content/image.large2x1image.dimg/__1530548486427__1530543960172/070218-celebrities-kim-kanye-marriage.jpg"
+        },
+        {
+          "url": "https://www.intouchweekly.com/wp-content/uploads/2018/11/kanye-west-kim-kardashian-face-tattoo.jpg?resize=800%2C800"
+        },
+        {
+          "url": "https://www.bet.com/celebrities/news/2018/07/02/kim-kardashian-bracing-herself-for-worst-marriage-kanye/_jcr_content/image.medium2x1image.dimg/__1530548486427__1530543960172/070218-celebrities-kim-kanye-marriage.jpg"
+        },
+        {
+          "url": "https://naijagistsnew-etopedia.netdna-ssl.com/wp-content/uploads/2018/11/kanye-west-kim-kardashian-photos.jpg"
+        },
+        {
+          "url": "https://dam.cosmoenespanol.com/wp-content/uploads/2018/10/kanye-kim-divorcio-570x300.jpg"
+        },
+        {
+          "url": "https://www.lbcgroup.tv/newsimages/News-T-402814-636739005176712285.jpg"
+        },
+        {
+          "url": "https://www.kanyidaily.com/kanyi_content/uploads/2018/10/kanye-west-kim-kardashian-364x205.jpg"
+        },
+        {
+          "url": "https://max1023.fm/wp-content/uploads/2018/06/kim-main-1024x506.jpg"
+        },
+        {
+          "url": "https://cosmopolitan.hu/app/uploads/2018/10/kim-kanye-cosmopolitan.jpg"
+        },
+        {
+          "url": "https://www.twice.se/celebs/kim-kardishan-kanye-west1.jpg"
+        }
+      ],
+      "pagesWithMatchingImages": [
+        {
+          "url": "https://www.architecturaldigest.com/story/kanye-west-decked-out-his-axel-vervoordt-designed-living-room-for-kim-kardashians-birthday",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; Decked Out His Axel Vervoordt–Designed Living Room ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://media.architecturaldigest.com/photos/5bce29752487b9519e04e43b/3:4/w_2168,h_2891,c_limit/GettyImages-980333546.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.bet.com/celebrities/news/2018/07/02/kim-kardashian-bracing-herself-for-worst-marriage-kanye.html",
+          "pageTitle": "Report: Kim Kardashian Is &amp;#39;Bracing Herself&amp;#39; For The Worst In Her ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://www.bet.com/celebrities/news/2018/07/02/kim-kardashian-bracing-herself-for-worst-marriage-kanye/_jcr_content/image.large2x1image.dimg/__1530548486427__1530543960172/070218-celebrities-kim-kanye-marriage.jpg"
+            },
+            {
+              "url": "https://www.bet.com/celebrities/news/2018/07/02/kim-kardashian-bracing-herself-for-worst-marriage-kanye/_jcr_content/image.medium2x1image.dimg/__1530548486427__1530543960172/070218-celebrities-kim-kanye-marriage.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://naijagists.com/kanye-west-upset-kim-kardashian-nude-photos/",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; Hates My Nude Instagram Photos – Kim K ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://naijagistsnew-etopedia.netdna-ssl.com/wp-content/uploads/2018/11/kanye-west-kim-kardashian-photos.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://max1023.fm/2018/06/22/kim-kardashian-visits-paris-for-the-first-time-since-2016/",
+          "pageTitle": "Kim Kardashian Visits Paris For The First Time Since 2016 - 102.3 ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://max1023.fm/wp-content/uploads/2018/06/kim-main-1024x506.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.kartiavelino.com/2018/07/kim-reportedly-bracing-herself-for-the-worst-in-marriage.html",
+          "pageTitle": "Kim Reportedly &amp;#39;Bracing Herself&amp;#39; For The Worst In Marriage - My ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://www.kartiavelino.com/wp-content/uploads/2018/07/kim-reportedly-bracing-herself-for-the-worst-in-marriage-1.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://max1023.fm/tag/kim-kardashian-west/",
+          "pageTitle": "Kim Kardashian &lt;b&gt;West&lt;/b&gt; Archives - 102.3 Max FM",
+          "partialMatchingImages": [
+            {
+              "url": "https://max1023.fm/wp-content/uploads/2018/06/kim-main-1024x506.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://max1023.fm/tag/kim-kardashian/",
+          "pageTitle": "kim kardashian Archives - 102.3 Max FM",
+          "partialMatchingImages": [
+            {
+              "url": "https://max1023.fm/wp-content/uploads/2018/06/kim-main-1024x506.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://thelosangeleswire.com/2018/07/07/report-kim-kardashian-is-bracing-herself-for-the-worst-in-her-marriage-to-kanye-kim-kardashian-celebrities/",
+          "pageTitle": "Report: Kim Kardashian Is &amp;#39;Bracing Herself&amp;#39; For The Worst In Her ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://thelosangeleswire.com/wp-content/uploads/2018/07/070218-celebrities-kim-kanye-marriage.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://thelosangeleswire.com/page/1249/",
+          "pageTitle": "Entertainment News - TheLosAngelesWire.com - Entertainment ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://thelosangeleswire.com/wp-content/uploads/2018/07/070218-celebrities-kim-kanye-marriage.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://thelosangeleswire.com/page/3764/",
+          "pageTitle": "3764 - TheLosAngelesWire.com - Entertainment News ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://thelosangeleswire.com/wp-content/uploads/2018/07/070218-celebrities-kim-kanye-marriage.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://naijagists.com/page/53/",
+          "pageTitle": "NaijaGists.com - Nigeria, Nollywood, Celebrity ,News, Gossips ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://naijagistsnew-etopedia.netdna-ssl.com/wp-content/uploads/2018/11/kanye-west-kim-kardashian-photos.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://thelosangeleswire.com/page/3440/",
+          "pageTitle": "3440 - TheLosAngelesWire.com - Entertainment News ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://thelosangeleswire.com/wp-content/uploads/2018/07/070218-celebrities-kim-kanye-marriage.jpg"
+            }
+          ]
+        },
+        {
+          "url": "http://yousense.info/6b616e7965/kanye-worst-is-mentally-ill-the-data-lounge.html",
+          "pageTitle": "Summary -&amp;gt; &lt;b&gt;Kanye&lt;/b&gt; Worst Is Mentally Ill The Data Lounge",
+          "partialMatchingImages": [
+            {
+              "url": "https://thelosangeleswire.com/wp-content/uploads/2018/07/070218-celebrities-kim-kanye-marriage.jpg"
+            }
+          ]
+        },
+        {
+          "url": "http://yousense.info/636872697374696e61/christina-aguilera-debuts-kanye-westproduced-accelerate.html",
+          "pageTitle": "Summary -&amp;gt; Christina Aguilera Debuts &lt;b&gt;Kanye&lt;/b&gt; Westproduced ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://thelosangeleswire.com/wp-content/uploads/2018/07/070218-celebrities-kim-kanye-marriage.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://cosmopolitan.hu/sztarhirek/2018/10/05/ezt-az-egy-dolgot-valtoztatna-meg-kim-kardashian-kanye-westen/",
+          "pageTitle": "Ezt az egy dolgot változtatná meg Kim Kardashian &lt;b&gt;Kanye&lt;/b&gt; Westen ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://cosmopolitan.hu/app/uploads/2018/10/kim-kanye-cosmopolitan.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.klatsch-tratsch.de/video/waldbrand-in-kalifornien-private-feuerwehr-f%C3%BCr-kim-kanye-384559/",
+          "pageTitle": "Waldbrand in Kalifornien: Private Feuerwehr für Kim &amp;amp; &lt;b&gt;Kanye&lt;/b&gt; ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://www.klatsch-tratsch.de/wp-content/uploads/video_thumb.php?url=https%3A%2F%2Fcdn.freshclip.tv%2Ffiles%2Fartwork%2Fcustom_image%2F3497%2Fkim_kardashian_und_kanye_west_3497_xl_0.png"
+            }
+          ]
+        },
+        {
+          "url": "https://www.arcor.de/article/Unterhaltung-People-News--Waldbrand-in-Kalifornien--Private-Feuerwehr-fuer-Kim---Kanye/hub01-home-unterhaltung-people-news/7789841",
+          "pageTitle": "Waldbrand in Kalifornien: Private Feuerwehr für Kim &amp;amp; &lt;b&gt;Kanye&lt;/b&gt; - Arcor ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://cdn.freshclip.tv/files/artwork/custom_image/3496/kim_kardashian_und_kanye_west_3496_xl_0.png"
+            }
+          ]
+        },
+        {
+          "url": "https://www.twice.se/mode.html",
+          "pageTitle": "Twice - Trender, mode, shopping och kändisar - Twice.se",
+          "partialMatchingImages": [
+            {
+              "url": "https://www.twice.se/celebs/kim-kardishan-kanye-west1.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.twice.se/mode-kandisar.html",
+          "pageTitle": "Kändisar, celebriteter och dylikt - Twice.se",
+          "partialMatchingImages": [
+            {
+              "url": "https://www.twice.se/celebs/kim-kardishan-kanye-west1.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.videovalis.tv/players/148/videos/242095",
+          "pageTitle": "Waldbrand in Kalifornien: Private Feuerwehr für Kim &amp;amp; &lt;b&gt;Kanye&lt;/b&gt; ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://cdn.freshclip.tv/files/artwork/custom_image/3496/kim_kardashian_und_kanye_west_3496_xl_0.png"
+            }
+          ]
+        },
+        {
+          "url": "http://panoramanet.hu/ezt-az-egy-dolgot-valtoztatna-meg-kim-kardashian-kanye-westen/thumbnail-for-2886679/",
+          "pageTitle": "Ezt az egy dolgot változtatná meg Kim Kardashian &lt;b&gt;Kanye&lt;/b&gt; Westen ...",
+          "partialMatchingImages": [
+            {
+              "url": "http://panoramanet.hu/wp-content/uploads/2018/10/2886679-thumb.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.lbcgroup.tv/news/fann/402829/%D9%81%D9%8A%D9%81%D9%8A-%D8%B9%D8%A8%D8%AF%D9%88-%D8%AA%D8%B1%D9%82%D8%B5-%D8%B9%D9%84%D9%89-%D8%A3%D8%BA%D9%86%D9%8A%D8%A9-%D8%B4%D8%B9%D8%B1%D8%A7%D8%AA%D8%A7-%D9%88%D9%84%D9%88-%D9%88%D8%AA%D8%B4%D8%B9%D9%84-%D8%A7%D9%84%D8%A5%D9%86%D8%AA%D8%B1%D9%86%D8%AA/ar",
+          "pageTitle": "فيفي عبدو ترقص على أغنية شعراتا ولو وتشعل الإنترنت - Lebanon ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://www.lbcgroup.tv/newsimages/News-T-402814-636739005176712285.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.lbcgroup.tv/news/lifestyle/403535/%D9%83%D9%8A%D9%85-%D9%83%D8%A7%D8%B1%D8%AF%D8%A7%D8%B4%D9%8A%D8%A7%D9%86-%D8%AA%D8%B9%D8%AA%D8%B1%D9%81-%D8%A8%D8%A7%D9%84%D8%B4%D9%8A%D8%A1-%D8%A7%D9%84%D9%88%D8%AD%D9%8A%D8%AF-%D8%A7%D9%84%D8%B0%D9%8A-%D8%AA%D8%B1%D8%BA%D8%A8-%D8%A8%D8%AA%D8%BA%D9%8A%D9%8A%D8%B1/ar",
+          "pageTitle": "كيم كارداشيان تعترف بالشيء الوحيد الذي ترغب بتغييره في كانيه ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://www.lbcgroup.tv/newsimages/News-T-402814-636739005176712285.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.lbcgroup.tv/news/lebanon/391359/%D9%84%D8%AC%D9%86%D8%A9-%D9%83%D9%81%D8%B1%D8%AD%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%A8%D9%8A%D8%A6%D9%8A%D8%A9-%D8%AF%D8%B9%D8%AA-%D8%A5%D9%84%D9%89-%D8%A7%D8%B9%D8%AA%D8%B5%D8%A7%D9%85-%D8%A7%D9%84%D8%AE%D9%85%D9%8A%D8%B3/ar",
+          "pageTitle": "لجنة كفرحزير البيئية دعت إلى اعتصام الخميس - Lebanon News - lbci",
+          "partialMatchingImages": [
+            {
+              "url": "https://www.lbcgroup.tv/newsImages/News-T-402814-636739005176712285.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.lbcgroup.tv/news/d/world/131573/%D8%A3%D8%B1%D8%AF%D9%88%D8%BA%D8%A7%D9%86-%D9%8A%D8%B9%D9%84%D9%86-%D8%AA%D8%BA%D9%8A%D9%8A%D8%B1-10-%D9%88%D8%B2%D8%B1%D8%A7%D8%A1-%D9%81%D9%8A-%D8%AD%D9%83%D9%88%D9%85%D8%AA%D9%87/ar",
+          "pageTitle": "أردوغان يعلن تغيير 10 وزراء في حكومته - Lebanon News - lbci",
+          "partialMatchingImages": [
+            {
+              "url": "https://www.lbcgroup.tv/newsimages/News-T-402814-636739005176712285.jpg"
+            }
+          ]
+        }
+      ],
+      "visuallySimilarImages": [
+        {
+          "url": "https://images-na.ssl-images-amazon.com/images/I/414dkdVtmQL.jpg"
+        },
+        {
+          "url": "https://unixtitan.net/images/kanye-transparent-lanye-6.gif"
+        },
+        {
+          "url": "https://www.pngkey.com/png/detail/163-1636867_kanye-west-png-transparent-kanye-west-face-transparent.png"
+        },
+        {
+          "url": "https://www.nicepng.com/png/detail/18-186224_kanye-west-transparent-png-image-download-kanye-west.png"
+        },
+        {
+          "url": "https://data.whicdn.com/images/59742048/large.png"
+        },
+        {
+          "url": "https://www.punanaamio.fi/media/catalog/product/cache/5/image/9df78eab33525d08d6e5fb8d27136e95/k/a/kanye.jpg"
+        },
+        {
+          "url": "https://png2.kisspng.com/20180616/yhw/kisspng-kanye-west-yeezus-clip-art-kanye-5b251d572d4be3.8335670115291589991855.png"
+        },
+        {
+          "url": "http://ct101.us/wp-content/uploads/2016/11/kanye-west-celebrity-mask.jpg"
+        },
+        {
+          "url": "https://i.redd.it/d4vslmqpltfx.png"
+        },
+        {
+          "url": "https://www.picclickimg.com/d/l400/pict/153126200758_/KANYE-WEST-Air-Freshener-FLY-HIGH-yeezy.jpg"
+        }
+      ],
+      "bestGuessLabels": [
+        {
+          "label": "Kanye West"
+        }
+      ]
+    }
+  }

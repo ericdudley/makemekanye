@@ -1,0 +1,1253 @@
+{
+    "faceAnnotations": [
+      {
+        "boundingPoly": {
+          "vertices": [
+            {
+              "x": 223,
+              "y": 263
+            },
+            {
+              "x": 1473,
+              "y": 263
+            },
+            {
+              "x": 1473,
+              "y": 1717
+            },
+            {
+              "x": 223,
+              "y": 1717
+            }
+          ]
+        },
+        "fdBoundingPoly": {
+          "vertices": [
+            {
+              "x": 408,
+              "y": 681
+            },
+            {
+              "x": 1230,
+              "y": 681
+            },
+            {
+              "x": 1230,
+              "y": 1503
+            },
+            {
+              "x": 408,
+              "y": 1503
+            }
+          ]
+        },
+        "landmarks": [
+          {
+            "type": "LEFT_EYE",
+            "position": {
+              "x": 634.0577,
+              "y": 917.1785,
+              "z": -0.0032443323
+            }
+          },
+          {
+            "type": "RIGHT_EYE",
+            "position": {
+              "x": 974.89453,
+              "y": 950.9557,
+              "z": -48.285095
+            }
+          },
+          {
+            "type": "LEFT_OF_LEFT_EYEBROW",
+            "position": {
+              "x": 511.1753,
+              "y": 822.2304,
+              "z": 47.15331
+            }
+          },
+          {
+            "type": "RIGHT_OF_LEFT_EYEBROW",
+            "position": {
+              "x": 716.9368,
+              "y": 842.21155,
+              "z": -92.08054
+            }
+          },
+          {
+            "type": "LEFT_OF_RIGHT_EYEBROW",
+            "position": {
+              "x": 900.6555,
+              "y": 861.52313,
+              "z": -116.950905
+            }
+          },
+          {
+            "type": "RIGHT_OF_RIGHT_EYEBROW",
+            "position": {
+              "x": 1137.6901,
+              "y": 877.35645,
+              "z": -39.47269
+            }
+          },
+          {
+            "type": "MIDPOINT_BETWEEN_EYES",
+            "position": {
+              "x": 798.7665,
+              "y": 931.5613,
+              "z": -104.467674
+            }
+          },
+          {
+            "type": "NOSE_TIP",
+            "position": {
+              "x": 776.3127,
+              "y": 1155.4702,
+              "z": -199.1986
+            }
+          },
+          {
+            "type": "UPPER_LIP",
+            "position": {
+              "x": 774.0463,
+              "y": 1285.9926,
+              "z": -101.98424
+            }
+          },
+          {
+            "type": "LOWER_LIP",
+            "position": {
+              "x": 766.87695,
+              "y": 1420.6194,
+              "z": -64.652664
+            }
+          },
+          {
+            "type": "MOUTH_LEFT",
+            "position": {
+              "x": 637.9679,
+              "y": 1329.5193,
+              "z": 22.751007
+            }
+          },
+          {
+            "type": "MOUTH_RIGHT",
+            "position": {
+              "x": 933.94006,
+              "y": 1345.5403,
+              "z": -16.165636
+            }
+          },
+          {
+            "type": "MOUTH_CENTER",
+            "position": {
+              "x": 774.6723,
+              "y": 1342.4084,
+              "z": -69.522514
+            }
+          },
+          {
+            "type": "NOSE_BOTTOM_RIGHT",
+            "position": {
+              "x": 907.7654,
+              "y": 1196.7988,
+              "z": -64.19552
+            }
+          },
+          {
+            "type": "NOSE_BOTTOM_LEFT",
+            "position": {
+              "x": 687.59595,
+              "y": 1174.887,
+              "z": -38.505207
+            }
+          },
+          {
+            "type": "NOSE_BOTTOM_CENTER",
+            "position": {
+              "x": 778.97,
+              "y": 1212.4491,
+              "z": -108.61979
+            }
+          },
+          {
+            "type": "LEFT_EYE_TOP_BOUNDARY",
+            "position": {
+              "x": 623.8888,
+              "y": 899.8972,
+              "z": -25.63353
+            }
+          },
+          {
+            "type": "LEFT_EYE_RIGHT_CORNER",
+            "position": {
+              "x": 711.8598,
+              "y": 939.5154,
+              "z": -8.449821
+            }
+          },
+          {
+            "type": "LEFT_EYE_BOTTOM_BOUNDARY",
+            "position": {
+              "x": 630.4759,
+              "y": 951.24,
+              "z": -0.54176295
+            }
+          },
+          {
+            "type": "LEFT_EYE_LEFT_CORNER",
+            "position": {
+              "x": 555.72766,
+              "y": 917.719,
+              "z": 46.167614
+            }
+          },
+          {
+            "type": "LEFT_EYE_PUPIL",
+            "position": {
+              "x": 618.5259,
+              "y": 925.1708,
+              "z": -7.040176
+            }
+          },
+          {
+            "type": "RIGHT_EYE_TOP_BOUNDARY",
+            "position": {
+              "x": 998.753,
+              "y": 932.01904,
+              "z": -77.46919
+            }
+          },
+          {
+            "type": "RIGHT_EYE_RIGHT_CORNER",
+            "position": {
+              "x": 1079.4187,
+              "y": 961.867,
+              "z": -26.259035
+            }
+          },
+          {
+            "type": "RIGHT_EYE_BOTTOM_BOUNDARY",
+            "position": {
+              "x": 988.96246,
+              "y": 987.2521,
+              "z": -51.567513
+            }
+          },
+          {
+            "type": "RIGHT_EYE_LEFT_CORNER",
+            "position": {
+              "x": 908.76416,
+              "y": 955.82043,
+              "z": -38.191303
+            }
+          },
+          {
+            "type": "RIGHT_EYE_PUPIL",
+            "position": {
+              "x": 1003.45074,
+              "y": 958.3522,
+              "z": -60.55804
+            }
+          },
+          {
+            "type": "LEFT_EYEBROW_UPPER_MIDPOINT",
+            "position": {
+              "x": 613.6701,
+              "y": 789.6709,
+              "z": -50.201324
+            }
+          },
+          {
+            "type": "RIGHT_EYEBROW_UPPER_MIDPOINT",
+            "position": {
+              "x": 1021.08997,
+              "y": 824.5443,
+              "z": -106.30829
+            }
+          },
+          {
+            "type": "LEFT_EAR_TRAGION",
+            "position": {
+              "x": 439.1737,
+              "y": 1062.2882,
+              "z": 510.9651
+            }
+          },
+          {
+            "type": "RIGHT_EAR_TRAGION",
+            "position": {
+              "x": 1291.9749,
+              "y": 1135.2534,
+              "z": 393.14676
+            }
+          },
+          {
+            "type": "FOREHEAD_GLABELLA",
+            "position": {
+              "x": 808.03674,
+              "y": 850.3607,
+              "z": -118.701004
+            }
+          },
+          {
+            "type": "CHIN_GNATHION",
+            "position": {
+              "x": 755.378,
+              "y": 1592.4158,
+              "z": -0.1508426
+            }
+          },
+          {
+            "type": "CHIN_LEFT_GONION",
+            "position": {
+              "x": 439.68494,
+              "y": 1317.9736,
+              "z": 368.88004
+            }
+          },
+          {
+            "type": "CHIN_RIGHT_GONION",
+            "position": {
+              "x": 1210.7288,
+              "y": 1383.4575,
+              "z": 262.5436
+            }
+          }
+        ],
+        "rollAngle": 4.3333693,
+        "panAngle": -7.8394055,
+        "tiltAngle": -3.9434116,
+        "detectionConfidence": 0.99857956,
+        "landmarkingConfidence": 0.57640296,
+        "joyLikelihood": "VERY_UNLIKELY",
+        "sorrowLikelihood": "VERY_UNLIKELY",
+        "angerLikelihood": "VERY_UNLIKELY",
+        "surpriseLikelihood": "UNLIKELY",
+        "underExposedLikelihood": "VERY_UNLIKELY",
+        "blurredLikelihood": "VERY_UNLIKELY",
+        "headwearLikelihood": "VERY_UNLIKELY"
+      }
+    ],
+    "labelAnnotations": [
+      {
+        "mid": "/m/03q69",
+        "description": "Hair",
+        "score": 0.9884645,
+        "topicality": 0.9884645
+      },
+      {
+        "mid": "/m/0dzct",
+        "description": "Face",
+        "score": 0.96567476,
+        "topicality": 0.96567476
+      },
+      {
+        "mid": "/m/025kyy",
+        "description": "Forehead",
+        "score": 0.9442563,
+        "topicality": 0.9442563
+      },
+      {
+        "mid": "/m/04hgtk",
+        "description": "Head",
+        "score": 0.91825384,
+        "topicality": 0.91825384
+      },
+      {
+        "mid": "/m/0ds4x",
+        "description": "Hairstyle",
+        "score": 0.9135982,
+        "topicality": 0.9135982
+      },
+      {
+        "mid": "/m/0ds5b",
+        "description": "Facial hair",
+        "score": 0.8921383,
+        "topicality": 0.8921383
+      },
+      {
+        "mid": "/m/0f9swq",
+        "description": "Chin",
+        "score": 0.85040087,
+        "topicality": 0.85040087
+      },
+      {
+        "mid": "/m/09q2t",
+        "description": "Brown",
+        "score": 0.82454044,
+        "topicality": 0.82454044
+      },
+      {
+        "mid": "/m/0dgw9r",
+        "description": "Human",
+        "score": 0.76877445,
+        "topicality": 0.76877445
+      },
+      {
+        "mid": "/m/0bby24z",
+        "description": "Moustache",
+        "score": 0.73989755,
+        "topicality": 0.73989755
+      },
+      {
+        "mid": "/m/015h_t",
+        "description": "Beard",
+        "score": 0.725593,
+        "topicality": 0.725593
+      },
+      {
+        "mid": "/m/08nmvx",
+        "description": "S-curl",
+        "score": 0.6748537,
+        "topicality": 0.6748537
+      },
+      {
+        "mid": "/m/0jjw",
+        "description": "Art",
+        "score": 0.5813032,
+        "topicality": 0.5813032
+      },
+      {
+        "mid": "/m/09rv68q",
+        "description": "Lace wig",
+        "score": 0.5756179,
+        "topicality": 0.5756179
+      }
+    ],
+    "safeSearchAnnotation": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imagePropertiesAnnotation": {
+      "dominantColors": {
+        "colors": [
+          {
+            "color": {
+              "red": 255,
+              "green": 254,
+              "blue": 254
+            },
+            "score": 0.5360399,
+            "pixelFraction": 0.7065778
+          },
+          {
+            "color": {
+              "red": 63,
+              "green": 53,
+              "blue": 30
+            },
+            "score": 0.07380482,
+            "pixelFraction": 0.023377778
+          },
+          {
+            "color": {
+              "red": 108,
+              "green": 75,
+              "blue": 60
+            },
+            "score": 0.06253018,
+            "pixelFraction": 0.044888888
+          },
+          {
+            "color": {
+              "red": 27,
+              "green": 23,
+              "blue": 23
+            },
+            "score": 0.031088317,
+            "pixelFraction": 0.020622222
+          },
+          {
+            "color": {
+              "red": 145,
+              "green": 111,
+              "blue": 98
+            },
+            "score": 0.046118625,
+            "pixelFraction": 0.056933332
+          },
+          {
+            "color": {
+              "red": 79,
+              "green": 47,
+              "blue": 33
+            },
+            "score": 0.045981884,
+            "pixelFraction": 0.01751111
+          },
+          {
+            "color": {
+              "red": 92,
+              "green": 77,
+              "blue": 53
+            },
+            "score": 0.028588325,
+            "pixelFraction": 0.009688889
+          },
+          {
+            "color": {
+              "red": 57,
+              "green": 47,
+              "blue": 44
+            },
+            "score": 0.02264874,
+            "pixelFraction": 0.0128
+          },
+          {
+            "color": {
+              "red": 139,
+              "green": 115,
+              "blue": 99
+            },
+            "score": 0.021524757,
+            "pixelFraction": 0.009511111
+          },
+          {
+            "color": {
+              "red": 178,
+              "green": 144,
+              "blue": 131
+            },
+            "score": 0.017182365,
+            "pixelFraction": 0.0356
+          }
+        ]
+      }
+    },
+    "cropHintsAnnotation": {
+      "cropHints": [
+        {
+          "boundingPoly": {
+            "vertices": [
+              {
+                "x": 93
+              },
+              {
+                "x": 1620
+              },
+              {
+                "x": 1620,
+                "y": 1883
+              },
+              {
+                "x": 93,
+                "y": 1883
+              }
+            ]
+          },
+          "confidence": 0.29999998,
+          "importanceFraction": 1.64
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              {},
+              {
+                "x": 1884
+              },
+              {
+                "x": 1884,
+                "y": 1883
+              },
+              {
+                "y": 1883
+              }
+            ]
+          },
+          "confidence": 0.29999998,
+          "importanceFraction": 1.66
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              {
+                "y": 149
+              },
+              {
+                "x": 1884,
+                "y": 149
+              },
+              {
+                "x": 1884,
+                "y": 1713
+              },
+              {
+                "y": 1713
+              }
+            ]
+          },
+          "confidence": 0.29999998,
+          "importanceFraction": 1.62
+        }
+      ]
+    },
+    "webDetection": {
+      "webEntities": [
+        {
+          "entityId": "/m/02l840",
+          "score": 12.234,
+          "description": "Kanye West"
+        },
+        {
+          "entityId": "/m/09c7w0",
+          "score": 0.7587,
+          "description": "United States of America"
+        },
+        {
+          "entityId": "/g/11gmxgyg0_",
+          "score": 0.5303,
+          "description": "Yandhi"
+        },
+        {
+          "entityId": "/m/09jwl",
+          "score": 0.5283,
+          "description": "Musician"
+        },
+        {
+          "entityId": "/t/23_8w5k4ct699",
+          "score": 0.5166
+        },
+        {
+          "entityId": "/m/0hpcdn2",
+          "score": 0.5114,
+          "description": "Rapper"
+        },
+        {
+          "entityId": "/t/26tx7xy9_tgvr",
+          "score": 0.5058
+        },
+        {
+          "entityId": "/m/0710sl",
+          "score": 0.4908,
+          "description": "GOOD Music"
+        },
+        {
+          "entityId": "/t/24qvwlpxg7yk0",
+          "score": 0.4784
+        },
+        {
+          "entityId": "/g/11ghff68cd",
+          "score": 0.4683,
+          "description": "Watch"
+        },
+        {
+          "entityId": "/t/2l1b910h3191",
+          "score": 0.4683
+        },
+        {
+          "entityId": "/m/04rlf",
+          "score": 0.4619,
+          "description": "Music"
+        },
+        {
+          "entityId": "/m/0261x8t",
+          "score": 0.10635,
+          "description": "Kim Kardashian"
+        },
+        {
+          "entityId": "/m/04n2vgk",
+          "score": 0.09654,
+          "description": "Kid Cudi"
+        },
+        {
+          "entityId": "/m/0sghzm9",
+          "score": 0.090840004,
+          "description": "Travis Scott"
+        }
+      ],
+      "partialMatchingImages": [
+        {
+          "url": "https://www.rollingstone.com/wp-content/uploads/2019/01/shutterstock_10010937by.jpg?crop=940:705&amp;width=940"
+        },
+        {
+          "url": "https://www.rollingstone.com/wp-content/uploads/2019/01/shutterstock_10010937by.jpg"
+        },
+        {
+          "url": "https://lpt.c.yimg.jp/amd/20190128-00784061-wwdjapan-000-view.jpg"
+        },
+        {
+          "url": "https://i.pinimg.com/originals/b7/05/92/b70592237a024e53ca296c3b3b8ee163.jpg"
+        },
+        {
+          "url": "https://ksassets.timeincuk.net/wp/uploads/sites/55/2019/01/rexfeatures_10010937by.jpg"
+        },
+        {
+          "url": "https://www.rollingstone.com/wp-content/uploads/2018/12/kanye-west-apologies-broadway-xxxt-2018.jpg"
+        },
+        {
+          "url": "https://blog.dtlr.com/wp-content/uploads/2019/01/kanye.jpg"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/geg3Uf7mV7rNKwOwAL1EMXE0BMkyblHf7-f6sPTpb-VuGfl-QHC1Q0IxUyNh7BnSVD0GXQYLQco-BcgOgC5qpwo=s1200"
+        },
+        {
+          "url": "https://vidmid.com/upload/news/image_1546201878_89806582.jpg"
+        },
+        {
+          "url": "https://i.ytimg.com/vi/8ZjaYN414iw/maxresdefault.jpg"
+        },
+        {
+          "url": "https://i.ytimg.com/vi/goSBwHL7R8M/maxresdefault.jpg"
+        },
+        {
+          "url": "http://hyperap.com/wp-content/uploads/2019/01/this-is-why-kanye-wests-yandhi-a.jpg"
+        },
+        {
+          "url": "https://www.zyzpes.com/img.php?url=http://inews.gtimg.com/newsapp_match/0/6862817935/0"
+        },
+        {
+          "url": "https://elmercurio.com.mx/wp-content/uploads/bfi_thumb/Captura-221-6o85oh97kserair0tevy7ieu9sjpmxna3kqmbbc0uk0.jpg"
+        },
+        {
+          "url": "https://amd.c.yimg.jp/im_siggMPS0ioRUx8zGSV2vf1bcTw---x900-y664-q90-exp3h-pril/amd/20190128-00784061-wwdjapan-000-5-view.jpg"
+        },
+        {
+          "url": "https://ksassets.timeincuk.net/wp/uploads/sites/55/2019/01/rexfeatures_10010937by-920x584.jpg"
+        },
+        {
+          "url": "https://shawetcanada.files.wordpress.com/2018/12/shutterstock_editorial_10010937by_huge.jpg?quality=80&amp;strip=all&amp;w=720&amp;h=480&amp;crop=1"
+        },
+        {
+          "url": "https://theicon.ua/upload/iblock/f51/f51fc18a1ecc1e43b360370f548f7ffe.jpg"
+        },
+        {
+          "url": "https://elmercurio.com.mx/wp-content/uploads/2018/12/Captura-221.jpg"
+        },
+        {
+          "url": "https://login.lyricallemonade.com/wp-content/uploads/Screen-Shot-2019-02-10-at-6.20.15-PM-620x420.jpg"
+        },
+        {
+          "url": "http://hotindiareport.com/wp-content/uploads/2018/12/cindiafotokanye-west-ariana-grande-mental-illness-song-promote-ftr-464x290.jpg"
+        },
+        {
+          "url": "https://scontent-sea1-1.cdninstagram.com/vp/618fe6e9c5912422601814c7b3dc965a/5CF5EB23/t51.2885-15/e35/c60.0.360.360a/50022708_231193127758022_9195320795395783528_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com"
+        },
+        {
+          "url": "https://s2-ssl.dmcdn.net/vRFhm/x240-PgB.jpg"
+        },
+        {
+          "url": "https://i0.wp.com/overdope.com/wp-content/uploads/2018/12/2018-12-16_211742.jpg?fit=330%2C220"
+        },
+        {
+          "url": "https://celebmafia.com/wp-content/uploads/2018/12/kim-kardashian-and-kanye-west-versace-pre-fall-2019-fashion-show-in-nyc-3_thumbnail.jpg"
+        },
+        {
+          "url": "https://s1.r29static.com//bin/entry/410/0,0,2000,2400/140x168,80/2099809/image.jpg"
+        },
+        {
+          "url": "https://login.lyricallemonade.com/wp-content/uploads/Screen-Shot-2019-02-10-at-6.20.15-PM-150x150.jpg"
+        },
+        {
+          "url": "https://scontent-yyz1-1.cdninstagram.com/vp/3c281faed908fd992eb62f984738ffbe/5CE0AE7A/t51.2885-19/s150x150/51477574_298482470865614_7568032787039518720_n.jpg?_nc_ht=scontent-yyz1-1.cdninstagram.com"
+        },
+        {
+          "url": "https://cdn.eblnews.com/sites/default/files/styles/latest/public/cover/2018-12/goSBwHL7R8M.jpg?itok=tmgfwj3K"
+        },
+        {
+          "url": "https://go.hellonews.site/wp-content/uploads/2018/12/Kanye-West-makes-surprise-appearance-at-XXXTentacion-tribute-324x160.jpg"
+        }
+      ],
+      "pagesWithMatchingImages": [
+        {
+          "url": "https://www.rollingstone.com/music/music-news/kanye-west-sunday-service-greatest-hits-775908/",
+          "pageTitle": "Watch &lt;b&gt;Kanye West&lt;/b&gt; Turn Sunday Service Into His Own Mini-Concert ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://www.rollingstone.com/wp-content/uploads/2019/01/shutterstock_10010937by.jpg"
+            },
+            {
+              "url": "https://www.rollingstone.com/wp-content/uploads/2019/01/shutterstock_10010937by.jpg?crop=900:600&amp;width=440"
+            }
+          ]
+        },
+        {
+          "url": "https://www.rollingstone.com/music/music-news/kanye-west-has-two-different-apologies-broadway-xxxtentacion-766108/",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; Returns to Empty Provocation on XXXTentacion&amp;#39;s “One ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://www.rollingstone.com/wp-content/uploads/2018/12/kanye-west-apologies-broadway-xxxt-2018.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=8ZjaYN414iw",
+          "pageTitle": "This Is Why &lt;b&gt;Kanye West&amp;#39;s&lt;/b&gt; &amp;quot;YANDHI&amp;quot; Album Isn&amp;#39;t Dropping Any Time ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://i.ytimg.com/vi/8ZjaYN414iw/maxresdefault.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.nme.com/news/music/details-kanye-west-reported-new-yeezy-boost-350-v2-static-beluga-leak-2437996",
+          "pageTitle": "Details of &lt;b&gt;Kanye West&amp;#39;s&lt;/b&gt; reported new Yeezy Boost leak - NME.com",
+          "partialMatchingImages": [
+            {
+              "url": "https://ksassets.timeincuk.net/wp/uploads/sites/55/2019/01/rexfeatures_10010937by.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://etcanada.com/news/402169/kanye-west-teases-2024-presidential-run-blacks-are-90-per-cent-democrats-that-sounds-like-control-to-me/",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; Teases 2024 Presidential Run: &amp;#39;Blacks Are 90 Per Cent ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://shawetcanada.files.wordpress.com/2018/12/shutterstock_editorial_10010937by_huge.jpg?quality=80&amp;strip=all&amp;w=720&amp;h=480&amp;crop=1"
+            }
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=goSBwHL7R8M",
+          "pageTitle": "&lt;b&gt;Kanye&lt;/b&gt; Claims Travis Scott Threatened Him After Sicko Mode Diss ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://i.ytimg.com/vi/goSBwHL7R8M/maxresdefault.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://etcanada.com/news/398561/new-kanye-west-documentary-released-by-bbc/",
+          "pageTitle": "New &lt;b&gt;Kanye West&lt;/b&gt; Documentary Released By BBC | ETCanada.com",
+          "partialMatchingImages": [
+            {
+              "url": "https://shawetcanada.files.wordpress.com/2018/12/shutterstock_editorial_10010937by_huge.jpg?quality=80&amp;strip=all&amp;w=720&amp;h=480&amp;crop=1"
+            }
+          ]
+        },
+        {
+          "url": "https://flipboard.com/@RollingStone/watch-kanye-west-turn-sunday-service-into-his-own-mini-concert/a-rBHOwat1SfaIzsFHXK-u2Q%3Aa%3A3199477-d9e3a891c2%2Frollingstone.com",
+          "pageTitle": "Flipboard: Watch &lt;b&gt;Kanye West&lt;/b&gt; Turn Sunday Service Into His Own ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://www.rollingstone.com/wp-content/uploads/2019/01/shutterstock_10010937by.jpg?crop=900:600&amp;width=440"
+            }
+          ]
+        },
+        {
+          "url": "https://news.google.com/stories/CAAqeAgKInJDQklTVHpvSmMzUnZjbmt0TXpZd1NrSUtFUWp2cWJTMmpZQU1FWXpXMHJhZzYzM2RFaTFMWVc1NVpTQlhaWE4wSjNNZ1EyaHlhWE4wYldGeklHZHBablFnZEc4Z1MybHRJRXRoY21SaGMyaHBZVzRvQUFQAQ",
+          "pageTitle": "Google News - &lt;b&gt;Kanye West&amp;#39;s&lt;/b&gt; Christmas gift to Kim Kardashian ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://s1.r29static.com//bin/entry/64b/1200x900,80/2099809/image.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://lyricallemonade.com/p/jesus-walks-sunday-service-series-kanye-west",
+          "pageTitle": "JESUS WALKS – SUNDAY SERVICE SERIES – [&lt;b&gt;KANYE WEST&lt;/b&gt; ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://login.lyricallemonade.com/wp-content/uploads/Screen-Shot-2019-02-10-at-6.20.15-PM-620x420.jpg"
+            },
+            {
+              "url": "https://login.lyricallemonade.com/wp-content/uploads/Screen-Shot-2019-02-10-at-6.20.15-PM-150x150.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://zig.com/rolling-stone/photos/kanye-west-is-back-to-saying-whatever-it-takes-to-3100075",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; Is Back to Saying Whatever it Takes to Get Your ... - ZIG",
+          "partialMatchingImages": [
+            {
+              "url": "https://www.rollingstone.com/wp-content/uploads/2018/12/kanye-west-apologies-broadway-xxxt-2018.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://zig.com/rolling-stone/photos/watch-kanye-west-turn-sunday-service-into-his-own-3237281",
+          "pageTitle": "Watch &lt;b&gt;Kanye West&lt;/b&gt; Turn Sunday Service Into His Own Mini-Concert ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://www.rollingstone.com/wp-content/uploads/2019/01/shutterstock_10010937by.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://eblnews.com/video/drake-reacts-kanye-wests-rant-about-him-kim-kardashian-508987",
+          "pageTitle": "Drake Reacts To &lt;b&gt;Kanye West&amp;#39;s&lt;/b&gt; Rant About Him &amp;amp; Kim Kardashian ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://cdn.eblnews.com/sites/default/files/styles/latest/public/cover/2018-12/goSBwHL7R8M.jpg?itok=tmgfwj3K"
+            }
+          ]
+        },
+        {
+          "url": "https://celebmafia.com/kim-kardashian-and-kanye-west-versace-pre-fall-2019-fashion-show-in-nyc-1716363/",
+          "pageTitle": "Kim Kardashian and &lt;b&gt;Kanye West&lt;/b&gt; – Versace Pre-Fall 2019 Fashion ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://celebmafia.com/wp-content/uploads/2018/12/kim-kardashian-and-kanye-west-versace-pre-fall-2019-fashion-show-in-nyc-3_thumbnail.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://eblnews.com/video/kanye-west-slams-drake-dissing-kim-kardashian-travis-scott-507920",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; Slams Drake For Dissing Kim Kardashian &amp;amp; Travis Scott ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://cdn.eblnews.com/sites/default/files/styles/latest/public/cover/2018-12/goSBwHL7R8M.jpg?itok=tmgfwj3K"
+            }
+          ]
+        },
+        {
+          "url": "https://eblnews.com/video/kanye-wests-slams-travis-scott-twitter-rant-after-drake-disses-him-sicko-mode-572488",
+          "pageTitle": "&lt;b&gt;Kanye West&amp;#39;s&lt;/b&gt; SLAMS Travis Scott In Twitter Rant After Drake ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://cdn.eblnews.com/sites/default/files/styles/latest/public/cover/2018-12/goSBwHL7R8M.jpg?itok=tmgfwj3K"
+            }
+          ]
+        },
+        {
+          "url": "https://news.google.com/stories/CAAqOQgKIjNDQklTSURvSmMzUnZjbmt0TXpZd1NoTUtFUWlCemQ2MWpZQU1FVUM2d2ZoY18xSzBLQUFQAQ",
+          "pageTitle": "EXCLUSIVE Nick Cannon on &lt;b&gt;Kanye&lt;/b&gt; Telling Him Not ... - Google News",
+          "partialMatchingImages": [
+            {
+              "url": "https://s1.r29static.com//bin/entry/64b/1200x900,80/2099809/image.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://news.google.com/stories/CAAqOQgKIjNDQklTSURvSmMzUnZjbmt0TXpZd1NoTUtFUWlCemQ2MWpZQU1FZFl3TG80cVdyMmVLQUFQAQ",
+          "pageTitle": "EXCLUSIVE Nick Cannon on &lt;b&gt;Kanye&lt;/b&gt; Telling Him Not ... - Google News",
+          "partialMatchingImages": [
+            {
+              "url": "https://s1.r29static.com//bin/entry/64b/1200x900,80/2099809/image.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://eblnews.com/video/breaking-down-drake-and-kanye-kim-beef-572395",
+          "pageTitle": "Breaking Down The Drake And &lt;b&gt;Kanye&lt;/b&gt; Kim Beef | Video News | EBL ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://cdn.eblnews.com/sites/default/files/styles/latest/public/cover/2018-12/goSBwHL7R8M.jpg?itok=tmgfwj3K"
+            }
+          ]
+        },
+        {
+          "url": "https://news.google.com/stories/CAAqOQgKIjNDQklTSURvSmMzUnZjbmt0TXpZd1NoTUtFUWlCemQ2MWpZQU1FWXpXMHJhZzYzM2RLQUFQAQ",
+          "pageTitle": "EXCLUSIVE Nick Cannon on &lt;b&gt;Kanye&lt;/b&gt; Telling Him Not ... - Google News",
+          "partialMatchingImages": [
+            {
+              "url": "https://s1.r29static.com//bin/entry/64b/1200x900,80/2099809/image.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.myentertainmentnews.com/2019/01/details-of-kanye-wests-reported-new-yeezy-boost-leak/",
+          "pageTitle": "Details of &lt;b&gt;Kanye West&amp;#39;s&lt;/b&gt; reported new Yeezy Boost leak ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://ksassets.timeincuk.net/wp/uploads/sites/55/2019/01/rexfeatures_10010937by.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://go.hellonews.site/details-of-kanye-wests-reported-new-yeezy-boost-leak.html",
+          "pageTitle": "Details of &lt;b&gt;Kanye West&amp;#39;s&lt;/b&gt; reported new Yeezy Boost leak - Go",
+          "partialMatchingImages": [
+            {
+              "url": "https://go.hellonews.site/wp-content/uploads/2019/01/Details-of-Kanye-Wests-reported-new-Yeezy-Boost-leak.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://flipboard.com/topic/watchthethrone/lorde-says-kanye-kid-cudi-stole-her-set-design-at-kids-see-ghosts-debut-show/a-WEGv5NGaTv6pcBq5DeC-vg%3Aa%3A1910308883-36b44163e5%2Fbrooklynvegan.com",
+          "pageTitle": "Flipboard: Lorde says &lt;b&gt;Kanye&lt;/b&gt; Kid Cudi stole her set design at Kids ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://www.rollingstone.com/wp-content/uploads/2019/01/shutterstock_10010937by.jpg?crop=900:600&amp;width=440"
+            }
+          ]
+        },
+        {
+          "url": "https://www.rollingstone.com/author/charles-holmes/page/5/",
+          "pageTitle": "Charles Holmes – Page 5 – Rolling Stone",
+          "partialMatchingImages": [
+            {
+              "url": "https://www.rollingstone.com/wp-content/uploads/2019/01/shutterstock_10010937by.jpg?crop=940:705&amp;width=940"
+            }
+          ]
+        },
+        {
+          "url": "https://www.rollingstone.com/music/page/100/?page=812",
+          "pageTitle": "Music – Page 812 – Rolling Stone",
+          "partialMatchingImages": [
+            {
+              "url": "https://www.rollingstone.com/wp-content/uploads/2019/01/shutterstock_10010937by.jpg?crop=940:705&amp;width=940"
+            }
+          ]
+        },
+        {
+          "url": "https://vidmid.com/news/kanye-west-s-feud-with-drake-reaches-a-new-level-of-petty?uid=95526",
+          "pageTitle": "&lt;b&gt;Kanye West&amp;#39;s&lt;/b&gt; Feud With Drake Reaches A New Level Of Petty",
+          "partialMatchingImages": [
+            {
+              "url": "https://vidmid.com/upload/news/image_1546201878_89806582.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.canadapressit.com/2019/01/01/kanye-west-teases-2024-presidential-run-blacks-are-90-per-cent-democrats-that-sounds-like-control-to-me/",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; Teases 2024 Presidential Run: &amp;#39;Blacks Are 90 Per Cent ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://shawetcanada.files.wordpress.com/2018/12/shutterstock_editorial_10010937by_huge.jpg?quality=80&amp;strip=all&amp;w=720&amp;h=480&amp;crop=1"
+            }
+          ]
+        },
+        {
+          "url": "https://www.zerchoo.com/music/details-of-kanye-wests-reported-new-yeezy-boost-leak/",
+          "pageTitle": "Zerchoo Music - Details of &lt;b&gt;Kanye West&amp;#39;s&lt;/b&gt; reported new Yeezy Boost ...",
+          "partialMatchingImages": [
+            {
+              "url": "http://ksassets.timeincuk.net/wp/uploads/sites/55/2019/01/rexfeatures_10010937by.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://zig.com/kidcudi",
+          "pageTitle": "Kid Cudi: Latest News, Photos, and Videos – ZIG",
+          "partialMatchingImages": [
+            {
+              "url": "https://www.rollingstone.com/wp-content/uploads/2019/01/shutterstock_10010937by.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://ultimatecelebnews.com/2019/01/details-of-kanye-wests-reported-new-yeezy-boost-leak/",
+          "pageTitle": "Details of &lt;b&gt;Kanye West&amp;#39;s&lt;/b&gt; reported new Yeezy Boost leak ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://ksassets.timeincuk.net/wp/uploads/sites/55/2019/01/rexfeatures_10010937by.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://flipboard.com/topic/timwestwood/ransom-note's-best-of-2018/f-871c4a65e1%2Ftheransomnote.com",
+          "pageTitle": "Flipboard: Ransom Note&amp;#39;s Best Of 2018",
+          "partialMatchingImages": [
+            {
+              "url": "https://shawetcanada.files.wordpress.com/2018/12/shutterstock_editorial_10010937by_huge.jpg?quality=80&amp;strip=all&amp;w=720&amp;h=480&amp;crop=1"
+            }
+          ]
+        },
+        {
+          "url": "https://www.pinterest.com/pin/730709108269772296/",
+          "pageTitle": "Details of &lt;b&gt;Kanye&lt;/b&gt; Wests reported new Yeezy Boost leak | Ultimate ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://i.pinimg.com/originals/b7/05/92/b70592237a024e53ca296c3b3b8ee163.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.zerchoo.com/music/kanye-west-is-back-to-saying-whatever-it-takes-to-get-your-attention-on-new-xxxtentacion-song/",
+          "pageTitle": "Zerchoo Music - &lt;b&gt;Kanye West&lt;/b&gt; Is Back to Saying Whatever it Takes to ...",
+          "partialMatchingImages": [
+            {
+              "url": "http://www.rollingstone.com/wp-content/uploads/2018/12/kanye-west-apologies-broadway-xxxt-2018.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.zerchoo.com/music/watch-kanye-west-turn-sunday-service-into-his-own-mini-concert/",
+          "pageTitle": "Zerchoo Music - Watch &lt;b&gt;Kanye West&lt;/b&gt; Turn Sunday Service Into His ...",
+          "partialMatchingImages": [
+            {
+              "url": "http://www.rollingstone.com/wp-content/uploads/2019/01/shutterstock_10010937by.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://blog.dtlr.com/2019/01/predicting-next-years-super-bowl-halftime-headliner/",
+          "pageTitle": "Predicting Next Year&amp;#39;s Super Bowl Halftime Headliner | The Lifestyle",
+          "partialMatchingImages": [
+            {
+              "url": "https://blog.dtlr.com/wp-content/uploads/2019/01/kanye.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://go.hellonews.site/tag/west/page/13",
+          "pageTitle": "&lt;b&gt;West&lt;/b&gt; Archives - Page 13 of 15 - Go - admin",
+          "partialMatchingImages": [
+            {
+              "url": "https://go.hellonews.site/wp-content/uploads/2018/12/Kanye-West-makes-surprise-appearance-at-XXXTentacion-tribute-324x160.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://flipboard.com/@hypebeast/cactus-plant-flea-market's-'kids-see-ghosts'-crewneck-drops-online/a-4eYsz4uYQ2yaoUvuWZV77A%3Aa%3A910332577-0e2d7a44b7%2Fhypebeast.com",
+          "pageTitle": "Flipboard: Cactus Plant Flea Market&amp;#39;s &amp;#39;Kids See Ghosts&amp;#39; Crewneck ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://www.rollingstone.com/wp-content/uploads/2019/01/shutterstock_10010937by.jpg?crop=900:600&amp;width=440"
+            }
+          ]
+        },
+        {
+          "url": "https://www.lyricallemonade.com/author/5261",
+          "pageTitle": "POSTS BY: LUCAS GARRISON - Lyrical Lemonade",
+          "partialMatchingImages": [
+            {
+              "url": "https://login.lyricallemonade.com/wp-content/uploads/Screen-Shot-2019-02-10-at-6.20.15-PM-620x420.jpg"
+            },
+            {
+              "url": "https://login.lyricallemonade.com/wp-content/uploads/Screen-Shot-2019-02-10-at-6.20.15-PM-150x150.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://themusicchannellive.com/author/admin/page/211/",
+          "pageTitle": "admin – Page 211 – TheMusicChannellive",
+          "partialMatchingImages": [
+            {
+              "url": "https://themusicchannellive.com/wp-content/uploads/2019/01/shutterstock_10010937by.jpg"
+            }
+          ]
+        },
+        {
+          "url": "http://hyperap.com/this-is-why-kanye-wests-yandhi-album-hasnt-dropped-yet/",
+          "pageTitle": "This Is Why &lt;b&gt;Kanye West&amp;#39;s&lt;/b&gt; “YANDHI” Album Hasn&amp;#39;t Dropped Yet ...",
+          "partialMatchingImages": [
+            {
+              "url": "http://hyperap.com/wp-content/uploads/2019/01/this-is-why-kanye-wests-yandhi-a.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://go.hellonews.site/tag/xxxtentacion",
+          "pageTitle": "XXXTentacion Archives - Go",
+          "partialMatchingImages": [
+            {
+              "url": "https://go.hellonews.site/wp-content/uploads/2018/12/Kanye-West-makes-surprise-appearance-at-XXXTentacion-tribute-324x160.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.lyricallemonade.com/?p=60763",
+          "pageTitle": "Lyrical Lemonade",
+          "partialMatchingImages": [
+            {
+              "url": "https://login.lyricallemonade.com/wp-content/uploads/Screen-Shot-2019-02-10-at-6.20.15-PM-620x420.jpg"
+            },
+            {
+              "url": "https://login.lyricallemonade.com/wp-content/uploads/Screen-Shot-2019-02-10-at-6.20.15-PM-150x150.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://vidmid.com/news/demi-lovato-may-have-just-made-her-relationship-instagram-official?uid=95527",
+          "pageTitle": "Demi Lovato May Have Just Made Her Relationship Instagram Official",
+          "partialMatchingImages": [
+            {
+              "url": "https://vidmid.com/upload/news/image_1546201878_89806582.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://us.nayi.tv/227624/kanye-claims-travis-scott-threatened-him-after-sicko-mode-diss-hollywoodlife/",
+          "pageTitle": "&lt;b&gt;Kanye&lt;/b&gt; Claims Travis Scott Threatened Him After Sicko Mode Diss ...",
+          "partialMatchingImages": [
+            {
+              "url": "http://i.ytimg.com/vi/goSBwHL7R8M/maxresdefault.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://vidmid.com/search?q=drake",
+          "pageTitle": "Search For drake - VidMid - Best Viral News, Stories &amp;amp; Videos",
+          "partialMatchingImages": [
+            {
+              "url": "https://vidmid.com/upload/news/image_1546201878_89806582.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://go.hellonews.site/tag/tribute/page/5",
+          "pageTitle": "Tribute Archives - Page 5 of 6 - Go - admin",
+          "partialMatchingImages": [
+            {
+              "url": "https://go.hellonews.site/wp-content/uploads/2018/12/Kanye-West-makes-surprise-appearance-at-XXXTentacion-tribute-324x160.jpg"
+            }
+          ]
+        },
+        {
+          "url": "http://notifeed.net/2018-12-07/country-us/provider-222",
+          "pageTitle": "Breaking news - 2018-12-07 - United States - Rolling Stone - Notifeed",
+          "partialMatchingImages": [
+            {
+              "url": "https://www.rollingstone.com/wp-content/uploads/2018/12/kanye-west-apologies-broadway-xxxt-2018.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.zerchoo.com/music/eliminated-queen-talks-rupauls-drag-race-all-stars-4exit/",
+          "pageTitle": "Zerchoo Music - Eliminated Queen Talks &amp;#39;RuPaul&amp;#39;s Drag Race All ...",
+          "partialMatchingImages": [
+            {
+              "url": "http://ksassets.timeincuk.net/wp/uploads/sites/55/2019/01/rexfeatures_10010937by.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://vidmid.com/news/22-faux-fur-coats-you-ll-want-to-bundle-up-in?uid=95525",
+          "pageTitle": "22 Faux Fur Coats You&amp;#39;ll Want To Bundle Up In - VidMid",
+          "partialMatchingImages": [
+            {
+              "url": "https://vidmid.com/upload/news/image_1546201878_89806582.jpg"
+            }
+          ]
+        },
+        {
+          "url": "http://m.dailymovieshub.com/download/8ZjaYN414iw/This-Is-Why-Kanye-Wests-YANDHI-Album-Isnt-Dropping-Any-Time-Soon/",
+          "pageTitle": "Download This Is Why &lt;b&gt;Kanye West&amp;#39;s&lt;/b&gt; &amp;quot;YANDHI&amp;quot; Album Isn&amp;#39;t Dr",
+          "partialMatchingImages": [
+            {
+              "url": "https://i.ytimg.com/vi/8ZjaYN414iw/maxresdefault.jpg"
+            }
+          ]
+        }
+      ],
+      "visuallySimilarImages": [
+        {
+          "url": "http://ct101.us/wp-content/uploads/2016/11/kanye-west-celebrity-mask.jpg"
+        },
+        {
+          "url": "http://www.celebrity-cutouts.co.uk/wp-content/uploads/2015/07/kanye-west-celebrity-mask.jpg"
+        },
+        {
+          "url": "https://www.nicepng.com/png/detail/69-694587_bad-pics-of-kanye-west.png"
+        },
+        {
+          "url": "http://i.imgur.com/LAZVH.jpg"
+        },
+        {
+          "url": "https://www.nicepng.com/png/detail/18-186224_kanye-west-transparent-png-image-download-kanye-west.png"
+        },
+        {
+          "url": "https://s.tcdn.co/f6f/e53/f6fe534d-12b0-3774-8de4-b2b2a24c98d5/3.png"
+        },
+        {
+          "url": "https://ya-webdesign.com/images/kanye-west-face-png-13.png"
+        },
+        {
+          "url": "http://assets.stickpng.com/thumbs/580b585b2edbce24c47b2561.png"
+        },
+        {
+          "url": "https://www.pngkey.com/png/detail/14-146074_share-this-article-kanye-west-head-png.png"
+        }
+      ],
+      "bestGuessLabels": [
+        {
+          "label": "Kanye West"
+        }
+      ]
+    }
+  }

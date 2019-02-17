@@ -1,0 +1,1541 @@
+{
+    "faceAnnotations": [
+      {
+        "boundingPoly": {
+          "vertices": [
+            {
+              "x": 38,
+              "y": 32
+            },
+            {
+              "x": 377,
+              "y": 32
+            },
+            {
+              "x": 377,
+              "y": 424
+            },
+            {
+              "x": 38,
+              "y": 424
+            }
+          ]
+        },
+        "fdBoundingPoly": {
+          "vertices": [
+            {
+              "x": 90,
+              "y": 138
+            },
+            {
+              "x": 325,
+              "y": 138
+            },
+            {
+              "x": 325,
+              "y": 373
+            },
+            {
+              "x": 90,
+              "y": 373
+            }
+          ]
+        },
+        "landmarks": [
+          {
+            "type": "LEFT_EYE",
+            "position": {
+              "x": 157.95232,
+              "y": 212.95013,
+              "z": -0.0022247576
+            }
+          },
+          {
+            "type": "RIGHT_EYE",
+            "position": {
+              "x": 257.57065,
+              "y": 209.95341,
+              "z": -0.8553815
+            }
+          },
+          {
+            "type": "LEFT_OF_LEFT_EYEBROW",
+            "position": {
+              "x": 118.61025,
+              "y": 195.42691,
+              "z": 9.459197
+            }
+          },
+          {
+            "type": "RIGHT_OF_LEFT_EYEBROW",
+            "position": {
+              "x": 180.47789,
+              "y": 193.04446,
+              "z": -21.364857
+            }
+          },
+          {
+            "type": "LEFT_OF_RIGHT_EYEBROW",
+            "position": {
+              "x": 230.4397,
+              "y": 192.12315,
+              "z": -21.777704
+            }
+          },
+          {
+            "type": "RIGHT_OF_RIGHT_EYEBROW",
+            "position": {
+              "x": 292.93744,
+              "y": 191.84665,
+              "z": 7.9075494
+            }
+          },
+          {
+            "type": "MIDPOINT_BETWEEN_EYES",
+            "position": {
+              "x": 205.84505,
+              "y": 213.82968,
+              "z": -21.980068
+            }
+          },
+          {
+            "type": "NOSE_TIP",
+            "position": {
+              "x": 207.17912,
+              "y": 274.9548,
+              "z": -49.189983
+            }
+          },
+          {
+            "type": "UPPER_LIP",
+            "position": {
+              "x": 208.59053,
+              "y": 310.46417,
+              "z": -23.15662
+            }
+          },
+          {
+            "type": "LOWER_LIP",
+            "position": {
+              "x": 209.45901,
+              "y": 344.65887,
+              "z": -13.844172
+            }
+          },
+          {
+            "type": "MOUTH_LEFT",
+            "position": {
+              "x": 168.95766,
+              "y": 326.11078,
+              "z": 5.4617567
+            }
+          },
+          {
+            "type": "MOUTH_RIGHT",
+            "position": {
+              "x": 249.4064,
+              "y": 323.47586,
+              "z": 4.810342
+            }
+          },
+          {
+            "type": "MOUTH_CENTER",
+            "position": {
+              "x": 208.94487,
+              "y": 324.28546,
+              "z": -14.745917
+            }
+          },
+          {
+            "type": "NOSE_BOTTOM_RIGHT",
+            "position": {
+              "x": 237.87923,
+              "y": 281.14795,
+              "z": -8.920317
+            }
+          },
+          {
+            "type": "NOSE_BOTTOM_LEFT",
+            "position": {
+              "x": 178.57301,
+              "y": 284.22507,
+              "z": -8.490166
+            }
+          },
+          {
+            "type": "NOSE_BOTTOM_CENTER",
+            "position": {
+              "x": 207.5948,
+              "y": 290.63412,
+              "z": -24.601835
+            }
+          },
+          {
+            "type": "LEFT_EYE_TOP_BOUNDARY",
+            "position": {
+              "x": 154.87051,
+              "y": 209.75531,
+              "z": -7.0941577
+            }
+          },
+          {
+            "type": "LEFT_EYE_RIGHT_CORNER",
+            "position": {
+              "x": 177.26549,
+              "y": 216.36375,
+              "z": 0.30394417
+            }
+          },
+          {
+            "type": "LEFT_EYE_BOTTOM_BOUNDARY",
+            "position": {
+              "x": 155.6383,
+              "y": 221.60565,
+              "z": -0.45703304
+            }
+          },
+          {
+            "type": "LEFT_EYE_LEFT_CORNER",
+            "position": {
+              "x": 134.25468,
+              "y": 216.44763,
+              "z": 9.862958
+            }
+          },
+          {
+            "type": "LEFT_EYE_PUPIL",
+            "position": {
+              "x": 153.4255,
+              "y": 216.77197,
+              "z": -2.417264
+            }
+          },
+          {
+            "type": "RIGHT_EYE_TOP_BOUNDARY",
+            "position": {
+              "x": 257.33182,
+              "y": 207.18652,
+              "z": -7.9863267
+            }
+          },
+          {
+            "type": "RIGHT_EYE_RIGHT_CORNER",
+            "position": {
+              "x": 278.11786,
+              "y": 212.53555,
+              "z": 8.499328
+            }
+          },
+          {
+            "type": "RIGHT_EYE_BOTTOM_BOUNDARY",
+            "position": {
+              "x": 257.55014,
+              "y": 219.10202,
+              "z": -1.3438941
+            }
+          },
+          {
+            "type": "RIGHT_EYE_LEFT_CORNER",
+            "position": {
+              "x": 235.47742,
+              "y": 214.90802,
+              "z": -0.24265221
+            }
+          },
+          {
+            "type": "RIGHT_EYE_PUPIL",
+            "position": {
+              "x": 258.57318,
+              "y": 214.15158,
+              "z": -3.4634945
+            }
+          },
+          {
+            "type": "LEFT_EYEBROW_UPPER_MIDPOINT",
+            "position": {
+              "x": 149.6262,
+              "y": 180.9659,
+              "z": -13.847043
+            }
+          },
+          {
+            "type": "RIGHT_EYEBROW_UPPER_MIDPOINT",
+            "position": {
+              "x": 260.86932,
+              "y": 178.20084,
+              "z": -14.821269
+            }
+          },
+          {
+            "type": "LEFT_EAR_TRAGION",
+            "position": {
+              "x": 92.116425,
+              "y": 262.52066,
+              "z": 129.68776
+            }
+          },
+          {
+            "type": "RIGHT_EAR_TRAGION",
+            "position": {
+              "x": 325.00128,
+              "y": 256.66794,
+              "z": 127.62217
+            }
+          },
+          {
+            "type": "FOREHEAD_GLABELLA",
+            "position": {
+              "x": 205.43103,
+              "y": 191.12936,
+              "z": -25.546816
+            }
+          },
+          {
+            "type": "CHIN_GNATHION",
+            "position": {
+              "x": 210.6735,
+              "y": 389.3481,
+              "z": 2.8246427
+            }
+          },
+          {
+            "type": "CHIN_LEFT_GONION",
+            "position": {
+              "x": 104.69709,
+              "y": 329.8598,
+              "z": 91.180336
+            }
+          },
+          {
+            "type": "CHIN_RIGHT_GONION",
+            "position": {
+              "x": 315.00797,
+              "y": 324.75848,
+              "z": 89.31257
+            }
+          }
+        ],
+        "rollAngle": -1.4713345,
+        "panAngle": -0.50453943,
+        "tiltAngle": -2.8786883,
+        "detectionConfidence": 0.99990165,
+        "landmarkingConfidence": 0.6937891,
+        "joyLikelihood": "VERY_UNLIKELY",
+        "sorrowLikelihood": "VERY_UNLIKELY",
+        "angerLikelihood": "VERY_UNLIKELY",
+        "surpriseLikelihood": "VERY_UNLIKELY",
+        "underExposedLikelihood": "VERY_UNLIKELY",
+        "blurredLikelihood": "VERY_UNLIKELY",
+        "headwearLikelihood": "VERY_UNLIKELY"
+      }
+    ],
+    "labelAnnotations": [
+      {
+        "mid": "/m/03q69",
+        "description": "Hair",
+        "score": 0.9873046,
+        "topicality": 0.9873046
+      },
+      {
+        "mid": "/m/0dzct",
+        "description": "Face",
+        "score": 0.9817479,
+        "topicality": 0.9817479
+      },
+      {
+        "mid": "/m/025kyy",
+        "description": "Forehead",
+        "score": 0.976572,
+        "topicality": 0.976572
+      },
+      {
+        "mid": "/m/0ds5b",
+        "description": "Facial hair",
+        "score": 0.958422,
+        "topicality": 0.958422
+      },
+      {
+        "mid": "/m/027n3_",
+        "description": "Eyebrow",
+        "score": 0.9404967,
+        "topicality": 0.9404967
+      },
+      {
+        "mid": "/m/0k0pj",
+        "description": "Nose",
+        "score": 0.92342395,
+        "topicality": 0.92342395
+      },
+      {
+        "mid": "/m/04hgtk",
+        "description": "Head",
+        "score": 0.9208564,
+        "topicality": 0.9208564
+      },
+      {
+        "mid": "/m/0f9swq",
+        "description": "Chin",
+        "score": 0.9177565,
+        "topicality": 0.9177565
+      },
+      {
+        "mid": "/m/0ds4x",
+        "description": "Hairstyle",
+        "score": 0.90598774,
+        "topicality": 0.90598774
+      },
+      {
+        "mid": "/m/0bby24z",
+        "description": "Moustache",
+        "score": 0.8464651,
+        "topicality": 0.8464651
+      },
+      {
+        "mid": "/m/015h_t",
+        "description": "Beard",
+        "score": 0.8375849,
+        "topicality": 0.8375849
+      },
+      {
+        "mid": "/m/037p5b",
+        "description": "Cheek",
+        "score": 0.7994795,
+        "topicality": 0.7994795
+      },
+      {
+        "mid": "/m/0dgw9r",
+        "description": "Human",
+        "score": 0.7467646,
+        "topicality": 0.7467646
+      },
+      {
+        "mid": "/m/02cqfm",
+        "description": "Close-up",
+        "score": 0.7332176,
+        "topicality": 0.7332176
+      },
+      {
+        "mid": "/m/0fc1fy",
+        "description": "Black hair",
+        "score": 0.65660113,
+        "topicality": 0.65660113
+      },
+      {
+        "mid": "/m/01k9lj",
+        "description": "Jaw",
+        "score": 0.6302053,
+        "topicality": 0.6302053
+      },
+      {
+        "mid": "/m/06j1y6",
+        "description": "Caesar cut",
+        "score": 0.5549584,
+        "topicality": 0.5549584
+      },
+      {
+        "mid": "/m/08nmvx",
+        "description": "S-curl",
+        "score": 0.5406375,
+        "topicality": 0.5406375
+      },
+      {
+        "mid": "/m/039xj_",
+        "description": "Ear",
+        "score": 0.51232,
+        "topicality": 0.51232
+      }
+    ],
+    "safeSearchAnnotation": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imagePropertiesAnnotation": {
+      "dominantColors": {
+        "colors": [
+          {
+            "color": {
+              "red": 254,
+              "green": 254,
+              "blue": 254
+            },
+            "score": 0.49267825,
+            "pixelFraction": 0.55089444
+          },
+          {
+            "color": {
+              "red": 55,
+              "green": 50,
+              "blue": 52
+            },
+            "score": 0.15053268,
+            "pixelFraction": 0.09322248
+          },
+          {
+            "color": {
+              "red": 113,
+              "green": 81,
+              "blue": 69
+            },
+            "score": 0.06337691,
+            "pixelFraction": 0.05234316
+          },
+          {
+            "color": {
+              "red": 93,
+              "green": 79,
+              "blue": 76
+            },
+            "score": 0.07338369,
+            "pixelFraction": 0.03867473
+          },
+          {
+            "color": {
+              "red": 141,
+              "green": 108,
+              "blue": 95
+            },
+            "score": 0.03860055,
+            "pixelFraction": 0.09637188
+          },
+          {
+            "color": {
+              "red": 108,
+              "green": 81,
+              "blue": 77
+            },
+            "score": 0.024379248,
+            "pixelFraction": 0.011022927
+          },
+          {
+            "color": {
+              "red": 102,
+              "green": 80,
+              "blue": 68
+            },
+            "score": 0.017318198,
+            "pixelFraction": 0.0073696147
+          },
+          {
+            "color": {
+              "red": 210,
+              "green": 191,
+              "blue": 186
+            },
+            "score": 0.017227747,
+            "pixelFraction": 0.009007307
+          },
+          {
+            "color": {
+              "red": 184,
+              "green": 149,
+              "blue": 135
+            },
+            "score": 0.016335059,
+            "pixelFraction": 0.06021668
+          },
+          {
+            "color": {
+              "red": 29,
+              "green": 27,
+              "blue": 31
+            },
+            "score": 0.014627431,
+            "pixelFraction": 0.009448224
+          }
+        ]
+      }
+    },
+    "cropHintsAnnotation": {
+      "cropHints": [
+        {
+          "boundingPoly": {
+            "vertices": [
+              {
+                "x": 33
+              },
+              {
+                "x": 377
+              },
+              {
+                "x": 377,
+                "y": 424
+              },
+              {
+                "x": 33,
+                "y": 424
+              }
+            ]
+          },
+          "confidence": 0.29999998,
+          "importanceFraction": 1.63
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              {},
+              {
+                "x": 424
+              },
+              {
+                "x": 424,
+                "y": 424
+              },
+              {
+                "y": 424
+              }
+            ]
+          },
+          "confidence": 0.29999998,
+          "importanceFraction": 1.74
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              {
+                "y": 33
+              },
+              {
+                "x": 424,
+                "y": 33
+              },
+              {
+                "x": 424,
+                "y": 390
+              },
+              {
+                "y": 390
+              }
+            ]
+          },
+          "confidence": 0.29999998,
+          "importanceFraction": 1.54
+        }
+      ]
+    },
+    "webDetection": {
+      "webEntities": [
+        {
+          "entityId": "/m/02l840",
+          "score": 10.965,
+          "description": "Kanye West"
+        },
+        {
+          "entityId": "/g/11gh3x2n8y",
+          "score": 0.7151,
+          "description": "Kanye West Celebrity Mask, Card Face and Fancy Dress Mask"
+        },
+        {
+          "entityId": "/m/01kr41",
+          "score": 0.7066,
+          "description": "Mask"
+        },
+        {
+          "entityId": "/g/11f9ylcmv7",
+          "score": 0.7022,
+          "description": "I Love It"
+        },
+        {
+          "entityId": "/t/25z1jk1h_cdrk",
+          "score": 0.7022
+        },
+        {
+          "entityId": "/g/11gh3ymw_9",
+          "score": 0.6394,
+          "description": "mask Junction Kanye West mask"
+        },
+        {
+          "entityId": "/g/11gh3wjkx2",
+          "score": 0.6012,
+          "description": "Kanye West Celebrity Mask, Cardboard Face and Fancy Dress Mask"
+        },
+        {
+          "entityId": "/g/11fjn1sthq",
+          "score": 0.571,
+          "description": "Kanye West Celebrity Mask, Cardboard Face and Fancy Dress Mask"
+        },
+        {
+          "entityId": "/m/01rfz",
+          "score": 0.4962,
+          "description": "Celebrity"
+        },
+        {
+          "entityId": "/g/11f7b810yl",
+          "score": 0.4829,
+          "description": "Kanye West - Budget Range - Ready to Wear Celebrity Face Mask"
+        },
+        {
+          "entityId": "/g/11hdbq3jbh",
+          "score": 0.4189,
+          "description": "Donald Trump"
+        },
+        {
+          "entityId": "/g/11hdbc91dy",
+          "score": 0.4126,
+          "description": "Thomas The Tank Engine Party Masks - Pack of 8."
+        },
+        {
+          "entityId": "/m/012z6q1g",
+          "score": 0.404,
+          "description": "The Life of Pablo"
+        },
+        {
+          "entityId": "/m/0hpcdn2",
+          "score": 0.3383,
+          "description": "Rapper"
+        },
+        {
+          "entityId": "/g/11dyxzlwk2",
+          "score": 0.08106001,
+          "description": "Lil Pump"
+        }
+      ],
+      "fullMatchingImages": [
+        {
+          "url": "https://m.media-amazon.com/images/I/61ExrrkAnHL._SR500,500_.jpg"
+        },
+        {
+          "url": "https://img1.wantitall.co.za/prodimages/kanye-west-celebrity-mask-cardboard-face-and-fancy-dress-mask__51NWoanGbPL.jpg"
+        },
+        {
+          "url": "https://i.ebayimg.com/images/g/0xkAAOSwa3ZbxHSI/s-l640.png"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61OXbgZXZyL._SR500,500_.jpg"
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/2226/7261/products/51NWoanGbPL_580x.jpg?v=1531268389"
+        },
+        {
+          "url": "https://i.ebayimg.com/images/g/0xkAAOSwa3ZbxHSI/s-l1600.png"
+        },
+        {
+          "url": "https://img2.wantitall.co.za/prodimages/kanye-west-celebrity-mask-card-face-and-fancy-dress-mask__51df9GbNdxL.jpg"
+        },
+        {
+          "url": "https://i1.wp.com/www.celebrity-cutouts.co.uk/wp-content/uploads/2015/07/kanye-west-celebrity-mask.jpg?resize=450%2C500&amp;ssl=1"
+        },
+        {
+          "url": "https://i0.wp.com/www.celebrity-cutouts.co.uk/wp-content/uploads/2018/03/mekhi-phifer-celebrity-mask.png?resize=450%2C500&amp;ssl=1"
+        },
+        {
+          "url": "https://images-na.ssl-images-amazon.com/images/I/61ExrrkAnHL._SX425_.jpg"
+        },
+        {
+          "url": "https://images-na.ssl-images-amazon.com/images/I/61OXbgZXZyL._SX425_.jpg"
+        },
+        {
+          "url": "http://www.lingeriefemme.org/wp-content/uploads/amazon-kanye-west-celebrity-mask-cardboard-face-and-fancy-kanye-west-cardboard-cutout.jpg"
+        },
+        {
+          "url": "https://i2.cdscdn.com/pdt2/8/1/6/1/065x065/AUC5060229977816.jpg"
+        }
+      ],
+      "partialMatchingImages": [
+        {
+          "url": "https://files.dals.media/mediafiles/image/2017/11/28/alopecia-senior-photoshoot-madisyn-babcock-chelsea-taylor-6-5a09f3fcccfe5__880-IjqZCg__original__.jpg"
+        },
+        {
+          "url": "http://raw.cdn.cennoticias.com/2daf5645-5c2b-4d74-870f-9bcf8df87b51"
+        },
+        {
+          "url": "http://thesource.com/wp-content/uploads/2018/06/Kanye-West-2.jpg"
+        },
+        {
+          "url": "https://66.media.tumblr.com/cf759d4ec3ff20a4362cb01f4504eab0/tumblr_o1n2i649Hm1ss6fi3o1_1280.jpg"
+        },
+        {
+          "url": "https://www.tribuna.com.mx/__export/1538374644208/sites/tribuna/img/2018/09/30/kanye_trump_crop1538374424175.jpg_423682103.jpg"
+        },
+        {
+          "url": "https://i.redd.it/7p7ojz2lo4d11.jpg"
+        },
+        {
+          "url": "https://static.vix.com/en/sites/default/files/styles/1x1/public/K/Kanye-West-hospitalizado-de-emergencia.jpg?itok=lykfba4S"
+        },
+        {
+          "url": "https://static.vix.com/es/sites/default/files/styles/1x1/public/imj/alfombrarosa/K/Kanye-West-hospitalizado-de-emergencia.jpg?itok=y-y_lL7V"
+        },
+        {
+          "url": "https://thetylt.com/attachments/6f40d5783d1fcba286abd7978c6ca2ee20129f55/store/fitq/1235/5000/68ab33b2fc92dd25868ef2f1981181e7c47e8b5256a21f235084e69fd544/KanyeDrake-grid+%282%29.jpg"
+        },
+        {
+          "url": "https://images-na.ssl-images-amazon.com/images/I/61OXbgZXZyL._SL1000_.jpg"
+        },
+        {
+          "url": "https://images-na.ssl-images-amazon.com/images/I/61ExrrkAnHL._SL1000_.jpg"
+        },
+        {
+          "url": "https://i.ebayimg.com/images/g/D0AAAOSwlelb~BtG/s-l1600.jpg"
+        },
+        {
+          "url": "https://i.ytimg.com/vi/X1hBG7a34b8/maxresdefault.jpg"
+        },
+        {
+          "url": "https://i.ytimg.com/vi/RBV-2RCPQP8/maxresdefault.jpg"
+        },
+        {
+          "url": "https://yt3.ggpht.com/a-/AN66SAyefsDzSWrsvBNcP4F91lnA_ILF0q2KDkBEmQ=s900-mo-c-c0xffffffff-rj-k-no"
+        },
+        {
+          "url": "https://nexter.org/wp-content/uploads/2018/07/famous-men-jobs-before-fame-pics.jpg"
+        },
+        {
+          "url": "https://www.memesmonkey.com/images/memesmonkey/15/152c8dee1a4bbe6c554ce3f9d268b460.jpeg"
+        },
+        {
+          "url": "https://i.pinimg.com/originals/fa/63/f2/fa63f2b598983224843b295a6a4c3e3d.jpg"
+        },
+        {
+          "url": "https://www.tribuna.com.mx/__export/1538374644208/sites/tribuna/img/2018/09/30/kanye_trump_crop1538374424175.jpg_759710130.jpg"
+        },
+        {
+          "url": "https://static1.squarespace.com/static/551655bce4b0ae548a7bc945/t/5bb491d5c83025a8d2d04a88/1538560485159/Kanye+Stress+Persona"
+        },
+        {
+          "url": "https://static.wixstatic.com/media/eccb78_ea63b885b42b495da8a926437b59ef1e~mv2.jpg/v1/fill/w_820,h_820,al_c,q_90/file.jpg"
+        },
+        {
+          "url": "https://preview.redd.it/7p7ojz2lo4d11.jpg?overlay-align=bottom,left&amp;overlay-pad=8,16&amp;crop=1119:585.863874346,smart&amp;overlay=%2Fv9vyirk6hl221.png%3Fs%3Db466421949eb723078743745ce6421609d7a9c66&amp;width=1119&amp;height=585.863874346&amp;auto=webp&amp;s=eb72210deeb57a66116bf2516f8441e077fbb6f0"
+        },
+        {
+          "url": "https://img.buzzfeed.com/buzzfeed-static/static/2015-09/25/7/enhanced/webdr06/original-grid-image-30264-1443180721-1.jpg?downsize=700:*&amp;output-format=auto&amp;output-quality=auto"
+        },
+        {
+          "url": "https://img.buzzfeed.com/buzzfeed-static/static/2015-09/25/7/enhanced/webdr06/original-grid-image-30264-1443180724-6.jpg?downsize=700:*&amp;output-format=auto&amp;output-quality=auto"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/DuiDBaGXcAEfWtG.jpg"
+        },
+        {
+          "url": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/screen-shot-2018-09-05-at-6-44-02-am-1536144126.png?crop=1xw:0.9001692047377327xh;center,top&amp;resize=1200:*"
+        },
+        {
+          "url": "https://thehill.com/sites/default/files/trumpdonald_westkanye_3.jpg"
+        },
+        {
+          "url": "http://chano8.com/wp-content/uploads/2018/10/Kanye-West-827x620.jpg"
+        },
+        {
+          "url": "https://images-na.ssl-images-amazon.com/images/I/61ExrrkAnHL._SX679_.jpg"
+        },
+        {
+          "url": "https://images-na.ssl-images-amazon.com/images/I/61OXbgZXZyL._SX679_.jpg"
+        },
+        {
+          "url": "https://img.buzzfeed.com/buzzfeed-static/static/2014-07/16/17/enhanced/webdr02/original-grid-image-13248-1405547933-17.jpg?downsize=700:*&amp;output-format=auto&amp;output-quality=auto"
+        },
+        {
+          "url": "https://ssl.c.photoshelter.com/img-get2/I0000FhkU_kugpi8/fit=1000x750/Andreas-Ivanschitz-01.jpg"
+        },
+        {
+          "url": "https://i.ebayimg.com/images/g/D0AAAOSwlelb~BtG/s-l640.jpg"
+        },
+        {
+          "url": "https://static1.squarespace.com/static/551655bce4b0ae548a7bc945/t/5bb491d5c83025a8d2d04a88/1538560485159/Kanye+Stress+Persona?format=750w"
+        },
+        {
+          "url": "https://heabbi.com/wp-content/uploads/2018/11/Sin-t%C3%ADtulo-2-750x530.jpg"
+        },
+        {
+          "url": "https://image-store.slidesharecdn.com/e6854650-51b4-44d9-a714-e2d0acf0f68b-original.jpeg"
+        },
+        {
+          "url": "https://c1.staticflickr.com/1/847/42186357055_aa7461e306_c.jpg"
+        },
+        {
+          "url": "https://tortugascycling.com/images/5funreasonstohaveaschoollibraryphotoboot_B7493711.jpg"
+        },
+        {
+          "url": "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/cdn/248c7a28-5427-4a84-8f49-88a21a17497f/3ba02643-cbbb-4beb-8380-e224f6329490.jpg"
+        },
+        {
+          "url": "https://img1.nickiswift.com/img/uploads/2018/12/463222797-780x438_rev1.jpg"
+        },
+        {
+          "url": "https://img1.nickiswift.com/img/gallery/whats-really-going-on-with-kanye-west-upgrade-oct-1-2018/intro-1538501380.jpg"
+        },
+        {
+          "url": "https://www.bet.com/video/bet-breaks/2018/celebrities/092418-kanye-west-speaks-on-social-media-pressure/_jcr_content/leftcol/videoplayer/videoImage.medium16x9image.dimg/__1537807225906__1537789920833/092418-SHOWS-BET-BREAKS-KANYE-1.jpg"
+        },
+        {
+          "url": "https://images-na.ssl-images-amazon.com/images/I/61OXbgZXZyL._SX569_.jpg"
+        },
+        {
+          "url": "https://images-na.ssl-images-amazon.com/images/I/61ExrrkAnHL._SX569_.jpg"
+        },
+        {
+          "url": "https://www.rap-up.com/app/uploads/2015/03/kanye-fur.jpg"
+        },
+        {
+          "url": "https://lailasnews.com/wp-content/uploads/2018/09/Kanye-West-just-apologized-to-Drake-on-Twitter-lailasnews.png"
+        },
+        {
+          "url": "https://media.gq.com/photos/5aeb62001d06226132921382/3:2/w_640/kanye-west-adidas-stands-by-him-despite-remarks-on-slavery-and-donald-trump.jpg"
+        },
+        {
+          "url": "https://images-na.ssl-images-amazon.com/images/I/61OXbgZXZyL._SX522_.jpg"
+        },
+        {
+          "url": "https://images-na.ssl-images-amazon.com/images/I/61ExrrkAnHL._SX522_.jpg"
+        },
+        {
+          "url": "https://cdn-ami-wordpress.heartyhosting.com/www.nationalenquirer.com/wp-content/uploads/2017/04/kanye640x420.jpg?fit=640%2C420&amp;ssl=1"
+        }
+      ],
+      "pagesWithMatchingImages": [
+        {
+          "url": "https://www.amazon.com/Kanye-Celebrity-Cardboard-Fancy-Dress/dp/B017M289YW",
+          "pageTitle": "Amazon.com: &lt;b&gt;Kanye West&lt;/b&gt; Celebrity Mask, Cardboard &lt;b&gt;Face&lt;/b&gt; and ...",
+          "fullMatchingImages": [
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/61OXbgZXZyL._SX425_.jpg"
+            },
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/61OXbgZXZyL._SX466_.jpg"
+            },
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/61OXbgZXZyL._SX679_.jpg"
+            },
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/61OXbgZXZyL._SX522_.jpg"
+            },
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/61OXbgZXZyL._SY355_.jpg"
+            },
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/51NWoanGbPL.jpg"
+            },
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/61OXbgZXZyL._SX569_.jpg"
+            },
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/61OXbgZXZyL._SY450_.jpg"
+            },
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/61ExrrkAnHL._AC_UL160_SR160,160_.jpg"
+            },
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/61OXbgZXZyL._SL1000_.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.amazon.com/Kanye-West-Celebrity-Fancy-Dress/dp/B011RWIXQ2",
+          "pageTitle": "Amazon.com: &lt;b&gt;Kanye West&lt;/b&gt; Celebrity Mask, Card &lt;b&gt;Face&lt;/b&gt; and Fancy ...",
+          "fullMatchingImages": [
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/61ExrrkAnHL._SX522_.jpg"
+            },
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/51df9GbNdxL.jpg"
+            },
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/61ExrrkAnHL._SY355_.jpg"
+            },
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/61ExrrkAnHL._SX425_.jpg"
+            },
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/61ExrrkAnHL._SL1000_.jpg"
+            },
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/41eci-TmD7L._SY355_.jpg"
+            },
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/61ExrrkAnHL._SX569_.jpg"
+            },
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/61ExrrkAnHL._AC_UL115_.jpg"
+            },
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/61ExrrkAnHL._SX466_.jpg"
+            },
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/61ExrrkAnHL._SX679_.jpg"
+            },
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/61OXbgZXZyL._AC_UL160_SR160,160_.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.amazon.com/Kanye-West-Life-Size-Cutout/dp/B011RWITBQ",
+          "pageTitle": "Amazon.com: &lt;b&gt;Kanye West&lt;/b&gt; (Hat) Life Size Cutout: Home &amp;amp; Kitchen",
+          "partialMatchingImages": [
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/61OXbgZXZyL._AC_UL160_SR160,160_.jpg"
+            },
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/61ExrrkAnHL._AC_UL160_SR160,160_.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.amazon.com/Kanye-President-2020-Mens-T-Shirt/dp/B07BRCXC2M",
+          "pageTitle": "Amazon.com: &lt;b&gt;Kanye&lt;/b&gt; for President 2020 Men&amp;#39;s T-Shirt: Clothing",
+          "partialMatchingImages": [
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/61OXbgZXZyL._AC_UL160_SR160,160_.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.reddit.com/r/Kanye/comments/936lii/kanye_wests_face_completely_composed_of_kanye/",
+          "pageTitle": "&lt;b&gt;Kanye west&amp;#39;s face&lt;/b&gt; completely composed of kanye west&amp;#39;s ... - Reddit",
+          "partialMatchingImages": [
+            {
+              "url": "https://i.redd.it/7p7ojz2lo4d11.jpg"
+            },
+            {
+              "url": "https://preview.redd.it/7p7ojz2lo4d11.jpg?overlay-align=bottom,left&amp;overlay-pad=8,16&amp;crop=1119:585.863874346,smart&amp;overlay=%2Fv9vyirk6hl221.png%3Fs%3Db466421949eb723078743745ce6421609d7a9c66&amp;width=1119&amp;height=585.863874346&amp;auto=webp&amp;s=eb72210deeb57a66116bf2516f8441e077fbb6f0"
+            }
+          ]
+        },
+        {
+          "url": "https://www.amazon.co.uk/CELEBRITY-FACE-MASK-KIT-YOURSELF/dp/6042651579",
+          "pageTitle": "CELEBRITY &lt;b&gt;FACE&lt;/b&gt; MASK KIT - &lt;b&gt;KANYE WEST&lt;/b&gt; - DO IT YOURSELF ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/41eci-TmD7L._AC_UL160_SR160,160_.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.ebay.com/p/Kanye-West-Celebrity-Mask-Cardboard-Face-and-Fancy-Dress-Mask/1140626883",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; Celebrity Mask Cardboard &lt;b&gt;Face&lt;/b&gt; and Fancy Dress Mask ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://i.ebayimg.com/images/g/D0AAAOSwlelb~BtG/s-l1600.jpg"
+            },
+            {
+              "url": "https://i.ebayimg.com/images/g/D0AAAOSwlelb~BtG/s-l64.jpg"
+            },
+            {
+              "url": "https://i.ebayimg.com/images/g/D0AAAOSwlelb~BtG/s-l640.jpg"
+            },
+            {
+              "url": "https://i.ebayimg.com/images/g/fJoAAOSwypZb~BtF/s-l640.jpg"
+            },
+            {
+              "url": "https://i.ebayimg.com/images/g/fJoAAOSwypZb~BtF/s-l64.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.amazon.co.uk/KANYE-WEST-BUDGET-RANGE-CELEBRITY/dp/B01L02N9FY",
+          "pageTitle": "&lt;b&gt;kanye west&lt;/b&gt; - budget range - ready to wear celebrity &lt;b&gt;face&lt;/b&gt; mask",
+          "partialMatchingImages": [
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/41eci-TmD7L._AC_UL160_SR160,160_.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.amazon.co.uk/Kanye-West-Celebrity-Fancy-Dress/dp/B011RTV8O4",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; Celebrity Mask, Card &lt;b&gt;Face&lt;/b&gt; and Fancy Dress Mask ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/41eci-TmD7L._SY355_.jpg"
+            },
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/41eci-TmD7L._AC_UL115_.jpg"
+            },
+            {
+              "url": "https://images-eu.ssl-images-amazon.com/images/I/41eci-TmD7L._SR600%2C315_PIWhiteStrip%2CBottomLeft%2C0%2C35_SCLZZZZZZZ_.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.amazon.ca/Kanye-Celebrity-Cardboard-Fancy-Dress/dp/B017M289YW",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; Celebrity Mask, Cardboard &lt;b&gt;Face&lt;/b&gt; and Fancy Dress Mask ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/61OXbgZXZyL._SX466_.jpg"
+            },
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/61OXbgZXZyL._SX522_.jpg"
+            },
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/61OXbgZXZyL._SY355_.jpg"
+            },
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/61OXbgZXZyL._SY450_.jpg"
+            },
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/61OXbgZXZyL._SL1000_.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.ebay.com/p/Kanye-West-Celebrity-Mask-Cardboard-Face-and-Fancy-Dress/1977936451",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; Celebrity Mask Cardboard &lt;b&gt;Face&lt;/b&gt; and Fancy Dress | eBay",
+          "fullMatchingImages": [
+            {
+              "url": "https://i.ebayimg.com/images/g/0xkAAOSwa3ZbxHSI/s-l1600.png"
+            },
+            {
+              "url": "https://i.ebayimg.com/images/g/dpcAAOSwup1bv5BS/s-l225.jpg"
+            },
+            {
+              "url": "https://i.ebayimg.com/images/g/0xkAAOSwa3ZbxHSI/s-l225.jpg"
+            },
+            {
+              "url": "https://i.ebayimg.com/images/g/0xkAAOSwa3ZbxHSI/s-l640.png"
+            },
+            {
+              "url": "https://i.ebayimg.com/images/g/0xkAAOSwa3ZbxHSI/s-l64.png"
+            }
+          ]
+        },
+        {
+          "url": "https://www.amazon.com.au/Kanye-West-Celebrity-Fancy-Dress/dp/B07K27TYC2",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; Celebrity Mask, Card &lt;b&gt;Face&lt;/b&gt; and Fancy Dress Mask ...",
+          "fullMatchingImages": [
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/61ExrrkAnHL._SX522_.jpg"
+            },
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/51df9GbNdxL.jpg"
+            },
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/61ExrrkAnHL._SX425_.jpg"
+            },
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/61ExrrkAnHL._SL1000_.jpg"
+            },
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/61ExrrkAnHL._SX466_.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.ebay.co.uk/itm/Kanye-West-Celebrity-Mask-Card-Face-and-Fancy-Dress-Mask-/163199328559",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; Celebrity Mask, Card &lt;b&gt;Face&lt;/b&gt; and Fancy Dress Mask - eBay",
+          "partialMatchingImages": [
+            {
+              "url": "https://i.ebayimg.com/images/i/163199328559-0-1/s-l1000.jpg"
+            },
+            {
+              "url": "https://i.ebayimg.com/images/g/Oj0AAOSwJ8pbcLHL/s-l64.jpg"
+            },
+            {
+              "url": "https://i.ebayimg.com/images/g/2zIAAOSwuORbcLHK/s-l64.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.amazon.co.uk/Kanye-Celebrity-Cardboard-Fancy-Dress/dp/B011RWIXQ2",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; Celebrity Mask, Cardboard &lt;b&gt;Face&lt;/b&gt; and Fancy Dress Mask ...",
+          "fullMatchingImages": [
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/61ExrrkAnHL._SX522_.jpg"
+            },
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/61ExrrkAnHL._SY355_.jpg"
+            },
+            {
+              "url": "https://images-eu.ssl-images-amazon.com/images/I/51df9GbNdxL._SR600%2C315_PIWhiteStrip%2CBottomLeft%2C0%2C35_SCLZZZZZZZ_.jpg"
+            },
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/61ExrrkAnHL._SX425_.jpg"
+            },
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/61ExrrkAnHL._SL1000_.jpg"
+            },
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/41eci-TmD7L._AC_UL160_SR160,160_.jpg"
+            },
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/61ExrrkAnHL._SX569_.jpg"
+            },
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/61ExrrkAnHL._SX466_.jpg"
+            },
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/61ExrrkAnHL._SX679_.jpg"
+            }
+          ]
+        },
+        {
+          "url": "http://servius.in/yz446576-hmfhhosfiyegejlafhvo-dicvolq-icxgtwlnoivb/",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; Celebrity Mask, Card &lt;b&gt;Face&lt;/b&gt; and Fancy Dress Mask ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/61ExrrkAnHL._SL1000_.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://qatar.desertcart.com/products/28319973-kanye-west-celebrity-mask-cardboard-face-and-fancy-dress-mask",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; Celebrity Mask, Card &lt;b&gt;Face&lt;/b&gt; and Fancy Dress Mask - Buy ...",
+          "fullMatchingImages": [
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/51df9GbNdxL.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.ebay.ca/sch/Collectibles/1/i.html?_ssc=1&amp;_nkw=kanye+west+mask",
+          "pageTitle": "&lt;b&gt;kanye west&lt;/b&gt; mask in Collectibles | eBay",
+          "partialMatchingImages": [
+            {
+              "url": "https://i.ebayimg.com/thumbs/images/g/xekAAOSwLKhcHTIx/s-l225.jpg"
+            }
+          ]
+        },
+        {
+          "url": "http://www.schwegi-miet-service.ch/sybcxehrbrjx-l199553-xqh/",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; Celebrity Mask, Card &lt;b&gt;Face&lt;/b&gt; and Fancy Dress Mask ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/61ExrrkAnHL._SL1000_.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.wantitall.co.za/homegarden/kanye-west-celebrity-mask-cardboard-face-and-fancy-dress-mask__b017m289yw",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; Celebrity Mask, Cardboard &lt;b&gt;Face&lt;/b&gt; and Fancy Dress Mask ...",
+          "fullMatchingImages": [
+            {
+              "url": "https://img1.wantitall.co.za/prodimages/kanye-west-celebrity-mask-cardboard-face-and-fancy-dress-mask__51NWoanGbPL.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.ebay.com/p/Adam-Levine-Celebrity-Mask-Cardboard-Face-and-Fancy-Dress-Mask-Best/691914014",
+          "pageTitle": "Adam Levine Celebrity Mask Cardboard &lt;b&gt;Face&lt;/b&gt; and Fancy Dress ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://i.ebayimg.com/images/g/3vAAAOSwTghb4ELU/s-l225.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.reddit.com/user/godybacon/posts/",
+          "pageTitle": "Godybacon (u/Godybacon) - Reddit",
+          "partialMatchingImages": [
+            {
+              "url": "https://i.redd.it/7p7ojz2lo4d11.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.importitall.co.za/Kanye-West-Celebrity-Mask-Card-Face-and-Fancy-Dress-Mask-ap-B011RWIXQ2.html",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; Celebrity Mask, Card &lt;b&gt;Face&lt;/b&gt; and Fancy Dress Mask ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/51df9GbNdxL._SL160_.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://fanbabel.com/Kanye+West",
+          "pageTitle": "Experience &lt;b&gt;Kanye West&lt;/b&gt; on FanBabel.com",
+          "fullMatchingImages": [
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/51NWoanGbPL.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.ebay.com/p/chris-eubank-mask-cardboard-face-and-fancy-dress-mask-celebrity-cutouts/706501426?_trksid=p2047675.l2644",
+          "pageTitle": "Chris Eubank Mask Cardboard &lt;b&gt;Face&lt;/b&gt; and Fancy Dress Mask ... - eBay",
+          "partialMatchingImages": [
+            {
+              "url": "https://i.ebayimg.com/images/g/M4wAAOSwiqFaeiR3/s-l225.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://soundcloud.com/anders-christiansen/kanye-west-lil-pump-i-love-it-christiansen-mashup-1",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; &amp;amp; Lil Pump - I Love It (Christiansen Mashup) by Anders ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://i1.sndcdn.com/artworks-000446046423-mye8no-large.jpg"
+            },
+            {
+              "url": "https://i1.sndcdn.com/artworks-000446046423-mye8no-t500x500.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.wantitall.co.za/fashion/kanye-west-celebrity-mask-card-face-and-fancy-dress-mask__b011rwixq2",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; Celebrity Mask, Card &lt;b&gt;Face&lt;/b&gt; and Fancy Dress Mask ...",
+          "fullMatchingImages": [
+            {
+              "url": "https://img2.wantitall.co.za/prodimages/kanye-west-celebrity-mask-card-face-and-fancy-dress-mask__51df9GbNdxL.jpg"
+            },
+            {
+              "url": "https://img2.wantitall.co.za/prodimages/kanye-west-celebrity-mask-card-face-and-fancy-dress-mask__51df9GbNdxL._SL75_.jpg"
+            },
+            {
+              "url": "https://img2.wantitall.co.za/prodimages/kanye-west-celebrity-mask-card-face-and-fancy-dress-mask__41eci-TmD7L._SL75_.jpg"
+            }
+          ]
+        },
+        {
+          "url": "http://i-can.org.za/vobeaekuyxfvnzbdrttwbp-v251747-bjnrvsj/",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; Celebrity Mask, Card &lt;b&gt;Face&lt;/b&gt; and Fancy Dress Mask ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/61ExrrkAnHL._SL1000_.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.wantitall.co.za/brands/kanye-west/homegarden/p1",
+          "pageTitle": "&lt;b&gt;Kanye&lt;/b&gt;-&lt;b&gt;West&lt;/b&gt; Homegarden - WantItAll",
+          "fullMatchingImages": [
+            {
+              "url": "https://img1.wantitall.co.za/prodimages/kanye-west-celebrity-mask-cardboard-face-and-fancy-dress-mask__51NWoanGbPL.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.desertcart.ae/products/28319973-kanye-west-celebrity-mask-cardboard-face-and-fancy-dress-mask",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; Celebrity Mask, Card &lt;b&gt;Face&lt;/b&gt; and Fancy Dress Mask - Buy ...",
+          "fullMatchingImages": [
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/51df9GbNdxL.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://oman.desertcart.com/products/28319973-kanye-west-celebrity-mask-cardboard-face-and-fancy-dress-mask",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; Celebrity Mask, Card &lt;b&gt;Face&lt;/b&gt; and Fancy Dress Mask - Buy ...",
+          "fullMatchingImages": [
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/51df9GbNdxL.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://oman.desertcart.com/products/28319973-kanye-west-celebrity-mask-card-face-and-fancy-dress-mask",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; Celebrity Mask, Card &lt;b&gt;Face&lt;/b&gt; and Fancy Dress Mask - Buy ...",
+          "fullMatchingImages": [
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/51df9GbNdxL.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.picturesboss.com/pictures/kanye-west-serious-face-5c.html",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; Serious &lt;b&gt;Face&lt;/b&gt; | www.picturesboss.com",
+          "fullMatchingImages": [
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/61OXbgZXZyL._SX425_.jpg"
+            }
+          ]
+        },
+        {
+          "url": "http://kingdomofthesun.net/kanye-west-costumes.html",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; Costumes at KingdomOfTheSun.net",
+          "fullMatchingImages": [
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/51df9GbNdxL.jpg"
+            }
+          ]
+        },
+        {
+          "url": "http://kingdomofthesun.net/kanye-west-costume.html",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; Costume at KingdomOfTheSun.net",
+          "fullMatchingImages": [
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/51df9GbNdxL.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://m.ebay.ca/sch/i.html?_nkw=kanye+mask",
+          "pageTitle": "&lt;b&gt;kanye&lt;/b&gt; mask | eBay",
+          "partialMatchingImages": [
+            {
+              "url": "https://i.ebayimg.com/thumbs/images/g/xekAAOSwLKhcHTIx/s-l225.jpg"
+            }
+          ]
+        },
+        {
+          "url": "http://www.smashtheclub.com/2019/01/i-love-it-christiansen/",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; &amp;amp; Lil Pump – I Love It (Christiansen Mashup)",
+          "partialMatchingImages": [
+            {
+              "url": "http://www.smashtheclub.com/wp-content/uploads/2019/01/kanye-moombah.jpg"
+            }
+          ]
+        },
+        {
+          "url": "http://www.lingeriefemme.org/kanye-west-cardboard-cutout/amazon-kanye-west-celebrity-mask-cardboard-face-and-fancy-kanye-west-cardboard-cutout/",
+          "pageTitle": "Amazon &lt;b&gt;Kanye West&lt;/b&gt; Celebrity Mask Cardboard &lt;b&gt;Face&lt;/b&gt; and Fancy ...",
+          "fullMatchingImages": [
+            {
+              "url": "http://www.lingeriefemme.org/wp-content/uploads/amazon-kanye-west-celebrity-mask-cardboard-face-and-fancy-kanye-west-cardboard-cutout.jpg"
+            },
+            {
+              "url": "http://www.lingeriefemme.org/wp-content/uploads/amazon-kanye-west-celebrity-mask-cardboard-face-and-fancy-kanye-west-cardboard-cutout-150x150.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://picsart.com/hashtag/kanye%20west/popular-stickers?hl=en",
+          "pageTitle": "Popular and Trending &lt;b&gt;kanye west&lt;/b&gt; Stickers on PicsArt",
+          "partialMatchingImages": [
+            {
+              "url": "https://cdn140.picsart.com/286554872033211.png?r240x240"
+            }
+          ]
+        },
+        {
+          "url": "https://www.wantitall.co.za/brands/celebrity-cutouts/fashion/p1",
+          "pageTitle": "Celebrity-Cutouts Fashion South Africa | Buy Celebrity-Cutouts ...",
+          "fullMatchingImages": [
+            {
+              "url": "https://img1.wantitall.co.za/prodimages/kanye-west-celebrity-mask-cardboard-face-and-fancy-dress-mask__51NWoanGbPL.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://picsart.com/hashtag/kanyewest/popular-stickers?hl=en",
+          "pageTitle": "Popular and Trending &lt;b&gt;kanyewest&lt;/b&gt; Stickers on PicsArt",
+          "partialMatchingImages": [
+            {
+              "url": "https://cdn140.picsart.com/286554872033211.png?r240x240"
+            }
+          ]
+        },
+        {
+          "url": "http://keywordsuggest.org/gallery/10586.html",
+          "pageTitle": "Image Gallery &lt;b&gt;kanye west face&lt;/b&gt; - keywordsuggest.org",
+          "partialMatchingImages": [
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/41eci-TmD7L._SY355_.jpg"
+            }
+          ]
+        },
+        {
+          "url": "http://keywordsuggest.org/gallery/10584.html",
+          "pageTitle": "Image Gallery &lt;b&gt;kanye west face&lt;/b&gt; mask - keywordsuggest.org",
+          "partialMatchingImages": [
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/41eci-TmD7L._SY355_.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://picsart.com/hashtag/kanye/popular-stickers?hl=en",
+          "pageTitle": "Popular and Trending &lt;b&gt;kanye&lt;/b&gt; Stickers on PicsArt",
+          "partialMatchingImages": [
+            {
+              "url": "https://cdn140.picsart.com/286554872033211.png?r240x240"
+            }
+          ]
+        },
+        {
+          "url": "https://picsart.com/hashtag/kanyewest/free-to-edit-stickers?hl=en",
+          "pageTitle": "Largest Collection of Free-to-Edit &lt;b&gt;kanyewest&lt;/b&gt; Stickers on PicsArt",
+          "partialMatchingImages": [
+            {
+              "url": "https://cdn140.picsart.com/286554872033211.png?r240x240"
+            }
+          ]
+        },
+        {
+          "url": "https://www.topsimages.com/images/kanye-west-face-mask-80.html",
+          "pageTitle": "&lt;b&gt;Kanye West Face&lt;/b&gt; Mask | www.topsimages.com",
+          "partialMatchingImages": [
+            {
+              "url": "https://images-na.ssl-images-amazon.com/images/I/61OXbgZXZyL._SL1000_.jpg"
+            }
+          ]
+        },
+        {
+          "url": "http://www.lingeriefemme.org/kanye-west-cardboard-cutout/52-best-hollywood-party-celebrity-party-images-on-pinterest-kanye-west-cardboard-cutout/",
+          "pageTitle": "52 Best Hollywood Party Celebrity Party Images On Pinterest &lt;b&gt;Kanye&lt;/b&gt; ...",
+          "fullMatchingImages": [
+            {
+              "url": "http://www.lingeriefemme.org/wp-content/uploads/amazon-kanye-west-celebrity-mask-cardboard-face-and-fancy-kanye-west-cardboard-cutout.jpg"
+            },
+            {
+              "url": "http://www.lingeriefemme.org/wp-content/uploads/amazon-kanye-west-celebrity-mask-cardboard-face-and-fancy-kanye-west-cardboard-cutout-150x150.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.celebrity-cutouts.co.uk/shop/uncategorized/kanye-west-big-head/",
+          "pageTitle": "Cardboard Celebrity Big Head of &lt;b&gt;Kanye West&lt;/b&gt;-Lifesize Celebrity Big ...",
+          "fullMatchingImages": [
+            {
+              "url": "https://i1.wp.com/www.celebrity-cutouts.co.uk/wp-content/uploads/2015/07/kanye-west-celebrity-mask.jpg?resize=450%2C500&amp;ssl=1"
+            }
+          ]
+        },
+        {
+          "url": "http://www.lingeriefemme.org/kanye-west-cardboard-cutout/",
+          "pageTitle": "9 &lt;b&gt;Kanye West&lt;/b&gt; Cardboard Cutout - Ling Erie Art and Design",
+          "fullMatchingImages": [
+            {
+              "url": "http://www.lingeriefemme.org/wp-content/uploads/amazon-kanye-west-celebrity-mask-cardboard-face-and-fancy-kanye-west-cardboard-cutout.jpg"
+            }
+          ]
+        },
+        {
+          "url": "http://www.lingeriefemme.org/kanye-west-cardboard-cutout/19-best-lifesize-cardboard-cutout-standup-decorations-for-parties-kanye-west-cardboard-cutout-2/",
+          "pageTitle": "19 Best Lifesize Cardboard Cutout Standup Decorations for Parties ...",
+          "fullMatchingImages": [
+            {
+              "url": "http://www.lingeriefemme.org/wp-content/uploads/amazon-kanye-west-celebrity-mask-cardboard-face-and-fancy-kanye-west-cardboard-cutout.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://border51.com/collections/celebrity-dress?page=2",
+          "pageTitle": "Celebrity Dresses | 2 - border51",
+          "fullMatchingImages": [
+            {
+              "url": "https://cdn.shopify.com/s/files/1/2226/7261/products/51NWoanGbPL_580x.jpg?v=1531268389"
+            }
+          ]
+        }
+      ],
+      "visuallySimilarImages": [
+        {
+          "url": "http://chpic.su/_data/stickers/kanyewestfaces/kanyewestfaces_007.png"
+        },
+        {
+          "url": "https://i.ebayimg.com/images/g/CxsAAOSwcABbwuKG/s-l225.jpg"
+        },
+        {
+          "url": "https://ya-webdesign.com/images/kanye-west-face-png-13.png"
+        },
+        {
+          "url": "http://bussnova.com/wp-content/uploads/kanye-west-cardboard-cutout-kanye-west-vip-celebrity-cardboard-cutout-face-mask.jpg"
+        },
+        {
+          "url": "https://i3.wp.com/s-media-cache-ak0.pinimg.com/736x/26/4a/77/264a779c2b01494ca4c7e144e4916b38.jpg"
+        },
+        {
+          "url": "http://assets.stickpng.com/thumbs/580b585b2edbce24c47b2561.png"
+        },
+        {
+          "url": "https://images-na.ssl-images-amazon.com/images/I/61OXbgZXZyL._AC_UL160_SR160,160_.jpg"
+        },
+        {
+          "url": "https://s.tcdn.co/f6f/e53/f6fe534d-12b0-3774-8de4-b2b2a24c98d5/8.png"
+        },
+        {
+          "url": "https://ca.res.keymedia.com/files/image/kane.jpg"
+        },
+        {
+          "url": "https://i.imgflip.com/hfjfb.jpg"
+        }
+      ],
+      "bestGuessLabels": [
+        {
+          "label": "kanye west face",
+          "languageCode": "en"
+        }
+      ]
+    }
+  }

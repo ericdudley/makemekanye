@@ -1,0 +1,1369 @@
+{
+    "faceAnnotations": [
+      {
+        "boundingPoly": {
+          "vertices": [
+            {
+              "x": 29,
+              "y": 32
+            },
+            {
+              "x": 361,
+              "y": 32
+            },
+            {
+              "x": 361,
+              "y": 417
+            },
+            {
+              "x": 29,
+              "y": 417
+            }
+          ]
+        },
+        "fdBoundingPoly": {
+          "vertices": [
+            {
+              "x": 84,
+              "y": 140
+            },
+            {
+              "x": 315,
+              "y": 140
+            },
+            {
+              "x": 315,
+              "y": 372
+            },
+            {
+              "x": 84,
+              "y": 372
+            }
+          ]
+        },
+        "landmarks": [
+          {
+            "type": "LEFT_EYE",
+            "position": {
+              "x": 138.41116,
+              "y": 215.8255,
+              "z": -0.0005902916
+            }
+          },
+          {
+            "type": "RIGHT_EYE",
+            "position": {
+              "x": 232.27243,
+              "y": 215.78964,
+              "z": -11.220683
+            }
+          },
+          {
+            "type": "LEFT_OF_LEFT_EYEBROW",
+            "position": {
+              "x": 103.49863,
+              "y": 192.35757,
+              "z": 10.272932
+            }
+          },
+          {
+            "type": "RIGHT_OF_LEFT_EYEBROW",
+            "position": {
+              "x": 159.17604,
+              "y": 197.10146,
+              "z": -25.021034
+            }
+          },
+          {
+            "type": "LEFT_OF_RIGHT_EYEBROW",
+            "position": {
+              "x": 206.12437,
+              "y": 200.16406,
+              "z": -30.365116
+            }
+          },
+          {
+            "type": "RIGHT_OF_RIGHT_EYEBROW",
+            "position": {
+              "x": 269.94305,
+              "y": 200.071,
+              "z": -8.531193
+            }
+          },
+          {
+            "type": "MIDPOINT_BETWEEN_EYES",
+            "position": {
+              "x": 182.75742,
+              "y": 215.62157,
+              "z": -26.74626
+            }
+          },
+          {
+            "type": "NOSE_TIP",
+            "position": {
+              "x": 180.59578,
+              "y": 277.02582,
+              "z": -47.30271
+            }
+          },
+          {
+            "type": "UPPER_LIP",
+            "position": {
+              "x": 182.73721,
+              "y": 311.54453,
+              "z": -19.32501
+            }
+          },
+          {
+            "type": "LOWER_LIP",
+            "position": {
+              "x": 182.12646,
+              "y": 345.11694,
+              "z": -7.240947
+            }
+          },
+          {
+            "type": "MOUTH_LEFT",
+            "position": {
+              "x": 146.39923,
+              "y": 327.46368,
+              "z": 13.51542
+            }
+          },
+          {
+            "type": "MOUTH_RIGHT",
+            "position": {
+              "x": 223.76653,
+              "y": 329.20047,
+              "z": 4.7907453
+            }
+          },
+          {
+            "type": "MOUTH_CENTER",
+            "position": {
+              "x": 182.42929,
+              "y": 326.77536,
+              "z": -9.605631
+            }
+          },
+          {
+            "type": "NOSE_BOTTOM_RIGHT",
+            "position": {
+              "x": 212.88925,
+              "y": 283.32495,
+              "z": -11.171878
+            }
+          },
+          {
+            "type": "NOSE_BOTTOM_LEFT",
+            "position": {
+              "x": 155.97676,
+              "y": 282.14447,
+              "z": -4.995558
+            }
+          },
+          {
+            "type": "NOSE_BOTTOM_CENTER",
+            "position": {
+              "x": 182.05553,
+              "y": 291.3545,
+              "z": -22.53386
+            }
+          },
+          {
+            "type": "LEFT_EYE_TOP_BOUNDARY",
+            "position": {
+              "x": 134.99431,
+              "y": 211.4494,
+              "z": -7.0317893
+            }
+          },
+          {
+            "type": "LEFT_EYE_RIGHT_CORNER",
+            "position": {
+              "x": 156.59901,
+              "y": 219.24355,
+              "z": -1.3917193
+            }
+          },
+          {
+            "type": "LEFT_EYE_BOTTOM_BOUNDARY",
+            "position": {
+              "x": 136.48253,
+              "y": 223.11142,
+              "z": 0.45914572
+            }
+          },
+          {
+            "type": "LEFT_EYE_LEFT_CORNER",
+            "position": {
+              "x": 117.09675,
+              "y": 216.04173,
+              "z": 11.867001
+            }
+          },
+          {
+            "type": "LEFT_EYE_PUPIL",
+            "position": {
+              "x": 133.87633,
+              "y": 217.78519,
+              "z": -1.6976416
+            }
+          },
+          {
+            "type": "RIGHT_EYE_TOP_BOUNDARY",
+            "position": {
+              "x": 234.31517,
+              "y": 213.53406,
+              "z": -18.556276
+            }
+          },
+          {
+            "type": "RIGHT_EYE_RIGHT_CORNER",
+            "position": {
+              "x": 255.50648,
+              "y": 218.66467,
+              "z": -4.3513584
+            }
+          },
+          {
+            "type": "RIGHT_EYE_BOTTOM_BOUNDARY",
+            "position": {
+              "x": 233.245,
+              "y": 223.53065,
+              "z": -11.1505165
+            }
+          },
+          {
+            "type": "RIGHT_EYE_LEFT_CORNER",
+            "position": {
+              "x": 214.75833,
+              "y": 220.11926,
+              "z": -8.254117
+            }
+          },
+          {
+            "type": "RIGHT_EYE_PUPIL",
+            "position": {
+              "x": 235.83458,
+              "y": 219.92722,
+              "z": -13.636479
+            }
+          },
+          {
+            "type": "LEFT_EYEBROW_UPPER_MIDPOINT",
+            "position": {
+              "x": 130.31061,
+              "y": 183.57108,
+              "z": -15.491254
+            }
+          },
+          {
+            "type": "RIGHT_EYEBROW_UPPER_MIDPOINT",
+            "position": {
+              "x": 238.13104,
+              "y": 186.0224,
+              "z": -28.006468
+            }
+          },
+          {
+            "type": "LEFT_EAR_TRAGION",
+            "position": {
+              "x": 86.790276,
+              "y": 248.24966,
+              "z": 136.10878
+            }
+          },
+          {
+            "type": "RIGHT_EAR_TRAGION",
+            "position": {
+              "x": 311.85196,
+              "y": 252.17047,
+              "z": 109.387764
+            }
+          },
+          {
+            "type": "FOREHEAD_GLABELLA",
+            "position": {
+              "x": 182.81802,
+              "y": 196.94745,
+              "z": -31.621634
+            }
+          },
+          {
+            "type": "CHIN_GNATHION",
+            "position": {
+              "x": 183.89551,
+              "y": 388.37808,
+              "z": 13.044165
+            }
+          },
+          {
+            "type": "CHIN_LEFT_GONION",
+            "position": {
+              "x": 92.47322,
+              "y": 317.6075,
+              "z": 103.52355
+            }
+          },
+          {
+            "type": "CHIN_RIGHT_GONION",
+            "position": {
+              "x": 296.61026,
+              "y": 321.65964,
+              "z": 79.807945
+            }
+          }
+        ],
+        "rollAngle": 0.29817477,
+        "panAngle": -6.6810813,
+        "tiltAngle": -7.899188,
+        "detectionConfidence": 0.9999988,
+        "landmarkingConfidence": 0.70721483,
+        "joyLikelihood": "VERY_UNLIKELY",
+        "sorrowLikelihood": "UNLIKELY",
+        "angerLikelihood": "VERY_UNLIKELY",
+        "surpriseLikelihood": "VERY_UNLIKELY",
+        "underExposedLikelihood": "VERY_UNLIKELY",
+        "blurredLikelihood": "VERY_UNLIKELY",
+        "headwearLikelihood": "VERY_UNLIKELY"
+      }
+    ],
+    "labelAnnotations": [
+      {
+        "mid": "/m/03q69",
+        "description": "Hair",
+        "score": 0.98680174,
+        "topicality": 0.98680174
+      },
+      {
+        "mid": "/m/0dzct",
+        "description": "Face",
+        "score": 0.98537046,
+        "topicality": 0.98537046
+      },
+      {
+        "mid": "/m/025kyy",
+        "description": "Forehead",
+        "score": 0.9586774,
+        "topicality": 0.9586774
+      },
+      {
+        "mid": "/m/0ds5b",
+        "description": "Facial hair",
+        "score": 0.95652753,
+        "topicality": 0.95652753
+      },
+      {
+        "mid": "/m/04hgtk",
+        "description": "Head",
+        "score": 0.92557424,
+        "topicality": 0.92557424
+      },
+      {
+        "mid": "/m/0f9swq",
+        "description": "Chin",
+        "score": 0.9158307,
+        "topicality": 0.9158307
+      },
+      {
+        "mid": "/m/0k0pj",
+        "description": "Nose",
+        "score": 0.9069914,
+        "topicality": 0.9069914
+      },
+      {
+        "mid": "/m/0ds4x",
+        "description": "Hairstyle",
+        "score": 0.9011609,
+        "topicality": 0.9011609
+      },
+      {
+        "mid": "/m/027n3_",
+        "description": "Eyebrow",
+        "score": 0.8857791,
+        "topicality": 0.8857791
+      },
+      {
+        "mid": "/m/015h_t",
+        "description": "Beard",
+        "score": 0.8195137,
+        "topicality": 0.8195137
+      },
+      {
+        "mid": "/m/037p5b",
+        "description": "Cheek",
+        "score": 0.7994795,
+        "topicality": 0.7994795
+      },
+      {
+        "mid": "/m/0dgw9r",
+        "description": "Human",
+        "score": 0.76877445,
+        "topicality": 0.76877445
+      },
+      {
+        "mid": "/m/02cqfm",
+        "description": "Close-up",
+        "score": 0.7631068,
+        "topicality": 0.7631068
+      },
+      {
+        "mid": "/m/0bby24z",
+        "description": "Moustache",
+        "score": 0.73989755,
+        "topicality": 0.73989755
+      },
+      {
+        "mid": "/m/021swn",
+        "description": "Buzz cut",
+        "score": 0.6991679,
+        "topicality": 0.6991679
+      },
+      {
+        "mid": "/m/01k9lj",
+        "description": "Jaw",
+        "score": 0.57406723,
+        "topicality": 0.57406723
+      },
+      {
+        "mid": "/m/039xj_",
+        "description": "Ear",
+        "score": 0.51232,
+        "topicality": 0.51232
+      }
+    ],
+    "safeSearchAnnotation": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imagePropertiesAnnotation": {
+      "dominantColors": {
+        "colors": [
+          {
+            "color": {
+              "red": 254,
+              "green": 254,
+              "blue": 254
+            },
+            "score": 0.5383584,
+            "pixelFraction": 0.60758376
+          },
+          {
+            "color": {
+              "red": 79,
+              "green": 43,
+              "blue": 28
+            },
+            "score": 0.1577427,
+            "pixelFraction": 0.05536659
+          },
+          {
+            "color": {
+              "red": 32,
+              "green": 22,
+              "blue": 17
+            },
+            "score": 0.041325178,
+            "pixelFraction": 0.020723104
+          },
+          {
+            "color": {
+              "red": 103,
+              "green": 39,
+              "blue": 14
+            },
+            "score": 0.010153524,
+            "pixelFraction": 0.003968254
+          },
+          {
+            "color": {
+              "red": 215,
+              "green": 176,
+              "blue": 155
+            },
+            "score": 0.0028087182,
+            "pixelFraction": 0.0033383723
+          },
+          {
+            "color": {
+              "red": 104,
+              "green": 67,
+              "blue": 49
+            },
+            "score": 0.072351746,
+            "pixelFraction": 0.05473671
+          },
+          {
+            "color": {
+              "red": 52,
+              "green": 20,
+              "blue": 9
+            },
+            "score": 0.038254716,
+            "pixelFraction": 0.009700176
+          },
+          {
+            "color": {
+              "red": 58,
+              "green": 46,
+              "blue": 41
+            },
+            "score": 0.02263097,
+            "pixelFraction": 0.011211893
+          },
+          {
+            "color": {
+              "red": 65,
+              "green": 45,
+              "blue": 32
+            },
+            "score": 0.017914316,
+            "pixelFraction": 0.005983875
+          },
+          {
+            "color": {
+              "red": 38,
+              "green": 16,
+              "blue": 11
+            },
+            "score": 0.0128117995,
+            "pixelFraction": 0.0039052658
+          }
+        ]
+      }
+    },
+    "cropHintsAnnotation": {
+      "cropHints": [
+        {
+          "boundingPoly": {
+            "vertices": [
+              {
+                "x": 20
+              },
+              {
+                "x": 366
+              },
+              {
+                "x": 366,
+                "y": 431
+              },
+              {
+                "x": 20,
+                "y": 431
+              }
+            ]
+          },
+          "confidence": 0.29999998,
+          "importanceFraction": 1.49
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              {},
+              {
+                "x": 431
+              },
+              {
+                "x": 431,
+                "y": 431
+              },
+              {
+                "y": 431
+              }
+            ]
+          },
+          "confidence": 0.29999998,
+          "importanceFraction": 1.55
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              {
+                "y": 29
+              },
+              {
+                "x": 431,
+                "y": 29
+              },
+              {
+                "x": 431,
+                "y": 392
+              },
+              {
+                "y": 392
+              }
+            ]
+          },
+          "confidence": 0.29999998,
+          "importanceFraction": 1.4
+        }
+      ]
+    },
+    "webDetection": {
+      "webEntities": [
+        {
+          "entityId": "/m/02l840",
+          "score": 13.3455,
+          "description": "Kanye West"
+        },
+        {
+          "entityId": "/m/04wpw",
+          "score": 0.7001,
+          "description": "Meme"
+        },
+        {
+          "entityId": "/m/025rxrz",
+          "score": 0.6922,
+          "description": "Internet meme"
+        },
+        {
+          "entityId": "/t/227h17yxlqwzx",
+          "score": 0.6257
+        },
+        {
+          "entityId": "/m/0jg24",
+          "score": 0.6099,
+          "description": "Image"
+        },
+        {
+          "entityId": "/g/11gh0hn1_0",
+          "score": 0.59895,
+          "description": "Break the Simulation"
+        },
+        {
+          "entityId": "/t/217hzh1v3s766",
+          "score": 0.5904
+        },
+        {
+          "entityId": "/m/09kqc",
+          "score": 0.5699,
+          "description": "Humour"
+        },
+        {
+          "entityId": "/t/2rs_pdgts_tt",
+          "score": 0.5273
+        },
+        {
+          "entityId": "/g/11f5v09kmc",
+          "score": 0.4751,
+          "description": "Lift Yourself"
+        },
+        {
+          "entityId": "/t/2844d4qsfjpz_",
+          "score": 0.4643
+        },
+        {
+          "entityId": "/m/06279",
+          "score": 0.4598,
+          "description": "Portable Network Graphics"
+        },
+        {
+          "entityId": "/t/26c_b87hcjqhm",
+          "score": 0.4385
+        },
+        {
+          "entityId": "/m/044pp",
+          "score": 0.3999,
+          "description": "Joke"
+        },
+        {
+          "entityId": "/m/01j3sz",
+          "score": 0.3446,
+          "description": "Laughter"
+        }
+      ],
+      "fullMatchingImages": [
+        {
+          "url": "http://aunzcarts.com/wp-content/uploads/2018/09/cropped-kisspng-kanye-west-keeping-up-with-the-kardashians-rapper-drake-5ac6df98e46085.9518790315229828089354.jpg"
+        },
+        {
+          "url": "https://s.tcdn.co/f6f/e53/f6fe534d-12b0-3774-8de4-b2b2a24c98d5/9.png"
+        },
+        {
+          "url": "https://scontent-sea1-1.cdninstagram.com/vp/0720bee5cb7b3b52922f369f52890de1/5CE213D5/t51.2885-19/s150x150/18879802_1366617633403384_5440202127701966848_a.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com"
+        },
+        {
+          "url": "https://tgram.ru/wiki/stickers/imagepng/kanyewestfaces/kanyewestfaces_10.png"
+        },
+        {
+          "url": "http://grids-london.co.uk/media/catalog/product/cache/1/thumbnail/100x100/9df78eab33525d08d6e5fb8d27136e95/_/t/_t2ec16n_w0e9szn_muubrr0sgml-w_60_57.jpg"
+        }
+      ],
+      "partialMatchingImages": [
+        {
+          "url": "https://i2.wp.com/i.redd.it/d4vslmqpltfx.png"
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/1293/2845/products/image_abaac77e-452c-4c62-96e2-d4f3538387a3_1024x1024.jpg?v=1520617095"
+        },
+        {
+          "url": "https://images-na.ssl-images-amazon.com/images/I/71DAHeiVgeL._SL1024_.jpg"
+        },
+        {
+          "url": "https://c7.uihere.com/files/660/210/401/kanye-west-keeping-up-with-the-kardashians-rapper-adidas-yeezy-drake.jpg"
+        },
+        {
+          "url": "https://avatanplus.com/files/resources/original/5b99745666bc2165cf6e7195.png"
+        },
+        {
+          "url": "https://www.imagessure.com/thumbs/6bnqpgo40e34cCv5sWSOuEE-JoeO3TwwUknLoQn2U4jN_eZqxFpa6ehggpCpHpG7JQb5fXgiCwD9o1JlUEdCkA.jpg"
+        },
+        {
+          "url": "https://tse3.mm.bing.net/th?id=OIP.pNs0ZEzGZNgagnCzmUZ2tAHaNK"
+        },
+        {
+          "url": "https://carwad.net/sites/default/files/styles/225x120/public/kanye-west-png-transparent-images-149295-4978608.png?itok=FHNexQkm"
+        },
+        {
+          "url": "https://i.pinimg.com/originals/8a/a8/dd/8aa8ddaf0c56eace44121619e8c90893.jpg"
+        },
+        {
+          "url": "https://images-na.ssl-images-amazon.com/images/I/51pUIA13HeL.jpg"
+        },
+        {
+          "url": "https://i.dlpng.com/static/png/419859_thumb.png"
+        },
+        {
+          "url": "https://i.dlpng.com/static/png/489834_thumb.png"
+        },
+        {
+          "url": "https://cs8.pikabu.ru/images/big_size_comm/2016-02_5/1456223696168767000.jpg"
+        },
+        {
+          "url": "https://images-na.ssl-images-amazon.com/images/I/51NkHni-80L._QL70_.jpg"
+        },
+        {
+          "url": "https://i3.wp.com/orig00.deviantart.net/d25b/f/2014/148/4/5/angry_floating_kanye_head_by_plantkits-d7k2qlb.png"
+        },
+        {
+          "url": "https://cdn130.picsart.com/268973473021211.png?r480x480"
+        },
+        {
+          "url": "https://tse4.mm.bing.net/th?id=OIP.B4aOoKSC-mco5gJVOR8DRwAAAA"
+        },
+        {
+          "url": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/6dd35571-514d-42d7-bb63-97d62245a63d/d7k2qlb-c017bab9-43fc-4a99-95b5-147a1bd159ca.png"
+        },
+        {
+          "url": "https://static1.fjcdn.com/comments/I+love+kanye+_07868ea0a482fa6728e60255391f0347.png"
+        },
+        {
+          "url": "https://tse3.mm.bing.net/th?id=OIP.czRvZOhdhIWBa6LWfbKyZAHaF2"
+        },
+        {
+          "url": "http://axed.nl/wp-content/uploads/2015/03/wtf-kanye-west-fan-verkoopt-zakj.jpg"
+        },
+        {
+          "url": "https://c7.uihere.com/files/660/210/401/kanye-west-keeping-up-with-the-kardashians-rapper-adidas-yeezy-drake-thumb.jpg"
+        },
+        {
+          "url": "https://images.rapgenius.com/444b7dca28eaaa6ef238d0705a9f8ddd.600x600x1.jpg"
+        },
+        {
+          "url": "https://images.rapgenius.com/8c9a52c74c4143e1778cea411a7f4a4f.480x330x1.jpg"
+        },
+        {
+          "url": "https://simg.nicepng.com/png/small/22-227990_male.png"
+        },
+        {
+          "url": "https://www.seekpng.com/png/small/12-126395_kanye-head-png-kanye-west-transparent-background.png"
+        },
+        {
+          "url": "https://img1.freepng.es/20180405/ygq/kisspng-kanye-west-keeping-up-with-the-kardashians-rapper-drake-5ac6df98c11a23.697900261522982808791.jpg"
+        },
+        {
+          "url": "https://www.tecnoveste.com.br/wp-content/uploads/2015/02/yeezy-boost_opt.jpg"
+        },
+        {
+          "url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1496541293914129"
+        },
+        {
+          "url": "https://bloximages.newyork1.vip.townnews.com/lsunow.com/content/tncms/assets/v3/editorial/d/56/d565ea7e-49a4-11e4-a187-001a4bcf6878/542c5c351ff6e.image.png?resize=250%2C374"
+        },
+        {
+          "url": "https://bloximages.newyork1.vip.townnews.com/lsunow.com/content/tncms/assets/v3/editorial/d/56/d565ea7e-49a4-11e4-a187-001a4bcf6878/542c5c351ff6e.image.png"
+        },
+        {
+          "url": "https://cdn130.picsart.com/268973473021211.png?r240x240"
+        },
+        {
+          "url": "http://25.media.tumblr.com/59a2f60589d3e77f0f858ec1cb7536c0/tumblr_mwxgdxUsec1s572vzo1_250.jpg"
+        },
+        {
+          "url": "https://tse1.mm.bing.net/th?id=OIP.B4aOoKSC-mco5gJVOR8DRwAAAA&amp;pid=Api&amp;P=0&amp;w=300&amp;h=300"
+        },
+        {
+          "url": "http://25.media.tumblr.com/tumblr_m7i4rxcEC11qlsyhto1_250.gif"
+        },
+        {
+          "url": "https://i.pinimg.com/236x/bb/63/b6/bb63b6dbe74951b03f17a1a20a1531f7--kanye-west-montana.jpg"
+        },
+        {
+          "url": "https://www.tecnoveste.com.br/wp-content/uploads/2015/02/yeezy-boost_opt-300x194.jpg"
+        },
+        {
+          "url": "https://i.pinimg.com/236x/77/22/de/7722de01dcbca442be724f1c19048ba5--good-humor-kanye-west.jpg"
+        },
+        {
+          "url": "https://www.coursehero.com/thumb/d9/92/d992e4e9b5d61f8b25dd7059d0276ec758aa58be_180.jpg"
+        },
+        {
+          "url": "https://i.pinimg.com/236x/1c/83/2a/1c832ab0cb74d2c05fb6fdc0f84ed156--quotes-hiphop.jpg"
+        },
+        {
+          "url": "https://forum.vultaic.com/uploads/monthly_2018_12/kanye-west-png-image-kanye-faces-tumblr-350.thumb.png.54db0b04f6387ca38939e6b8b5d50449.png"
+        },
+        {
+          "url": "https://jimdroberts.files.wordpress.com/2017/06/download-2.jpg?w=125&amp;h=188"
+        },
+        {
+          "url": "https://scontent-sjc3-1.cdninstagram.com/vp/abcd39963d6ee8de2a3b896784ba7bbb/5CC06D52/t51.2885-19/s150x150/10979617_797613333695364_2101981530_a.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com"
+        },
+        {
+          "url": "https://www.tecnoveste.com.br/wp-content/uploads/2015/02/yeezy-boost_opt-180x120.jpg"
+        },
+        {
+          "url": "https://forum.vultaic.com/uploads/monthly_2018_12/kanye-west-png-image-kanye-faces-tumblr-350.png.3e984f2f9c28037e6f789c971dc24f24.png"
+        },
+        {
+          "url": "https://a2ch.ru/i/b626d9fe69fa4a9f4c21fc42ce526ce1"
+        },
+        {
+          "url": "https://66.media.tumblr.com/avatar_4fd270187c69_128.pnj"
+        },
+        {
+          "url": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/6dd35571-514d-42d7-bb63-97d62245a63d/d7k2qlb-c017bab9-43fc-4a99-95b5-147a1bd159ca.png/v1/fit/w_150,h_150,strp/angry_floating_kanye_head_by_plantkits_d7k2qlb-150.png"
+        },
+        {
+          "url": "http://kanye.zone/img/yeezy_small.png"
+        },
+        {
+          "url": "http://i.4pcdn.org/tv/1474363622791s.jpg"
+        }
+      ],
+      "pagesWithMatchingImages": [
+        {
+          "url": "https://genius.com/discussions/198686-Best-kanye-west-memes",
+          "pageTitle": "Best &lt;b&gt;kanye west memes&lt;/b&gt; | Genius",
+          "partialMatchingImages": [
+            {
+              "url": "https://images.rapgenius.com/444b7dca28eaaa6ef238d0705a9f8ddd.600x600x1.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://picsart.com/i/sticker-kanye-kanyewest-memes-funny-fresh-268973473021211?hl=en",
+          "pageTitle": "&lt;b&gt;kanye kanyewest memes&lt;/b&gt; funny fresh - Sticker by JAC - PicsArt",
+          "partialMatchingImages": [
+            {
+              "url": "https://cdn130.picsart.com/268973473021211.png?r1024x1024"
+            }
+          ]
+        },
+        {
+          "url": "https://hiphopwired.com/269603/10-hilarious-aint-got-answers-sway-memes-photos/",
+          "pageTitle": "10 Hilarious You Ain&amp;#39;t Got The Answers Sway &lt;b&gt;Memes&lt;/b&gt; [PHOTOS ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://ionehiphopwired.files.wordpress.com/2013/12/answers5.jpg?quality=85&amp;strip=all&amp;w=538&amp;h=240&amp;crop=1"
+            }
+          ]
+        },
+        {
+          "url": "https://www.seekpng.com/ipng/u2q8w7q8t4o0e6o0_kanye-meme-lift-yourself/",
+          "pageTitle": "&lt;b&gt;Kanye Meme&lt;/b&gt; Lift Yourself PNG Image | Transparent PNG Free ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://www.seekpng.com/png/small/12-126395_kanye-head-png-kanye-west-transparent-background.png"
+            }
+          ]
+        },
+        {
+          "url": "https://picsart.com/hashtag/kanyewest/popular-stickers?hl=en",
+          "pageTitle": "Popular and Trending &lt;b&gt;kanyewest&lt;/b&gt; Stickers on PicsArt",
+          "partialMatchingImages": [
+            {
+              "url": "https://cdn130.picsart.com/268973473021211.png?r240x240"
+            },
+            {
+              "url": "https://cdn130.picsart.com/268973473021211.png?r480x480"
+            }
+          ]
+        },
+        {
+          "url": "https://picsart.com/hashtag/kanyewest/recent-stickers?hl=en",
+          "pageTitle": "The Newest &lt;b&gt;kanyewest&lt;/b&gt; Stickers on PicsArt.",
+          "partialMatchingImages": [
+            {
+              "url": "https://cdn130.picsart.com/268973473021211.png?r240x240"
+            },
+            {
+              "url": "https://cdn130.picsart.com/268973473021211.png?r480x480"
+            }
+          ]
+        },
+        {
+          "url": "https://picsart.com/hashtag/kanyewest/free-to-edit-stickers?hl=en",
+          "pageTitle": "Largest Collection of Free-to-Edit &lt;b&gt;kanyewest&lt;/b&gt; Stickers on PicsArt",
+          "partialMatchingImages": [
+            {
+              "url": "https://cdn130.picsart.com/268973473021211.png?r240x240"
+            }
+          ]
+        },
+        {
+          "url": "https://coreymondello.com/kanye-west-memes.html",
+          "pageTitle": "&lt;b&gt;Kanye west memes&lt;/b&gt; - coreymondello.com",
+          "partialMatchingImages": [
+            {
+              "url": "https://images.rapgenius.com/444b7dca28eaaa6ef238d0705a9f8ddd.600x600x1.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.pinterest.com/hedre/u-got-jokes/",
+          "pageTitle": "u got jokes - Pinterest",
+          "partialMatchingImages": [
+            {
+              "url": "https://i.pinimg.com/236x/1c/83/2a/1c832ab0cb74d2c05fb6fdc0f84ed156--quotes-hiphop.jpg"
+            }
+          ]
+        },
+        {
+          "url": "http://www.lsunow.com/klsu/magical-mystery-tour-kanye-west/article_b6810bb2-48b8-11e4-985f-001a4bcf6878.html",
+          "pageTitle": "Magical Mystery Tour: &lt;b&gt;Kanye West&lt;/b&gt; | KLSU | lsunow.com",
+          "partialMatchingImages": [
+            {
+              "url": "https://bloximages.newyork1.vip.townnews.com/lsunow.com/content/tncms/assets/v3/editorial/d/56/d565ea7e-49a4-11e4-a187-001a4bcf6878/542c5c351ff6e.image.png"
+            },
+            {
+              "url": "https://bloximages.newyork1.vip.townnews.com/lsunow.com/content/tncms/assets/v3/editorial/d/56/d565ea7e-49a4-11e4-a187-001a4bcf6878/542c5c351ff6e.image.png?resize=250%2C374"
+            }
+          ]
+        },
+        {
+          "url": "https://theendivechronicles.com/kanye-west-memes.html",
+          "pageTitle": "&lt;b&gt;Kanye West Memes&lt;/b&gt;. post kanye memes hilarious memes itt page 4 ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://images.rapgenius.com/444b7dca28eaaa6ef238d0705a9f8ddd.600x600x1.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.pinterest.com/pin/9499849188476620/",
+          "pageTitle": "18 Reasons We&amp;#39;re Thankful &lt;b&gt;Kanye West&lt;/b&gt; Is An Idiot | Break.com ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://i.pinimg.com/originals/8a/a8/dd/8aa8ddaf0c56eace44121619e8c90893.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.seekpng.com/ipng/u2w7a9w7y3i1o0r5_kanye-west-eazy-e/",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; Eazy-e PNG Image | Transparent PNG Free Download ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://www.seekpng.com/png/small/12-126395_kanye-head-png-kanye-west-transparent-background.png"
+            }
+          ]
+        },
+        {
+          "url": "https://www.seekpng.com/ipng/u2q8a9u2w7u2e6t4_kanye-west-suit-png-image-kanye-west/",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; Suit Png Image - SeekPNG",
+          "partialMatchingImages": [
+            {
+              "url": "https://www.seekpng.com/png/small/12-126395_kanye-head-png-kanye-west-transparent-background.png"
+            }
+          ]
+        },
+        {
+          "url": "https://www.seekpng.com/ks/kanye/",
+          "pageTitle": "&lt;b&gt;Kanye&lt;/b&gt; PNG Images | PNG Cliparts Free Download on SeekPNG",
+          "partialMatchingImages": [
+            {
+              "url": "https://www.seekpng.com/png/small/12-126395_kanye-head-png-kanye-west-transparent-background.png"
+            }
+          ]
+        },
+        {
+          "url": "https://www.pngfly.com/png-f70fnm/",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; Clip art - west",
+          "partialMatchingImages": [
+            {
+              "url": "https://spng.pngfly.com/20180405/ygq/kisspng-kanye-west-keeping-up-with-the-kardashians-rapper-drake-5ac6df98c11a23.697900261522982808791.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.pngfly.com/png-eknvi9/",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; Celebrity Paranoid Dover Street Market Pitchfork ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://spng.pngfly.com/20180405/ygq/kisspng-kanye-west-keeping-up-with-the-kardashians-rapper-drake-5ac6df98c11a23.697900261522982808791.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.pngfly.com/png-iwcwts/",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; Homecoming Rapper Flashing Lights - west",
+          "partialMatchingImages": [
+            {
+              "url": "https://spng.pngfly.com/20180405/ygq/kisspng-kanye-west-keeping-up-with-the-kardashians-rapper-drake-5ac6df98c11a23.697900261522982808791.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://bracketsmackdown.com/kanye-west-memes.html",
+          "pageTitle": "&lt;b&gt;Kanye West Memes&lt;/b&gt;. memes 2018 kanye west 1 youtube. burn it all ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://images.rapgenius.com/444b7dca28eaaa6ef238d0705a9f8ddd.600x600x1.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.uihere.com/free-cliparts/search?q=kanye+West",
+          "pageTitle": "922 &lt;b&gt;kanye West&lt;/b&gt; PNG cliparts for free download | UIHere",
+          "partialMatchingImages": [
+            {
+              "url": "https://c7.uihere.com/files/660/210/401/kanye-west-keeping-up-with-the-kardashians-rapper-adidas-yeezy-drake-thumb.jpg"
+            },
+            {
+              "url": "https://c7.uihere.com/files/660/210/401/kanye-west-keeping-up-with-the-kardashians-rapper-adidas-yeezy-drake.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.pngfly.com/png-qr79bj/",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; Break the Simulation Celebrity Book FanFiction.Net - I ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://spng.pngfly.com/20180405/ygq/kisspng-kanye-west-keeping-up-with-the-kardashians-rapper-drake-5ac6df98c11a23.697900261522982808791.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://coreymondello.com/kanye-west-mem.html",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; Mem. es x here lies &lt;b&gt;kanye west&lt;/b&gt; taking a kanye rest on ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://images.rapgenius.com/444b7dca28eaaa6ef238d0705a9f8ddd.600x600x1.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://theendivechronicles.com/kanye-west-mem.html",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; Mem. &lt;b&gt;kanye west&lt;/b&gt; kanye east by stadislaus &lt;b&gt;meme&lt;/b&gt; ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://images.rapgenius.com/444b7dca28eaaa6ef238d0705a9f8ddd.600x600x1.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://tlgrm.eu/stickers/kanyewestfaces",
+          "pageTitle": "“&lt;b&gt;Kanye West&lt;/b&gt; ” stickers set for Telegram - tlgrm.eu",
+          "fullMatchingImages": [
+            {
+              "url": "https://s.tcdn.co/f6f/e53/f6fe534d-12b0-3774-8de4-b2b2a24c98d5/9.png"
+            }
+          ]
+        },
+        {
+          "url": "http://kanye.zone/",
+          "pageTitle": "Not &lt;b&gt;Kanye&amp;#39;s&lt;/b&gt; Zone",
+          "partialMatchingImages": [
+            {
+              "url": "http://kanye.zone/img/yeezy_small.png"
+            }
+          ]
+        },
+        {
+          "url": "https://ya-webdesign.com/explore/kanye-west-head-png/",
+          "pageTitle": "20 &lt;b&gt;Kanye west&lt;/b&gt; head png for free download on YA-webdesign",
+          "partialMatchingImages": [
+            {
+              "url": "https://ya-webdesign.com/images/kanye-west-head-png-9.png"
+            }
+          ]
+        },
+        {
+          "url": "https://www.kisspng.com/free/kanye-west-3.html",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; PNG &amp;amp; &lt;b&gt;Kanye West&lt;/b&gt; Transparent Clipart Free Download ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://spng.pngfly.com/20180405/ygq/kisspng-kanye-west-keeping-up-with-the-kardashians-rapper-drake-5ac6df98c11a23.697900261522982808791.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://picswe.com/pics/kanye-west-idiot-d9.html",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; Idiot | www.picswe.com",
+          "partialMatchingImages": [
+            {
+              "url": "https://i.pinimg.com/originals/8a/a8/dd/8aa8ddaf0c56eace44121619e8c90893.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.picswe.com/pics/kanye-idiot-dc.html",
+          "pageTitle": "&lt;b&gt;Kanye&lt;/b&gt; Idiot | www.picswe.com",
+          "partialMatchingImages": [
+            {
+              "url": "https://i.pinimg.com/originals/8a/a8/dd/8aa8ddaf0c56eace44121619e8c90893.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.nyustraus.org/kanye-west-mem.html",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; Mem. i love it &lt;b&gt;kanye west&lt;/b&gt; x lil pump &lt;b&gt;meme&lt;/b&gt; youtube. the ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://images.rapgenius.com/444b7dca28eaaa6ef238d0705a9f8ddd.600x600x1.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://memegene.net/wallpaper-4678427",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; Clipart 9 - 1012 X 1349 Free Clip Art stock illustration ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://memegene.net/sites/default/files/styles/225x120/public/wallpaper/kanye-west-clipart/253528/kanye-west-clipart-253528-7491848.png?itok=nQjz0fKI"
+            }
+          ]
+        },
+        {
+          "url": "http://canacopegdl.com/keyword/how-kanye-west-meme.html",
+          "pageTitle": "List of Synonyms and Antonyms of the Word: how &lt;b&gt;kanye west meme&lt;/b&gt;",
+          "partialMatchingImages": [
+            {
+              "url": "https://images.rapgenius.com/444b7dca28eaaa6ef238d0705a9f8ddd.600x600x1.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.kisspng.com/png-kanye-west-keeping-up-with-the-kardashians-rapper-943432/download-png.html",
+          "pageTitle": "Free download &lt;b&gt;Kanye West&lt;/b&gt; Keeping Up with the Kardashians ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://icon2.kisspng.com/20180405/ygq/kisspng-kanye-west-keeping-up-with-the-kardashians-rapper-drake-5ac6df98c11a23.697900261522982808791.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://sitejerk.com/explore/kanye-west-transparent.html",
+          "pageTitle": "&lt;b&gt;Kanye west&lt;/b&gt; transparent - clipart with a transparent background",
+          "partialMatchingImages": [
+            {
+              "url": "https://sitejerk.com/images/kanye-west-transparent.png"
+            }
+          ]
+        },
+        {
+          "url": "https://www.uihere.com/free-cliparts/kanye-west-yeezus-clip-art-kanye-west-png-transparent-images-1053704",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; Yeezus , &lt;b&gt;Kanye West&lt;/b&gt; Transparent s, &lt;b&gt;Kanye West&lt;/b&gt; PNG ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://c7.uihere.com/files/660/210/401/kanye-west-keeping-up-with-the-kardashians-rapper-adidas-yeezy-drake-thumb.jpg"
+            },
+            {
+              "url": "https://c7.uihere.com/files/660/210/401/kanye-west-keeping-up-with-the-kardashians-rapper-adidas-yeezy-drake.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.kisspng.com/free/kanye-3.html",
+          "pageTitle": "&lt;b&gt;Kanye&lt;/b&gt; PNG &amp;amp; &lt;b&gt;Kanye&lt;/b&gt; Transparent Clipart Free Download - Bear Dog ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://spng.pngfly.com/20180405/ygq/kisspng-kanye-west-keeping-up-with-the-kardashians-rapper-drake-5ac6df98c11a23.697900261522982808791.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.uihere.com/free-cliparts/kanye-west-keeping-up-with-the-kardashians-francis-and-the-lights-others-3372137",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; Keeping Up with the Kardashians Francis and the ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://c7.uihere.com/files/660/210/401/kanye-west-keeping-up-with-the-kardashians-rapper-adidas-yeezy-drake-thumb.jpg"
+            },
+            {
+              "url": "https://c7.uihere.com/files/660/210/401/kanye-west-keeping-up-with-the-kardashians-rapper-adidas-yeezy-drake.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.uihere.com/free-cliparts/fame-kills-starring-kanye-west-and-lady-gaga-t-shirt-rapper-hip-hop-music-yeezus-t-shirt-3396458",
+          "pageTitle": "Fame Kills: Starring &lt;b&gt;Kanye West&lt;/b&gt; and Lady Gaga T-shirt Rapper Hip ...",
+          "partialMatchingImages": [
+            {
+              "url": "https://c7.uihere.com/files/660/210/401/kanye-west-keeping-up-with-the-kardashians-rapper-adidas-yeezy-drake-thumb.jpg"
+            },
+            {
+              "url": "https://c7.uihere.com/files/660/210/401/kanye-west-keeping-up-with-the-kardashians-rapper-adidas-yeezy-drake.jpg"
+            }
+          ]
+        },
+        {
+          "url": "http://www.sclance.com/pngs/kanye-west-head-png/view-page-2.htm",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; Head Png (89+ images in Collection) Page 2 - Sclance",
+          "partialMatchingImages": [
+            {
+              "url": "http://www.sclance.com/pngs/kanye-west-head-png/kanye_west_head_png_745828.png"
+            }
+          ]
+        },
+        {
+          "url": "https://dlpng.com/tag/kanye?pageNo=4",
+          "pageTitle": "&lt;b&gt;Kanye&lt;/b&gt; PNG | DLPNG",
+          "partialMatchingImages": [
+            {
+              "url": "https://i.dlpng.com/static/png/489834_thumb.png"
+            },
+            {
+              "url": "https://i.dlpng.com/static/png/419859_thumb.png"
+            }
+          ]
+        },
+        {
+          "url": "http://thegolfclub.info/6b616e7965/kanye-mad-face.html",
+          "pageTitle": "Images of &lt;b&gt;Kanye&lt;/b&gt; Mad Face - #golfclub",
+          "partialMatchingImages": [
+            {
+              "url": "https://tse1.mm.bing.net/th?id=OIP.B4aOoKSC-mco5gJVOR8DRwAAAA&amp;pid=Api&amp;P=0&amp;w=300&amp;h=300"
+            }
+          ]
+        },
+        {
+          "url": "http://rebloggy.com/post/gif-kanye-west-mymusic-sway-in-the-morning-sway-calloway/68230553586",
+          "pageTitle": "• gif &lt;b&gt;kanye west&lt;/b&gt; mymusic Sway in the Morning Sway Calloway ...",
+          "partialMatchingImages": [
+            {
+              "url": "http://25.media.tumblr.com/59a2f60589d3e77f0f858ec1cb7536c0/tumblr_mwxgdxUsec1s572vzo1_250.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.facebook.com/pages/category/Community/Celebrity-Memes-1489123597989232/",
+          "pageTitle": "Celebrity &lt;b&gt;Memes&lt;/b&gt; - Home | Facebook",
+          "partialMatchingImages": [
+            {
+              "url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1496541293914129"
+            }
+          ]
+        },
+        {
+          "url": "http://yousense.info/3736/10308-kanye-mad-face.html",
+          "pageTitle": "Information about &lt;b&gt;Kanye&lt;/b&gt; Mad Face - yousense.info",
+          "partialMatchingImages": [
+            {
+              "url": "https://tse1.mm.bing.net/th?id=OIP.B4aOoKSC-mco5gJVOR8DRwAAAA&amp;pid=Api&amp;P=0&amp;w=300&amp;h=300"
+            }
+          ]
+        },
+        {
+          "url": "http://rebloggy.com/post/gif-quote-kanye-kanye-west-rant-gifset-radio-vh1-kanye-quote-hot-97-kanye-rant-t/81354769631",
+          "pageTitle": "• gif quote kanye &lt;b&gt;kanye west&lt;/b&gt; rant gifset radio VH1 kanye quote hot ...",
+          "partialMatchingImages": [
+            {
+              "url": "http://25.media.tumblr.com/59a2f60589d3e77f0f858ec1cb7536c0/tumblr_mwxgdxUsec1s572vzo1_250.jpg"
+            }
+          ]
+        },
+        {
+          "url": "http://rebloggy.com/post/gif-kanye-west-mymusic-sway-in-the-morning-sway-calloway/68230360599",
+          "pageTitle": "• gif &lt;b&gt;kanye west&lt;/b&gt; mymusic Sway in the Morning Sway Calloway ...",
+          "partialMatchingImages": [
+            {
+              "url": "http://25.media.tumblr.com/59a2f60589d3e77f0f858ec1cb7536c0/tumblr_mwxgdxUsec1s572vzo1_250.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://carwad.net/wallpaper-959598",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; PNG Transparent Images 19 - 410 X 398 | carwad.net",
+          "partialMatchingImages": [
+            {
+              "url": "https://carwad.net/sites/default/files/styles/225x120/public/kanye-west-png-transparent-images-149295-4978608.png?itok=FHNexQkm"
+            }
+          ]
+        },
+        {
+          "url": "http://yousense.info/3134/06561-kanye-west-facial-expressions.html",
+          "pageTitle": "Information about &lt;b&gt;Kanye West&lt;/b&gt; Facial Expressions - yousense.info",
+          "partialMatchingImages": [
+            {
+              "url": "https://tse1.mm.bing.net/th?id=OIP.B4aOoKSC-mco5gJVOR8DRwAAAA&amp;pid=Api&amp;P=0&amp;w=300&amp;h=300"
+            }
+          ]
+        },
+        {
+          "url": "https://carwad.net/wallpaper-959596",
+          "pageTitle": "&lt;b&gt;Kanye West&lt;/b&gt; PNG Transparent Images 18 - 350 X 523 | carwad.net",
+          "partialMatchingImages": [
+            {
+              "url": "https://carwad.net/sites/default/files/styles/225x120/public/kanye-west-png-transparent-images-149295-4978608.png?itok=FHNexQkm"
+            }
+          ]
+        },
+        {
+          "url": "http://rebloggy.com/post/kanye-west-sway/68512862460",
+          "pageTitle": "• &lt;b&gt;kanye west&lt;/b&gt; Sway madeupmonkeyshit • - Rebloggy",
+          "partialMatchingImages": [
+            {
+              "url": "http://25.media.tumblr.com/59a2f60589d3e77f0f858ec1cb7536c0/tumblr_mwxgdxUsec1s572vzo1_250.jpg"
+            }
+          ]
+        }
+      ],
+      "visuallySimilarImages": [
+        {
+          "url": "https://i3.wp.com/s-media-cache-ak0.pinimg.com/736x/26/4a/77/264a779c2b01494ca4c7e144e4916b38.jpg"
+        },
+        {
+          "url": "http://ct101.us/wp-content/uploads/2016/11/kanye-west-celebrity-mask.jpg"
+        },
+        {
+          "url": "https://ya-webdesign.com/images/kanye-west-face-png-1.png"
+        },
+        {
+          "url": "http://www.cliparthut.com/clip-arts/5/kanye-west-png-transparent-images-png-all-clipart-xNq2sm.png"
+        },
+        {
+          "url": "https://i.pinimg.com/originals/4c/de/b1/4cdeb18a2598507e71c6618746fc90cd.png"
+        },
+        {
+          "url": "https://i.imgflip.com/hfjfb.jpg"
+        },
+        {
+          "url": "http://25.media.tumblr.com/tumblr_m73zms46kS1rue873o1_400.png"
+        },
+        {
+          "url": "https://i.imgur.com/FZEP61k.png"
+        },
+        {
+          "url": "https://i.pinimg.com/originals/97/ff/ea/97ffea7f8612a402daac56a254221f4b.jpg"
+        },
+        {
+          "url": "https://i.pinimg.com/originals/d6/1d/d6/d61dd6bd0fa731af2fa7517cb9ac7369.jpg"
+        },
+        {
+          "url": "https://uproxx.files.wordpress.com/2009/06/icedotcomkanyewestjuniorhighschoolpicture.jpg"
+        },
+        {
+          "url": "http://files.shandymedia.com/styles/page_full/s3/images/photos/hollyscoop/p18e8tb5go15lrqqkhjm2ov1a1r8.jpg"
+        }
+      ],
+      "bestGuessLabels": [
+        {
+          "label": "kanye west memes",
+          "languageCode": "en"
+        }
+      ]
+    }
+  }

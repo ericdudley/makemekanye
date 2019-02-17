@@ -1,0 +1,913 @@
+{
+    "faceAnnotations": [
+      {
+        "boundingPoly": {
+          "vertices": [
+            {
+              "x": 38,
+              "y": 22
+            },
+            {
+              "x": 376,
+              "y": 22
+            },
+            {
+              "x": 376,
+              "y": 414
+            },
+            {
+              "x": 38,
+              "y": 414
+            }
+          ]
+        },
+        "fdBoundingPoly": {
+          "vertices": [
+            {
+              "x": 48,
+              "y": 111
+            },
+            {
+              "x": 312,
+              "y": 111
+            },
+            {
+              "x": 312,
+              "y": 375
+            },
+            {
+              "x": 48,
+              "y": 375
+            }
+          ]
+        },
+        "landmarks": [
+          {
+            "type": "LEFT_EYE",
+            "position": {
+              "x": 109.066124,
+              "y": 220.20251,
+              "z": 0.00030754026
+            }
+          },
+          {
+            "type": "RIGHT_EYE",
+            "position": {
+              "x": 194.28435,
+              "y": 197.73853,
+              "z": -47.97154
+            }
+          },
+          {
+            "type": "LEFT_OF_LEFT_EYEBROW",
+            "position": {
+              "x": 78.349106,
+              "y": 203.18057,
+              "z": 26.53863
+            }
+          },
+          {
+            "type": "RIGHT_OF_LEFT_EYEBROW",
+            "position": {
+              "x": 114.889,
+              "y": 191.05917,
+              "z": -27.541166
+            }
+          },
+          {
+            "type": "LEFT_OF_RIGHT_EYEBROW",
+            "position": {
+              "x": 155.04031,
+              "y": 178.34914,
+              "z": -51.022285
+            }
+          },
+          {
+            "type": "RIGHT_OF_RIGHT_EYEBROW",
+            "position": {
+              "x": 225.0714,
+              "y": 166.26,
+              "z": -53.67376
+            }
+          },
+          {
+            "type": "MIDPOINT_BETWEEN_EYES",
+            "position": {
+              "x": 136.3052,
+              "y": 203.47896,
+              "z": -41.992508
+            }
+          },
+          {
+            "type": "NOSE_TIP",
+            "position": {
+              "x": 137.67957,
+              "y": 265.48767,
+              "z": -71.3497
+            }
+          },
+          {
+            "type": "UPPER_LIP",
+            "position": {
+              "x": 157.5431,
+              "y": 297.38657,
+              "z": -52.730045
+            }
+          },
+          {
+            "type": "LOWER_LIP",
+            "position": {
+              "x": 168.51378,
+              "y": 331.13367,
+              "z": -48.423187
+            }
+          },
+          {
+            "type": "MOUTH_LEFT",
+            "position": {
+              "x": 137.28697,
+              "y": 318.80194,
+              "z": -9.890456
+            }
+          },
+          {
+            "type": "MOUTH_RIGHT",
+            "position": {
+              "x": 211.27731,
+              "y": 299.6335,
+              "z": -48.44356
+            }
+          },
+          {
+            "type": "MOUTH_CENTER",
+            "position": {
+              "x": 164.47446,
+              "y": 313.17404,
+              "z": -47.11978
+            }
+          },
+          {
+            "type": "NOSE_BOTTOM_RIGHT",
+            "position": {
+              "x": 183.37103,
+              "y": 260.02686,
+              "z": -50.791092
+            }
+          },
+          {
+            "type": "NOSE_BOTTOM_LEFT",
+            "position": {
+              "x": 129.08325,
+              "y": 277.06165,
+              "z": -22.123407
+            }
+          },
+          {
+            "type": "NOSE_BOTTOM_CENTER",
+            "position": {
+              "x": 152.20164,
+              "y": 277.85034,
+              "z": -51.82908
+            }
+          },
+          {
+            "type": "LEFT_EYE_TOP_BOUNDARY",
+            "position": {
+              "x": 102.96808,
+              "y": 212.85754,
+              "z": -5.0443263
+            }
+          },
+          {
+            "type": "LEFT_EYE_RIGHT_CORNER",
+            "position": {
+              "x": 123.90807,
+              "y": 216.16037,
+              "z": -8.507563
+            }
+          },
+          {
+            "type": "LEFT_EYE_BOTTOM_BOUNDARY",
+            "position": {
+              "x": 108.38252,
+              "y": 227.10786,
+              "z": -0.57785535
+            }
+          },
+          {
+            "type": "LEFT_EYE_LEFT_CORNER",
+            "position": {
+              "x": 95.13057,
+              "y": 223.58945,
+              "z": 18.307045
+            }
+          },
+          {
+            "type": "LEFT_EYE_PUPIL",
+            "position": {
+              "x": 105.01387,
+              "y": 219.65314,
+              "z": -1.0267104
+            }
+          },
+          {
+            "type": "RIGHT_EYE_TOP_BOUNDARY",
+            "position": {
+              "x": 188.22112,
+              "y": 190.5668,
+              "z": -53.110973
+            }
+          },
+          {
+            "type": "RIGHT_EYE_RIGHT_CORNER",
+            "position": {
+              "x": 215.65776,
+              "y": 192.11707,
+              "z": -49.043983
+            }
+          },
+          {
+            "type": "RIGHT_EYE_BOTTOM_BOUNDARY",
+            "position": {
+              "x": 196.48022,
+              "y": 203.4555,
+              "z": -48.937523
+            }
+          },
+          {
+            "type": "RIGHT_EYE_LEFT_CORNER",
+            "position": {
+              "x": 174.15028,
+              "y": 204.1986,
+              "z": -37.29315
+            }
+          },
+          {
+            "type": "RIGHT_EYE_PUPIL",
+            "position": {
+              "x": 192.325,
+              "y": 196.78275,
+              "z": -50.4946
+            }
+          },
+          {
+            "type": "LEFT_EYEBROW_UPPER_MIDPOINT",
+            "position": {
+              "x": 90.386765,
+              "y": 185.5128,
+              "z": -5.713188
+            }
+          },
+          {
+            "type": "RIGHT_EYEBROW_UPPER_MIDPOINT",
+            "position": {
+              "x": 182.86055,
+              "y": 161.22673,
+              "z": -57.86143
+            }
+          },
+          {
+            "type": "LEFT_EAR_TRAGION",
+            "position": {
+              "x": 123.46934,
+              "y": 273.79294,
+              "z": 138.10721
+            }
+          },
+          {
+            "type": "RIGHT_EAR_TRAGION",
+            "position": {
+              "x": 326.46878,
+              "y": 220.73706,
+              "z": 30.50561
+            }
+          },
+          {
+            "type": "FOREHEAD_GLABELLA",
+            "position": {
+              "x": 133.26924,
+              "y": 184.49774,
+              "z": -42.575733
+            }
+          },
+          {
+            "type": "CHIN_GNATHION",
+            "position": {
+              "x": 184.70975,
+              "y": 374.9035,
+              "z": -39.14403
+            }
+          },
+          {
+            "type": "CHIN_LEFT_GONION",
+            "position": {
+              "x": 127.5564,
+              "y": 335.62726,
+              "z": 93.30192
+            }
+          },
+          {
+            "type": "CHIN_RIGHT_GONION",
+            "position": {
+              "x": 303.54074,
+              "y": 290.36334,
+              "z": -6.114387
+            }
+          }
+        ],
+        "rollAngle": -12.739578,
+        "panAngle": -28.661919,
+        "tiltAngle": 3.5073252,
+        "detectionConfidence": 0.9980588,
+        "landmarkingConfidence": 0.5302103,
+        "joyLikelihood": "VERY_LIKELY",
+        "sorrowLikelihood": "VERY_UNLIKELY",
+        "angerLikelihood": "VERY_UNLIKELY",
+        "surpriseLikelihood": "VERY_UNLIKELY",
+        "underExposedLikelihood": "VERY_UNLIKELY",
+        "blurredLikelihood": "VERY_UNLIKELY",
+        "headwearLikelihood": "VERY_UNLIKELY"
+      }
+    ],
+    "labelAnnotations": [
+      {
+        "mid": "/m/0dzct",
+        "description": "Face",
+        "score": 0.9874415,
+        "topicality": 0.9874415
+      },
+      {
+        "mid": "/m/03q69",
+        "description": "Hair",
+        "score": 0.9843767,
+        "topicality": 0.9843767
+      },
+      {
+        "mid": "/m/025kyy",
+        "description": "Forehead",
+        "score": 0.9743826,
+        "topicality": 0.9743826
+      },
+      {
+        "mid": "/m/01k74n",
+        "description": "Facial expression",
+        "score": 0.94463587,
+        "topicality": 0.94463587
+      },
+      {
+        "mid": "/m/04hgtk",
+        "description": "Head",
+        "score": 0.929691,
+        "topicality": 0.929691
+      },
+      {
+        "mid": "/m/027n3_",
+        "description": "Eyebrow",
+        "score": 0.91915804,
+        "topicality": 0.91915804
+      },
+      {
+        "mid": "/m/0f9swq",
+        "description": "Chin",
+        "score": 0.9158307,
+        "topicality": 0.9158307
+      },
+      {
+        "mid": "/m/0k0pj",
+        "description": "Nose",
+        "score": 0.9136439,
+        "topicality": 0.9136439
+      },
+      {
+        "mid": "/m/0ds4x",
+        "description": "Hairstyle",
+        "score": 0.9100689,
+        "topicality": 0.9100689
+      },
+      {
+        "mid": "/m/0ds5b",
+        "description": "Facial hair",
+        "score": 0.90444845,
+        "topicality": 0.90444845
+      },
+      {
+        "mid": "/m/037p5b",
+        "description": "Cheek",
+        "score": 0.7994795,
+        "topicality": 0.7994795
+      },
+      {
+        "mid": "/m/0dgw9r",
+        "description": "Human",
+        "score": 0.7591204,
+        "topicality": 0.7591204
+      },
+      {
+        "mid": "/m/019nj4",
+        "description": "Smile",
+        "score": 0.7291945,
+        "topicality": 0.7291945
+      },
+      {
+        "mid": "/m/039xj_",
+        "description": "Ear",
+        "score": 0.7157058,
+        "topicality": 0.7157058
+      },
+      {
+        "mid": "/m/0283dt1",
+        "description": "Mouth",
+        "score": 0.67948616,
+        "topicality": 0.67948616
+      },
+      {
+        "mid": "/m/015h_t",
+        "description": "Beard",
+        "score": 0.6217246,
+        "topicality": 0.6217246
+      },
+      {
+        "mid": "/m/06j1y6",
+        "description": "Caesar cut",
+        "score": 0.5924252,
+        "topicality": 0.5924252
+      },
+      {
+        "mid": "/m/01k9lj",
+        "description": "Jaw",
+        "score": 0.57406723,
+        "topicality": 0.57406723
+      }
+    ],
+    "safeSearchAnnotation": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imagePropertiesAnnotation": {
+      "dominantColors": {
+        "colors": [
+          {
+            "color": {
+              "red": 254,
+              "green": 254,
+              "blue": 253
+            },
+            "score": 0.47181392,
+            "pixelFraction": 0.5392771
+          },
+          {
+            "color": {
+              "red": 109,
+              "green": 77,
+              "blue": 62
+            },
+            "score": 0.102876596,
+            "pixelFraction": 0.116560236
+          },
+          {
+            "color": {
+              "red": 166,
+              "green": 153,
+              "blue": 147
+            },
+            "score": 0.04099222,
+            "pixelFraction": 0.023436047
+          },
+          {
+            "color": {
+              "red": 133,
+              "green": 64,
+              "blue": 26
+            },
+            "score": 0.0009716345,
+            "pixelFraction": 0.0007440015
+          },
+          {
+            "color": {
+              "red": 103,
+              "green": 82,
+              "blue": 68
+            },
+            "score": 0.060766164,
+            "pixelFraction": 0.026660053
+          },
+          {
+            "color": {
+              "red": 96,
+              "green": 82,
+              "blue": 75
+            },
+            "score": 0.05950099,
+            "pixelFraction": 0.029760059
+          },
+          {
+            "color": {
+              "red": 131,
+              "green": 109,
+              "blue": 95
+            },
+            "score": 0.035446133,
+            "pixelFraction": 0.016988033
+          },
+          {
+            "color": {
+              "red": 80,
+              "green": 50,
+              "blue": 36
+            },
+            "score": 0.032571323,
+            "pixelFraction": 0.0126480255
+          },
+          {
+            "color": {
+              "red": 141,
+              "green": 107,
+              "blue": 93
+            },
+            "score": 0.031361453,
+            "pixelFraction": 0.08866018
+          },
+          {
+            "color": {
+              "red": 63,
+              "green": 52,
+              "blue": 47
+            },
+            "score": 0.030637583,
+            "pixelFraction": 0.016368033
+          }
+        ]
+      }
+    },
+    "cropHintsAnnotation": {
+      "cropHints": [
+        {
+          "boundingPoly": {
+            "vertices": [
+              {
+                "x": 21
+              },
+              {
+                "x": 381
+              },
+              {
+                "x": 381,
+                "y": 444
+              },
+              {
+                "x": 21,
+                "y": 444
+              }
+            ]
+          },
+          "confidence": 0.29999998,
+          "importanceFraction": 1.3299999
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              {},
+              {
+                "x": 444
+              },
+              {
+                "x": 444,
+                "y": 444
+              },
+              {
+                "y": 444
+              }
+            ]
+          },
+          "confidence": 0.29999998,
+          "importanceFraction": 1.41
+        },
+        {
+          "boundingPoly": {
+            "vertices": [
+              {
+                "y": 16
+              },
+              {
+                "x": 444,
+                "y": 16
+              },
+              {
+                "x": 444,
+                "y": 390
+              },
+              {
+                "y": 390
+              }
+            ]
+          },
+          "confidence": 0.29999998,
+          "importanceFraction": 1.3
+        }
+      ]
+    },
+    "webDetection": {
+      "webEntities": [
+        {
+          "entityId": "/m/01vw20h",
+          "score": 1.0768499,
+          "description": "Jay Z"
+        },
+        {
+          "entityId": "/g/1211jk_v",
+          "score": 0.61695004,
+          "description": "Rabatana"
+        },
+        {
+          "entityId": "/t/24x2kjgjtc3bd",
+          "score": 0.5942
+        },
+        {
+          "entityId": "/m/0jg24",
+          "score": 0.5518,
+          "description": "Image"
+        },
+        {
+          "entityId": "/m/0dzct",
+          "score": 0.5172,
+          "description": "Face"
+        },
+        {
+          "entityId": "/m/02jknp",
+          "score": 0.4805,
+          "description": "Film director"
+        },
+        {
+          "entityId": "/m/06279",
+          "score": 0.4243,
+          "description": "Portable Network Graphics"
+        },
+        {
+          "entityId": "/m/025kyy",
+          "score": 0.41815117,
+          "description": "Forehead"
+        },
+        {
+          "entityId": "/t/2h3dthjl3jhgx",
+          "score": 0.3902
+        },
+        {
+          "entityId": "/g/1s05qh8dp",
+          "score": 0.3821,
+          "description": "Suit &amp; Tie"
+        },
+        {
+          "entityId": "/m/037p5b",
+          "score": 0.30492672,
+          "description": "Cheek"
+        },
+        {
+          "entityId": "/m/02l840",
+          "score": 0.107625,
+          "description": "Kanye West"
+        },
+        {
+          "entityId": "/m/014zfs",
+          "score": 0.097605,
+          "description": "Bill Cosby"
+        },
+        {
+          "entityId": "/m/01wzkd9",
+          "score": 0.047985,
+          "description": "Questlove"
+        },
+        {
+          "entityId": "/m/02mjmr",
+          "score": 0.046200003,
+          "description": "Barack Obama"
+        }
+      ],
+      "fullMatchingImages": [
+        {
+          "url": "https://www.106express.it/wp-content/uploads/2018/10/EE8D1AF6-2B1D-4635-9B63-C501F42E3FDA.png"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/-kAaT5XgyhWY/W0InefNfpJI/AAAAAAAAAwo/UZxV5HxqGr0rQcHCWRiXzjao6mRbDipvACHMYCw/s5000/%255BUNSET%255D"
+        },
+        {
+          "url": "http://www.donniedunko.com/wp-content/uploads/2011/03/trump_donnald_lg.png"
+        }
+      ],
+      "partialMatchingImages": [
+        {
+          "url": "http://www.dlisted.com/files/kanyewestjayzhappy.jpg"
+        }
+      ],
+      "pagesWithMatchingImages": [
+        {
+          "url": "https://ya-webdesign.com/explore/bill-cosby-face-png/",
+          "pageTitle": "20 &lt;b&gt;Bill cosby&lt;/b&gt; face &lt;b&gt;png&lt;/b&gt; for free download on YA-webdesign",
+          "fullMatchingImages": [
+            {
+              "url": "https://ya-webdesign.com/images/bill-cosby-face-png-4.png"
+            }
+          ]
+        },
+        {
+          "url": "https://www.donniedunko.com/",
+          "pageTitle": "Donnie Dunko | The Grassroots Game For Giving",
+          "fullMatchingImages": [
+            {
+              "url": "http://www.donniedunko.com/wp-content/uploads/2011/03/trump_donnald_lg.png"
+            }
+          ]
+        },
+        {
+          "url": "http://dlisted.com/page/3377/?q=topics%2Fthen-or-now",
+          "pageTitle": "Dlisted | Be Very Afraid | Page 3377",
+          "partialMatchingImages": [
+            {
+              "url": "http://www.dlisted.com/files/kanyewestjayzhappy.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.undergroundhiphop.com/forums/readpost.asp?Forum=GenDiscussion&amp;Whichpage=1&amp;QuestionID=3793498",
+          "pageTitle": "Underground Hip Hop dot com - Forums - - UndergroundHipHop.com",
+          "fullMatchingImages": [
+            {
+              "url": "http://www.donniedunko.com/wp-content/uploads/2011/03/trump_donnald_lg.png"
+            }
+          ]
+        },
+        {
+          "url": "https://dlisted.com/2013/04/23/what-kanyes-face-looks-when-hes-jay-z/",
+          "pageTitle": "Dlisted | This Is What Kanye&amp;#39;s Face Looks Like When He&amp;#39;s With Jay-Z",
+          "partialMatchingImages": [
+            {
+              "url": "http://www.dlisted.com/files/kanyewestjayzhappy.jpg"
+            }
+          ]
+        },
+        {
+          "url": "http://dlisted.com/2013/page/436/",
+          "pageTitle": "Dlisted | Be Very Afraid | Page 436",
+          "partialMatchingImages": [
+            {
+              "url": "http://www.dlisted.com/files/kanyewestjayzhappy.jpg"
+            }
+          ]
+        },
+        {
+          "url": "http://dlisted.com/tag/free_clinic_shit/page/4/",
+          "pageTitle": "Dlisted | Be Very Afraid | Page 4",
+          "partialMatchingImages": [
+            {
+              "url": "http://www.dlisted.com/files/kanyewestjayzhappy.jpg"
+            }
+          ]
+        },
+        {
+          "url": "http://www.unforumzed.com/archive/index.php/t-2561.html",
+          "pageTitle": "Kim Kartrashian and the rest of her gross clan [Archive] - unforumzed",
+          "partialMatchingImages": [
+            {
+              "url": "http://dlisted.com/files/kanyewestjayzhappy.jpg"
+            }
+          ]
+        },
+        {
+          "url": "http://www.loadtve.biz/cosby-stank-face.html",
+          "pageTitle": "&lt;b&gt;Cosby&lt;/b&gt; Stank Face 10314 | LOADTVE",
+          "partialMatchingImages": [
+            {
+              "url": "http://www.dlisted.com/files/kanyewestjayzhappy.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.picswe.com/pics/kanye-west-cheeks-f0.html",
+          "pageTitle": "Kanye West Cheeks | www.picswe.com",
+          "partialMatchingImages": [
+            {
+              "url": "http://www.dlisted.com/files/kanyewestjayzhappy.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://articleboard.info/kanye-happy-face.htm",
+          "pageTitle": "Kanye Happy Face - Article board",
+          "partialMatchingImages": [
+            {
+              "url": "http://i.dlisted.com/files/kanyewestjayzhappy.jpg"
+            }
+          ]
+        },
+        {
+          "url": "http://thingsthatsuck.info/kanye-happy-face/",
+          "pageTitle": "Kanye Happy Face images - thingsthatsuck.info",
+          "partialMatchingImages": [
+            {
+              "url": "http://i.dlisted.com/files/kanyewestjayzhappy.jpg"
+            }
+          ]
+        },
+        {
+          "url": "http://iron-age.info/jayz-funny-face.html",
+          "pageTitle": "Jayz Funny Face - Iron Age",
+          "partialMatchingImages": [
+            {
+              "url": "http://www.dlisted.com/files/kanyewestjayzhappy.jpg"
+            }
+          ]
+        },
+        {
+          "url": "http://thingsthatsuck.info/jay-z-stank-face/",
+          "pageTitle": "Jay Z Stank Face images - thingsthatsuck.info",
+          "partialMatchingImages": [
+            {
+              "url": "http://www.dlisted.com/files/kanyewestjayzhappy.jpg"
+            }
+          ]
+        },
+        {
+          "url": "https://www.106express.it/chisiamo/",
+          "pageTitle": "Chi siamo - 106 Express",
+          "fullMatchingImages": [
+            {
+              "url": "https://lh3.googleusercontent.com/-kAaT5XgyhWY/W0InefNfpJI/AAAAAAAAAwo/UZxV5HxqGr0rQcHCWRiXzjao6mRbDipvACHMYCw/s5000/%255BUNSET%255D"
+            }
+          ]
+        },
+        {
+          "url": "https://www.106express.it/anglona-fede-e-devozione/",
+          "pageTitle": "Anglona &amp;quot;Fede e devozione &amp;quot; - 106 Express",
+          "fullMatchingImages": [
+            {
+              "url": "https://www.106express.it/wp-content/uploads/2018/10/EE8D1AF6-2B1D-4635-9B63-C501F42E3FDA.png"
+            }
+          ]
+        },
+        {
+          "url": "https://106express.blogspot.com/2018/07/la-rabatana-di-tursi.html",
+          "pageTitle": "LA RABATANA DI TURSI - 106 Express",
+          "fullMatchingImages": [
+            {
+              "url": "https://lh3.googleusercontent.com/-iGiqJ6Le_Qc/Wz7hF86bSkI/AAAAAAAAAvQ/lonbQYoh38E-EvZPizlS9e94U63h3_EaACHMYCw/s5000/%255BUNSET%255D"
+            }
+          ]
+        },
+        {
+          "url": "https://www.imagenesmi.com/im%C3%A1genes/jayz-stank-face-7f.html",
+          "pageTitle": "Jayz Stank Face | www.imagenesmi.com",
+          "partialMatchingImages": [
+            {
+              "url": "http://www.dlisted.com/files/kanyewestjayzhappy.jpg"
+            }
+          ]
+        }
+      ],
+      "visuallySimilarImages": [
+        {
+          "url": "http://1.bp.blogspot.com/-l1BKeZzc6_s/VGyCfPBic5I/AAAAAAAA3LU/A0DrMGk4U5s/s1600/bill_cosby.png"
+        },
+        {
+          "url": "http://www.epictimes.com/wp-content/uploads/2016/04/bill-cosby-wife-comes-clean-on-defamation-case.png"
+        },
+        {
+          "url": "https://cdn150.picsart.com/upscale-272266880012211.png?r1024x1024"
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0270/9327/products/BillCosby_305x.jpg?v=1417273180"
+        },
+        {
+          "url": "https://golwg360.cymru/asedau/2018/04/Bill-Cosby-2-1133x866.png?15"
+        },
+        {
+          "url": "https://i.imgur.com/HSG9Own.png"
+        },
+        {
+          "url": "http://2.bp.blogspot.com/-guboJE8kHH8/VZulQ4PhoNI/AAAAAAABFZQ/BQHdBmXSFzE/s1600/bill_cosby.png"
+        },
+        {
+          "url": "https://www.seekpng.com/png/small/198-1980001_bill-cosby-face-png-bill-cosby-case.png"
+        },
+        {
+          "url": "http://www.thebayslaps.com/images/smilies/icon_bill.png"
+        },
+        {
+          "url": "https://www.novelties-direct.co.uk/images/P/Bill%20Cosby.jpg"
+        },
+        {
+          "url": "https://ya-webdesign.com/images/bill-cosby-face-png-11.png"
+        },
+        {
+          "url": "http://thereadersbureau.com/wp-content/uploads/2014/11/bill-cosby-e1416315858837.png"
+        }
+      ],
+      "bestGuessLabels": [
+        {
+          "label": "bill cosby head png",
+          "languageCode": "en"
+        }
+      ]
+    }
+  }
