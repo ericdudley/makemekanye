@@ -87,7 +87,6 @@ class Pixels:
         best_kanye = 0
         best_delta = inf
         face = self.faces[0]
-        print(face)
         for i in range(len(kanyes)):
             kanye = kanyes[i]["face"]
             delta = 0
@@ -158,22 +157,29 @@ class Pixels:
 
         eye_distance = int(right_pupil.position.x - left_pupil.position.x)
 
-        print(eye_distance)
-        print(kanye_eye_distance)
-
         ratio = kanye_eye_distance / eye_distance
-        print(ratio)
+        ratio = ratio * 0.9 if ratio >= 1 else ratio * 1.1
         new_size = (int(kanye["img"].width / ratio), int(kanye["img"].height / ratio))
-        print(new_size)
         new_img = kanye["img"].resize(new_size)
 
-        self.setSquare(face_center, 95, (0, 0, 255))
+        kanye_face_center = (
+            int(kanye_face_center[0] / ratio),
+            int(kanye_face_center[1] / ratio),
+        )
 
         kanye_pixels = Pixels(new_img, None)
         for pixel in kanye_pixels.pixels():
+            x, y = pixel
             color = kanye_pixels.get(pixel)
             if color[3] > 0:
-                self.set(pixel, kanye_pixels.get(pixel))
+                relative_pixel = (x - kanye_face_center[0], y - kanye_face_center[1])
+                set_pixel = (
+                    relative_pixel[0] + face_center[0],
+                    relative_pixel[1] + face_center[1],
+                )
+                self.set(set_pixel, kanye_pixels.get(pixel))
+
+        # self.setSquare(kanye_face_center, 55, (255, 0, 0))
 
         return kanye
 

@@ -30,8 +30,6 @@ def main(id=None):
 
             file.save(temp_file_path)
 
-            faces = detect_face(temp_file_path)
-
             img = Image.open(temp_file_path)
 
             if img.width > MAX_WIDTH:
@@ -44,6 +42,8 @@ def main(id=None):
             img.save(orig_file_path)
 
             remove(temp_file_path)
+
+            faces = detect_face(orig_file_path)
 
             pixels = Pixels(img, faces)
             # pixels.markFacesLandmarks()
