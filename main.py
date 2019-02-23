@@ -20,6 +20,109 @@ MAX_WIDTH = 400
 MAX_HEIGHT = 400
 MAX_FILES = 1024
 
+generator = RandomGenerator({
+    'adjective': {
+        'type': 'words',
+        'words': [
+            'wavy',
+            'greatest',
+            'incredible',
+            'bipolar',
+            'restless',
+            'famous',
+            'new',
+            'sweet',
+            'dork',
+            'ignant',
+            'ignorant',
+            'inappropriate',
+            'light-skinned',
+            'schizoid',
+            'young',
+            'rich',
+            'tasteless',
+            'awesome',
+            'amazing',
+            'heartless',
+            
+        ]
+    },
+    'noun': {
+        'type': 'words',
+        'words': [
+            'ye',
+            'yeezus',
+            'Yandhi',
+            'Kanye',
+            'Kim',
+            'North',
+            'Saint',
+            'Maybach',
+            'Chi',
+            'Chicago',
+            'energy',
+            'Pablo',
+            'MBDTF',
+            'XTCY',
+            'power',
+            'scumbag',
+            'hoodrats',
+            'females',
+            'legend',
+            'genius',
+            'god',
+            'Malibooyah',
+            'Sasquatch',
+            'Godzilla',
+            'Goblin',
+            'Ghoul',
+            'monster',
+            'clique',
+
+        ]
+    },
+    'phrases': {
+        'type': 'phrases',
+        'phrases': [
+            "young and reckless",
+            "keep it loopy",
+            "Chop up the soul",
+            "Set on his goals",
+            "Bad mood",
+            "Always rude",
+            "Spaz in the news",
+            "Chop up the beats",
+            "Pink polo",
+            "Kanye loves Kanye",
+            "Silver Surfer",
+            "808s & Heartbreak",
+            "The Life of Pablo",
+            "Sparklin or still",
+            "King Kong",
+            "Lock Ness",
+            "Zombie with no conscience",
+            "Kid Cudi",
+            "Kim Kardashian",
+            "Bound 2",
+            "Ultralight Beam",
+            "New Slaves",
+            "Coldest Winter",
+            "Love Lockdown",
+            "GOOD Music",
+            "Kanye West",
+            "North West",
+            "Saint West",
+            "Chicago West",
+            "Gold Digger",
+            
+        ]
+    },
+    'all': {
+        'type': 'cartesian',
+        'lists': ['adjective', 'noun'],
+        'max_slug_length': 11
+    }
+})
 
 def fix_orientation(img):
     if hasattr(img, "_getexif"):
